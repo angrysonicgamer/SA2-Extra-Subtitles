@@ -37,13 +37,9 @@ json Json::Read(const char* modPath, const char* jsonName)
 	}
 	catch (std::exception& ex)
 	{
-		std::wstring invalidJson =
-			L"Error reading file:\n" + std::wstring(path.begin(), path.end()) + "\n\n"
-			L"The JSON might be invalid\n"
-			L"(maybe because of a trailing comma somewhere).\n\n"
-			L"The game will be closed.";
-
-		Message::Error(invalidJson);
+		std::string exText = std::string(ex.what());
+		std::wstring jsonError = L"Error reading file:\n" + std::wstring(path.begin(), path.end()) + L"\n\nCaught exception:\n" + std::wstring(exText.begin(), exText.end()) + L"\n\nThe game will be closed.";
+		Message::Error(jsonError);
 	}
 	
 	return j;	
