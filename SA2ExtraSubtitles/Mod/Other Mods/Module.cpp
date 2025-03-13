@@ -4,10 +4,10 @@
 
 void Module::Init(const wchar_t* dllName)
 {
-	ModHandle = GetModuleHandle(dllName);
+	DLLHandle = GetModuleHandle(dllName);
 }
 
 bool Module::IsLoaded()
 {
-	return ModHandle != nullptr;
+	return DLLHandle != nullptr;
 }

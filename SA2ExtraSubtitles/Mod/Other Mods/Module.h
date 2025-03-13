@@ -3,7 +3,7 @@
 class Module
 {
 public:
-	HMODULE ModHandle = nullptr;
+	HMODULE DLLHandle = nullptr;
 	
 	void Init(const wchar_t* dllName);
 	bool IsLoaded();

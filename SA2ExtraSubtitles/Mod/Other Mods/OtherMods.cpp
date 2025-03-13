@@ -34,7 +34,7 @@ void OtherMods::EnableRFExitMessagesFix(const HelperFunctions& helperFunctions)
 {
 	if (!RenderFix.IsLoaded()) return;
 
-	auto rf = helperFunctions.Mods->find_by_dll(RenderFix.ModHandle);
+	auto rf = helperFunctions.Mods->find_by_dll(RenderFix.DLLHandle);
 	IniFile rfConfig(std::string(rf->Folder) + "\\config.ini");
 	int rfLetterSpacing = rfConfig.getInt("font", "width", 2);
 
