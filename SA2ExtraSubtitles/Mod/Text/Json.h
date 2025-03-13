@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ExtraSubs.h"
+#include "Encoding.h"
 #include "nlohmann-json/json.hpp"
 using json = nlohmann::json;
 

@@ -1,6 +1,5 @@
 #include "pch.h"
 #include "Json.h"
-#include "Encoding.h"
 #include "Mod/Messages/Message.h"
 #include <fstream>
 #include <exception>
