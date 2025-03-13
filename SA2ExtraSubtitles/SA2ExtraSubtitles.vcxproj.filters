@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Mod">
+      <UniqueIdentifier>{8c3069f3-1e2c-4176-adbc-17e08394653e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nlohmann-json">
+      <UniqueIdentifier>{b2231462-494a-4f9b-a7b8-54b5bb1c3870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod\Config">
+      <UniqueIdentifier>{7e607461-7112-483c-b1d4-3b5e0b50e236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod\Other Mods">
+      <UniqueIdentifier>{5c4e210c-2d7d-41cc-8fee-694a205db411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod\Text">
+      <UniqueIdentifier>{0f2d7b69-ac16-4277-91e2-579bdc13defb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod\Messages">
+      <UniqueIdentifier>{61ad0c6a-91cb-49d0-acad-47b993a89ac7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Mod\Main.cpp">
+      <Filter>Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod\Config\Config.cpp">
+      <Filter>Mod\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod\Other Mods\OtherMods.cpp">
+      <Filter>Mod\Other Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod\Other Mods\Module.cpp">
+      <Filter>Mod\Other Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod\Text\Encoding.cpp">
+      <Filter>Mod\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod\Text\ExtraSubs.cpp">
+      <Filter>Mod\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod\Text\Json.cpp">
+      <Filter>Mod\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod\Messages\Message.cpp">
+      <Filter>Mod\Messages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="nlohmann-json\json.hpp">
+      <Filter>nlohmann-json</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Config\Config.h">
+      <Filter>Mod\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Other Mods\OtherMods.h">
+      <Filter>Mod\Other Mods</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Other Mods\Module.h">
+      <Filter>Mod\Other Mods</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Text\Encoding.h">
+      <Filter>Mod\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Text\ExtraSubs.h">
+      <Filter>Mod\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Text\Json.h">
+      <Filter>Mod\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Messages\Message.h">
+      <Filter>Mod\Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
