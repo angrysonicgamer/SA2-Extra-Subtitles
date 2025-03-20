@@ -190,7 +190,7 @@ void ClearSubtitle()
 
 void DisplayBufferedText(DisplayTextMode mode)
 {
-	DrawSubtitles(mode, TextBuffer, 1, Language_English);
+	DrawSubtitles(mode, TextBuffer, 1, TextLanguage);
 }
 
 void DisplaySinglePlayerSubtitle()
