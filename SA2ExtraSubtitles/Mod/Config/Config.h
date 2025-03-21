@@ -13,6 +13,7 @@ public:
 	static bool GameplaySubsEnabled;
 	static bool BossSubsEnabled;
 	static bool TwoPlayerSubsEnabled;
+	static bool FinalSceneSubsEnabled;
 
 	static bool MenuOverhaulTextFixEnabled;
 	static bool RFExitMessagesFixEnabled;

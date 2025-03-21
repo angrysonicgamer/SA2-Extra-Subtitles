@@ -12,6 +12,7 @@ bool Config::VictorySubsEnabled;
 bool Config::GameplaySubsEnabled;
 bool Config::BossSubsEnabled;
 bool Config::TwoPlayerSubsEnabled;
+bool Config::FinalSceneSubsEnabled;
 
 bool Config::MenuOverhaulTextFixEnabled;
 bool Config::RFExitMessagesFixEnabled;
@@ -29,6 +30,7 @@ void Config::Read(const char* modPath)
 	GameplaySubsEnabled = config.getBool("DisplaySubtitles", "Gameplay", true);
 	BossSubsEnabled = config.getBool("DisplaySubtitles", "Boss", true);
 	TwoPlayerSubsEnabled = config.getBool("DisplaySubtitles", "2P", true);
+	FinalSceneSubsEnabled = config.getBool("DisplaySubtitles", "Cutscene", true);
 
 	MenuOverhaulTextFixEnabled = config.getBool("OtherMods", "EnableMenuOverhaulTextFix", true);
 	RFExitMessagesFixEnabled = config.getBool("OtherMods", "EnableRFExitMessagesFix", true);
@@ -37,6 +39,12 @@ void Config::Read(const char* modPath)
 void Config::Init(const char* modPath, const HelperFunctions& helperFunctions)
 {
 	Read(modPath);
+
+	if (!FinalSceneSubsEnabled)
+	{
+		helperFunctions.UnreplaceFile("resource\\gd_PC\\event\\e0210_j.prs");
+		helperFunctions.UnreplaceFile("resource\\gd_PC\\event\\e0210_1.prs");
+	}
 	
 	if (MenuOverhaulTextFixEnabled)
 	{
