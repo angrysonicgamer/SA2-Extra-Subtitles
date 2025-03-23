@@ -396,7 +396,7 @@
                 { "VoiceID": 1909, "Duration": 240, "Mode": "Normal", "Text": "侵入者警報！\n第一種警戒態勢！" },
                 { "VoiceID": 1910, "Duration": 360, "Mode": "Normal", "Text": "レベル１隔壁突破！\n緊急配備！\n侵入者を排除せよ！" },
                 { "VoiceID": 1911, "Duration": 300, "Mode": "Normal", "Text": "レベル２隔壁突破！\nレベル２隔壁突破！" },
-                { "VoiceID": 1912, "Duration": 390, "Mode": "Normal", "Text": "レベル３隔壁突破！\nセクション３-８を進行中！ \n排除せよ！" },
+                { "VoiceID": 1912, "Duration": 390, "Mode": "Normal", "Text": "レベル３隔壁突破！\nセクション３ー８を進行中！ \n排除せよ！" },
                 { "VoiceID": 1913, "Duration": 300, "Mode": "Normal", "Text": "レベル４隔壁突破！\n排除せよ！ 排除せよ！" },
                 { "VoiceID": 1914, "Duration": 510, "Mode": "Normal", "Text": "レベル５隔壁突破！\n本施設は最終防衛モードに移行！\n絶対防御隔壁、急げ！" }
             ],
