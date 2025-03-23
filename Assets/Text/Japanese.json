@@ -579,7 +579,7 @@
 				{ "VoiceID": 1572, "Duration": 60, "Mode": "Normal", "Text": "無駄だ！" },
 				{ "VoiceID": 1581, "Duration": 60, "Mode": "Normal", "Text": "おっ、 おい！" },
 				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "なに…？" },
-				{ "VoiceID": 1577, "Duration": 60, "Mode": "Normal", "Text": "Ｌｅｔ＇ｓ　ｇｏ！" },
+				{ "VoiceID": 1577, "Duration": 60, "Mode": "Normal", "Text": "Ｌｅｔ｀ｓ　ｇｏ！" },
 				{ "VoiceID": 1311, "Duration": 60, "Mode": "Normal", "Text": "行け！" },
 				{ "VoiceID": 1312, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
                 { "VoiceID": 1313, "Duration": 60, "Mode": "Normal", "Text": "到着！" },
