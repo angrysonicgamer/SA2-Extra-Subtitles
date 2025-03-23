@@ -831,7 +831,7 @@
                 { "VoiceID": 1640, "Duration": 121, "Mode": "OnFrame", "Text": "このワシに勝てるとでも思っとるのか？" },
                 { "VoiceID": 1641, "Duration": 121, "Mode": "OnFrame", "Text": "負けないぞ！" },
                 { "VoiceID": 1643, "Duration": 150, "Mode": "Victory", "Text": "やった！ 僕の勝ちだ！" },
-                { "VoiceID": 1644, "Duration": 150, "Mode": "Victory", "Text": "ホーッホホホ！ 思い知ったか？" },
+                { "VoiceID": 1644, "Duration": 150, "Mode": "Victory", "Text": "ホーッホッホッホ！ 思い知ったか？" },
                 { "VoiceID": 1645, "Duration": 150, "Mode": "Victory", "Text": "エッグマンなんかに負けるもんか！" },
                 { "VoiceID": 1646, "Duration": 121, "Mode": "OnFrame", "Text": "身の程を思い知らせてくれる！" },
                 { "VoiceID": 1647, "Duration": 121, "Mode": "OnFrame", "Text": "もう一度、勝負だ！" },
