@@ -100,11 +100,22 @@ void DisplayExtraSub(int id)
 }
 
 
+// Function to hook
+
 signed int PlayVoice_ExtraSubs(int idk, int id)
 {
 	auto returnValue = PlayVoice_Hook.Original(idk, id);
 	DisplayExtraSub(id);
 	return returnValue;
+}
+
+
+// Loading extra subs
+
+void ReadGroup(const char* group, const json& english, const json& japanese) // just add more languages here if needed
+{
+	Json::ReadSubtitlesGroup(english, ExtraSubs_English, group, Windows1252);
+	Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, group, ShiftJIS);
 }
 
 void LoadExtraSubs(const char* modPath)
@@ -114,50 +125,42 @@ void LoadExtraSubs(const char* modPath)
 
 	if (Config::MenuSubsEnabled)
 	{
-		Json::ReadSubtitlesGroup(english, ExtraSubs_English, "Menu", Windows1252);
-		Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, "Menu", ShiftJIS);
+		ReadGroup("Menu", english, japanese);
 	}
 
 	if (Config::IdleSubsEnabled)
 	{
-		Json::ReadSubtitlesGroup(english, ExtraSubs_English, "Idle", Windows1252);
-		Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, "Idle", ShiftJIS);
+		ReadGroup("Idle", english, japanese);
 	}
 
 	if (Config::StageSpecificSubsEnabled)
 	{
-		Json::ReadSubtitlesGroup(english, ExtraSubs_English, "Stage specific voices", Windows1252);
-		Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, "Stage specific voices", ShiftJIS);
+		ReadGroup("Stage specific voices", english, japanese);
 	}
 
 	if (Config::RankSubsEnabled)
 	{
-		Json::ReadSubtitlesGroup(english, ExtraSubs_English, "Rank voices", Windows1252);
-		Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, "Rank voices", ShiftJIS);
+		ReadGroup("Rank voices", english, japanese);
 	}
 
 	if (Config::VictorySubsEnabled)
 	{
-		Json::ReadSubtitlesGroup(english, ExtraSubs_English, "Victory lines", Windows1252);
-		Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, "Victory lines", ShiftJIS);
+		ReadGroup("Victory lines", english, japanese);
 	}
 
 	if (Config::GameplaySubsEnabled)
 	{
-		Json::ReadSubtitlesGroup(english, ExtraSubs_English, "Gameplay voices", Windows1252);
-		Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, "Gameplay voices", ShiftJIS);
+		ReadGroup("Gameplay voices", english, japanese);
 	}
 
 	if (Config::BossSubsEnabled)
 	{
-		Json::ReadSubtitlesGroup(english, ExtraSubs_English, "Bosses", Windows1252);
-		Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, "Bosses", ShiftJIS);
+		ReadGroup("Bosses", english, japanese);
 	}
 	
 	if (Config::TwoPlayerSubsEnabled)
 	{
-		Json::ReadSubtitlesGroup(english, ExtraSubs_English, "2P Battle", Windows1252);
-		Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, "2P Battle", ShiftJIS);
+		ReadGroup("2P Battle", english, japanese);
 	}
 }
 
