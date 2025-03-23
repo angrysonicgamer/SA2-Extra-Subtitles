@@ -374,7 +374,7 @@
                 { "VoiceID": 1922, "Duration": 60, "Mode": "Normal", "Text": "Ｆｉｒｅ！" }
             ],
             "Route 101": [
-                { "VoiceID": 1792, "Duration": 210, "Mode": "Normal", "Text": "大統領 この先にいるはず。\n追いかけるぞ!" },
+                { "VoiceID": 1792, "Duration": 210, "Mode": "Normal", "Text": "大統領 この先にいるはず。\n追いかけるぞ！" },
                 { "VoiceID": 1793, "Duration": 150, "Mode": "Normal", "Text": "やった！ 大統領 発見！" },
                 { "VoiceID": 1794, "Duration": 120, "Mode": "Normal", "Text": "よし、 近づいて来たぞ！" },
                 { "VoiceID": 1795, "Duration": 150, "Mode": "Normal", "Text": "テイルス！ 大統領は見つかったか？" },
@@ -387,7 +387,7 @@
             ],
             "Crazy Gadget (story mode)": [
                 { "VoiceID": 1735, "Duration": 480, "Mode": "Normal", "Text": "ホーッホッホッホッホ！ ソニックよ！\n小娘の命が欲しくば、 ここまで来るのじゃ！" },
-                { "VoiceID": 1736, "Duration": 240, "Mode": "Normal", "Text": "何をしておる、 ソニック？\n遊んでる暇はないぞ!" },
+                { "VoiceID": 1736, "Duration": 240, "Mode": "Normal", "Text": "何をしておる、 ソニック？\n遊んでる暇はないぞ！" },
                 { "VoiceID": 1737, "Duration": 450, "Mode": "Normal", "Text": "遅いよ、 遅いぞ、 ソニック！\nもたもたしておると小娘の命はないぞ！" },
                 { "VoiceID": 1738, "Duration": 180, "Mode": "Normal", "Text": "エマージェンシー！\nエマージェンシー！" },
                 { "VoiceID": 1739, "Duration": 720, "Mode": "Normal", "Text": "よくぞ、 ここまで来た、 ソニックよ！\nしかし、 その部屋に入ったら最後、\n二度と生きては帰れんぞ！ ホーッホッホッホッホ！" }
@@ -773,7 +773,7 @@
             "Knuckles and Rouge": [
                 { "VoiceID": 1244, "Duration": 90, "Mode": "Normal", "Text": "遊びは終わりだ！" },
                 { "VoiceID": 1245, "Duration": 90, "Mode": "Normal", "Text": "行くわよ！" },
-                { "VoiceID": 1246, "Duration": 60, "Mode": "Normal", "Text": "落ちろ!" },
+                { "VoiceID": 1246, "Duration": 60, "Mode": "Normal", "Text": "落ちろ！" },
                 { "VoiceID": 1247, "Duration": 90, "Mode": "Normal", "Text": "ヒップドロップ！" },
                 { "VoiceID": 1248, "Duration": 60, "Mode": "Normal", "Text": "くらえ！" },
                 { "VoiceID": 1249, "Duration": 60, "Mode": "Normal", "Text": "ブラックウェーブ！" },
@@ -833,7 +833,7 @@
                 { "VoiceID": 1643, "Duration": 150, "Mode": "Victory", "Text": "やった！ 僕の勝ちだ！" },
                 { "VoiceID": 1644, "Duration": 150, "Mode": "Victory", "Text": "ホーッホホホ！ 思い知ったか？" },
                 { "VoiceID": 1645, "Duration": 150, "Mode": "Victory", "Text": "エッグマンなんかに負けるもんか！" },
-                { "VoiceID": 1646, "Duration": 121, "Mode": "OnFrame", "Text": "身の程を思い知らせてくれる!" },
+                { "VoiceID": 1646, "Duration": 121, "Mode": "OnFrame", "Text": "身の程を思い知らせてくれる！" },
                 { "VoiceID": 1647, "Duration": 121, "Mode": "OnFrame", "Text": "もう一度、勝負だ！" },
                 { "VoiceID": 1648, "Duration": 121, "Mode": "OnFrame", "Text": "今度こそパワー全開じゃ！" },
                 { "VoiceID": 1649, "Duration": 121, "Mode": "OnFrame", "Text": "よし、今度こそ！" },
