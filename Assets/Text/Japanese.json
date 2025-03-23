@@ -1,0 +1,879 @@
+{
+    "Language": "Japanese",
+    "Subtitles": {
+        "Menu": {
+            "Default menu voice": [
+                { "VoiceID": 883, "Duration": 60, "Mode": "Normal", "Text": "Ｓｔｏｒｙ　ｓｅｌｅｃｔ．" },
+                { "VoiceID": 884, "Duration": 60, "Mode": "Normal", "Text": "Ｓｃｅｎｅ　ｓｅｌｅｃｔ．" },
+                { "VoiceID": 885, "Duration": 60, "Mode": "Normal", "Text": "Ｃｈａｒａｃｔｅｒ　ｓｅｌｅｃｔ．" },
+                { "VoiceID": 886, "Duration": 60, "Mode": "Normal", "Text": "Ｓｔａｇｅ　ｓｅｌｅｃｔ．" },
+                { "VoiceID": 887, "Duration": 60, "Mode": "Normal", "Text": "Ｔｙｐｅ　ｓｅｌｅｃｔ．" },
+                { "VoiceID": 889, "Duration": 60, "Mode": "Normal", "Text": "Ｇｒｏｕｐ　ｓｅｌｅｃｔ．" },
+                { "VoiceID": 890, "Duration": 60, "Mode": "Normal", "Text": "Ｇａｍｅ　ｓｅｌｅｃｔ．" },
+                { "VoiceID": 892, "Duration": 60, "Mode": "Normal", "Text": "Ｏｐｔｉｏｎｓ．" },
+                { "VoiceID": 893, "Duration": 60, "Mode": "Normal", "Text": "Ｓｏｕｎｄ　ｔｅｓｔ．" },
+                { "VoiceID": 895, "Duration": 60, "Mode": "Normal", "Text": "Ｆｉｌｅ　ｓｅｌｅｃｔ．" },
+                { "VoiceID": 899, "Duration": 60, "Mode": "Normal", "Text": "Ｅｍｂｌｅｍ　ｒｅｃｏｒｄｓ．" },
+                { "VoiceID": 900, "Duration": 60, "Mode": "Normal", "Text": "Ｋａｒｔ　ｒａｃｉｎｇ．" },
+                { "VoiceID": 902, "Duration": 60, "Mode": "Normal", "Text": "Ｔｈｅｍｅ　ｓｅｌｅｃｔ．" }
+            ],
+            "Story select (order: Amy, Omochao, Eggman, Knuckles, Maria, Rouge, Shadow, Secretary, Sonic, Tails)": [
+                { "VoiceID": 906, "Duration": 120, "Mode": "Normal", "Text": "お話を選んで！" },
+                { "VoiceID": 907, "Duration": 120, "Mode": "Normal", "Text": "ストーリーを選ぶチャオ！" },
+                { "VoiceID": 909, "Duration": 120, "Mode": "Normal", "Text": "ストーリーを選ぶんじゃ！" },
+                { "VoiceID": 910, "Duration": 120, "Mode": "Normal", "Text": "ストーリーを選択するんだ！" },
+                { "VoiceID": 911, "Duration": 120, "Mode": "Normal", "Text": "ストーリーを選んで！" },
+                { "VoiceID": 912, "Duration": 120, "Mode": "Normal", "Text": "ストーリーを選ぶのよ！" },
+                { "VoiceID": 913, "Duration": 120, "Mode": "Normal", "Text": "ストーリーを選べ！" },
+                { "VoiceID": 914, "Duration": 120, "Mode": "Normal", "Text": "どのストーリーになさいますか？" },
+                { "VoiceID": 916, "Duration": 120, "Mode": "Normal", "Text": "ストーリーを選んでくれ！" },
+                { "VoiceID": 917, "Duration": 120, "Mode": "Normal", "Text": "どの話にする？" }
+            ],
+            "Scene select": [
+                { "VoiceID": 918, "Duration": 120, "Mode": "Normal", "Text": "どのシーンから始めるの？" },
+                { "VoiceID": 919, "Duration": 120, "Mode": "Normal", "Text": "次はシーンを選ぶチャオ！" },
+                { "VoiceID": 921, "Duration": 120, "Mode": "Normal", "Text": "どの場面から始めるのじゃ？" },
+                { "VoiceID": 922, "Duration": 120, "Mode": "Normal", "Text": "シーンを選択するんだ！" },
+                { "VoiceID": 923, "Duration": 120, "Mode": "Normal", "Text": "シーンの選べるわ！" },
+                { "VoiceID": 924, "Duration": 150, "Mode": "Normal", "Text": "シーンよ、 シーン！\nはい、 選んで！" },
+                { "VoiceID": 925, "Duration": 120, "Mode": "Normal", "Text": "次はシーンだ！" },
+                { "VoiceID": 926, "Duration": 120, "Mode": "Normal", "Text": "シーンを選択してください！" },
+                { "VoiceID": 928, "Duration": 120, "Mode": "Normal", "Text": "どのシーンから始める？" },
+                { "VoiceID": 929, "Duration": 120, "Mode": "Normal", "Text": "どのシーンから始めるの？" }
+            ],
+            "Character select": [
+                { "VoiceID": 930, "Duration": 120, "Mode": "Normal", "Text": "キャラクターを選択よ！" },
+                { "VoiceID": 931, "Duration": 120, "Mode": "Normal", "Text": "君は誰チャオ？" },
+                { "VoiceID": 933, "Duration": 120, "Mode": "Normal", "Text": "さ、 ワシを選ぶんじゃ！" },
+                { "VoiceID": 934, "Duration": 120, "Mode": "Normal", "Text": "キャラクターを選ぶんだ！" },
+                { "VoiceID": 935, "Duration": 120, "Mode": "Normal", "Text": "誰で遊ぶの？" },
+                { "VoiceID": 936, "Duration": 120, "Mode": "Normal", "Text": "ね、 誰にする？" },
+                { "VoiceID": 937, "Duration": 120, "Mode": "Normal", "Text": "誰にするんだ？" },
+                { "VoiceID": 938, "Duration": 120, "Mode": "Normal", "Text": "キャラクターをお選びください！" },
+                { "VoiceID": 940, "Duration": 120, "Mode": "Normal", "Text": "さ、 誰で遊ぶんだ？" },
+                { "VoiceID": 941, "Duration": 120, "Mode": "Normal", "Text": "キャラクターを選んで！" }
+            ],
+            "Stage select": [
+                { "VoiceID": 942, "Duration": 120, "Mode": "Normal", "Text": "ステージを選んで！" },
+                { "VoiceID": 943, "Duration": 120, "Mode": "Normal", "Text": "どこに行くチャオ？" },
+                { "VoiceID": 945, "Duration": 120, "Mode": "Normal", "Text": "どのステージにするんじゃ？" },
+                { "VoiceID": 946, "Duration": 120, "Mode": "Normal", "Text": "ステージを選択してくれ！" },
+                { "VoiceID": 947, "Duration": 120, "Mode": "Normal", "Text": "ステージを選ぶのよ！" },
+                { "VoiceID": 948, "Duration": 120, "Mode": "Normal", "Text": "どのステージは遊ぶか決めてくれない？" },
+                { "VoiceID": 949, "Duration": 120, "Mode": "Normal", "Text": "ステージを選べ！" },
+                { "VoiceID": 950, "Duration": 120, "Mode": "Normal", "Text": "どのステージは遊ばれますか？" },
+                { "VoiceID": 952, "Duration": 120, "Mode": "Normal", "Text": "プレイするステージを選ぶんだ！" },
+                { "VoiceID": 953, "Duration": 120, "Mode": "Normal", "Text": "どのステージで遊ぶの？" }
+            ],
+            "2P battle screen": [
+                { "VoiceID": 990, "Duration": 120, "Mode": "Normal", "Text": "どれで遊ぶの？" },
+                { "VoiceID": 991, "Duration": 120, "Mode": "Normal", "Text": "対戦するゲームを選ぶチャオ！" },
+                { "VoiceID": 993, "Duration": 120, "Mode": "Normal", "Text": "ヒーローをけちょんけちょんにしてやれ！" },
+                { "VoiceID": 994, "Duration": 120, "Mode": "Normal", "Text": "どのルールで戦うんだ？" },
+                { "VoiceID": 995, "Duration": 120, "Mode": "Normal", "Text": "ゲームを選ぶのよ！" },
+                { "VoiceID": 996, "Duration": 120, "Mode": "Normal", "Text": "この中から選んで！" },
+                { "VoiceID": 997, "Duration": 120, "Mode": "Normal", "Text": "戦いの方法を決める！" },
+                { "VoiceID": 998, "Duration": 120, "Mode": "Normal", "Text": "どのゲームは遊ばれますか？" },
+                { "VoiceID": 1000, "Duration": 120, "Mode": "Normal", "Text": "Ｈｅｙ！ ダークなんかに負けるなよ！" },
+                { "VoiceID": 1001, "Duration": 120, "Mode": "Normal", "Text": "どれで遊ぶのか選んで！" }
+            ],
+            "Also 2P, I think": [
+                { "VoiceID": 954, "Duration": 120, "Mode": "Normal", "Text": "どれにする？" },
+                { "VoiceID": 955, "Duration": 120, "Mode": "Normal", "Text": "どれにするチャオ？" },
+                { "VoiceID": 957, "Duration": 120, "Mode": "Normal", "Text": "どれにするのじゃ？" },
+                { "VoiceID": 958, "Duration": 120, "Mode": "Normal", "Text": "どのジャンルかを選択してくれ！" },
+                { "VoiceID": 959, "Duration": 120, "Mode": "Normal", "Text": "この中から選んで！" },
+                { "VoiceID": 960, "Duration": 120, "Mode": "Normal", "Text": "どれにしようか…" },
+                { "VoiceID": 961, "Duration": 120, "Mode": "Normal", "Text": "どれにするんだ？" },
+                { "VoiceID": 962, "Duration": 120, "Mode": "Normal", "Text": "どちらになさいますか？" },
+                { "VoiceID": 964, "Duration": 120, "Mode": "Normal", "Text": "どれを遊ぶんだ？" },
+				{ "VoiceID": 965, "Duration": 120, "Mode": "Normal", "Text": "どれを遊ぶ？" }
+            ],
+            "2P group select (Dreamcast)": [
+                { "VoiceID": 978, "Duration": 120, "Mode": "Normal", "Text": "ヒーロー？ それともダーク？" },
+                { "VoiceID": 979, "Duration": 120, "Mode": "Normal", "Text": "どっちで遊ぶかを選ぶチャオ！" },
+                { "VoiceID": 981, "Duration": 120, "Mode": "Normal", "Text": "どっちがダークになるんじゃ？" },
+                { "VoiceID": 982, "Duration": 120, "Mode": "Normal", "Text": "どちらのグループになるか 選択するんだ！" },
+                { "VoiceID": 983, "Duration": 120, "Mode": "Normal", "Text": "あなたはどっち？" },
+                { "VoiceID": 984, "Duration": 120, "Mode": "Normal", "Text": "あなたならどっちを選ぶ？" },
+                { "VoiceID": 985, "Duration": 120, "Mode": "Normal", "Text": "ヒーローか？ ダークか？ どっちだ？" },
+                { "VoiceID": 986, "Duration": 120, "Mode": "Normal", "Text": "どちらにするか、 ご判断ください！" },
+                { "VoiceID": 988, "Duration": 120, "Mode": "Normal", "Text": "さ、 どっちがヒーローになるんだい？" },
+                { "VoiceID": 989, "Duration": 120, "Mode": "Normal", "Text": "ヒーロー？ それともダーク？" }
+            ],
+            "2P character selected (Sonic, Shadow, Tails, Eggman, Knuckles, Rouge, Amy, Tikal": [
+                { "VoiceID": 1585, "Duration": 60, "Mode": "Normal", "Text": "Ｌｅｔ｀ｓ　ｒｏｃｋ！" },
+                { "VoiceID": 1576, "Duration": 120, "Mode": "Normal", "Text": "すべてのものに、 復讐を！" },
+                { "VoiceID": 1695, "Duration": 120, "Mode": "Normal", "Text": "よーし、 サイクロン発信！" },
+                { "VoiceID": 1692, "Duration": 120, "Mode": "Normal", "Text": "世界はワシのものじゃ！" },
+                { "VoiceID": 1322, "Duration": 120, "Mode": "Normal", "Text": "マスターエメラルドはオレが守る！" },
+                { "VoiceID": 1323, "Duration": 150, "Mode": "Normal", "Text": "狙ったいものは逃さないわよ！" },
+                { "VoiceID": 2683, "Duration": 120, "Mode": "Normal", "Text": "あたしの出番ね！" },
+                { "VoiceID": 2724, "Duration": 90, "Mode": "Normal", "Text": "私はティカル。" }
+            ],
+            "Options": [
+                { "VoiceID": 1002, "Duration": 180, "Mode": "Normal", "Text": "なーんか、色々変えられるみたい…" },
+                { "VoiceID": 1003, "Duration": 180, "Mode": "Normal", "Text": "色々な設定を変更できるチャオ！" },
+                { "VoiceID": 1005, "Duration": 180, "Mode": "Normal", "Text": "ここで色んな設定ができるぜ！" },
+                { "VoiceID": 1006, "Duration": 180, "Mode": "Normal", "Text": "色んな設定ができるんだ！" },
+                { "VoiceID": 1007, "Duration": 180, "Mode": "Normal", "Text": "色々な設定ができるわ！" },
+                { "VoiceID": 1008, "Duration": 180, "Mode": "Normal", "Text": "色々と設定を変更できるみたいね！" },
+                { "VoiceID": 1010, "Duration": 120, "Mode": "Normal", "Text": "設定を変更できる！" },
+                { "VoiceID": 1011, "Duration": 180, "Mode": "Normal", "Text": "各種設定を変更できます！" },
+                { "VoiceID": 1013, "Duration": 180, "Mode": "Normal", "Text": "色んな設定を変更できるぜ！" },
+                { "VoiceID": 1014, "Duration": 180, "Mode": "Normal", "Text": "色々カスタマイズできるんだ！" }
+            ],
+            "Sound test": [
+                { "VoiceID": 1015, "Duration": 120, "Mode": "Normal", "Text": "色んな曲が聴けるの！" },
+                { "VoiceID": 1016, "Duration": 120, "Mode": "Normal", "Text": "サウンドを選んで聴けるチャオ！" },
+                { "VoiceID": 1018, "Duration": 120, "Mode": "Normal", "Text": "音楽など聴いてる場合か？" },
+                { "VoiceID": 1019, "Duration": 120, "Mode": "Normal", "Text": "サウンドを聴くことができる！" },
+                { "VoiceID": 1020, "Duration": 120, "Mode": "Normal", "Text": "音楽が聴けるの！" },
+                { "VoiceID": 1021, "Duration": 180, "Mode": "Normal", "Text": "たまには音楽でも聴きましょう！" },
+                { "VoiceID": 1022, "Duration": 120, "Mode": "Normal", "Text": "僕には興味のないものだ。" },
+                { "VoiceID": 1023, "Duration": 120, "Mode": "Normal", "Text": "どの音楽を聴きなりますか？" },
+                { "VoiceID": 1025, "Duration": 120, "Mode": "Normal", "Text": "どのサウンドを聴くんだい？" },
+                { "VoiceID": 1026, "Duration": 120, "Mode": "Normal", "Text": "音楽を聴けるよ！" }
+            ],
+            "Emblem results": [
+                { "VoiceID": 1122, "Duration": 180, "Mode": "Normal", "Text": "そろそろいっぱいたまったんじゃない？" },
+                { "VoiceID": 1123, "Duration": 180, "Mode": "Normal", "Text": "集めたエンブレムが見られるチャオ！" },
+                { "VoiceID": 1124, "Duration": 180, "Mode": "Normal", "Text": "そろそろ全部集まったかの？" },
+                { "VoiceID": 1125, "Duration": 180, "Mode": "Normal", "Text": "エンブレムを集めた数が確認できるんだ！" },
+                { "VoiceID": 1126, "Duration": 180, "Mode": "Normal", "Text": "集めたエンブレムが一目で分かるわ！" },
+                { "VoiceID": 1127, "Duration": 120, "Mode": "Normal", "Text": "そろそろ全部集まったかしら？" },
+                { "VoiceID": 1128, "Duration": 90, "Mode": "Normal", "Text": "エンブレムのリストだ。" },
+                { "VoiceID": 1129, "Duration": 180, "Mode": "Normal", "Text": "これまで集めたエンブレムの結果でございます！" },
+                { "VoiceID": 1131, "Duration": 120, "Mode": "Normal", "Text": "集めたエンブレムをチェックできるんだ！" },
+                { "VoiceID": 1132, "Duration": 120, "Mode": "Normal", "Text": "エンブレム全部集まったかな？" }
+            ],
+            "File select": [
+                { "VoiceID": 1039, "Duration": 120, "Mode": "Normal", "Text": "ファイルはどこにあるの？" },
+                { "VoiceID": 1040, "Duration": 120, "Mode": "Normal", "Text": "ファイルを選ぶチャオ！" },
+                { "VoiceID": 1042, "Duration": 120, "Mode": "Normal", "Text": "どこにファイルがあるんじゃ？" },
+                { "VoiceID": 1043, "Duration": 120, "Mode": "Normal", "Text": "ファイルを選択するんだ！" },
+                { "VoiceID": 1044, "Duration": 120, "Mode": "Normal", "Text": "ファイルを選んで！" },
+                { "VoiceID": 1045, "Duration": 120, "Mode": "Normal", "Text": "ファイルがありかを教えて！" },
+                { "VoiceID": 1046, "Duration": 120, "Mode": "Normal", "Text": "ファイルを探せ！" },
+                { "VoiceID": 1047, "Duration": 120, "Mode": "Normal", "Text": "ファイルを選びください！" },
+                { "VoiceID": 1049, "Duration": 120, "Mode": "Normal", "Text": "ファイルを選ぶんだ！" },
+                { "VoiceID": 1050, "Duration": 120, "Mode": "Normal", "Text": "どのファイルか教えて！" }
+            ],
+            "Confirm selected file": [
+                { "VoiceID": 1088, "Duration": 90, "Mode": "Normal", "Text": "これでいいわね？" },
+                { "VoiceID": 1089, "Duration": 90, "Mode": "Normal", "Text": "本当にいいチャオ？" },
+                { "VoiceID": 1091, "Duration": 90, "Mode": "Normal", "Text": "本当にいいんじゃな？" },
+                { "VoiceID": 1092, "Duration": 90, "Mode": "Normal", "Text": "これでいいんだな？" },
+                { "VoiceID": 1093, "Duration": 90, "Mode": "Normal", "Text": "これでいいのね？" },
+                { "VoiceID": 1094, "Duration": 90, "Mode": "Normal", "Text": "これでいいわね？" },
+                { "VoiceID": 1095, "Duration": 90, "Mode": "Normal", "Text": "いいな？" },
+                { "VoiceID": 1096, "Duration": 90, "Mode": "Normal", "Text": "よろしいですか？" },
+                { "VoiceID": 1098, "Duration": 90, "Mode": "Normal", "Text": "これでいいんだな？" },
+                { "VoiceID": 1099, "Duration": 90, "Mode": "Normal", "Text": "これでいいの？" }
+            ],
+            "Kart racing": [
+                { "VoiceID": 1133, "Duration": 120, "Mode": "Normal", "Text": "カートのドライブゲームよ！" },
+                { "VoiceID": 1134, "Duration": 90, "Mode": "Normal", "Text": "レースゲームチャオ！" },
+                { "VoiceID": 1135, "Duration": 120, "Mode": "Normal", "Text": "カートのドライブゲームじゃ！" },
+                { "VoiceID": 1136, "Duration": 90, "Mode": "Normal", "Text": "レースゲームだな！" },
+                { "VoiceID": 1137, "Duration": 90, "Mode": "Normal", "Text": "車のゲームね！" },
+                { "VoiceID": 1138, "Duration": 90, "Mode": "Normal", "Text": "カートレースね！" },
+                { "VoiceID": 1139, "Duration": 90, "Mode": "Normal", "Text": "カートレーシングだ。" },
+                { "VoiceID": 1140, "Duration": 120, "Mode": "Normal", "Text": "カートのレースゲームでございます！" },
+                { "VoiceID": 1142, "Duration": 90, "Mode": "Normal", "Text": "カートレースだ！" },
+                { "VoiceID": 1143, "Duration": 90, "Mode": "Normal", "Text": "カートレースゲームだよ！" }
+            ],
+            "Theme select": [
+                { "VoiceID": 1155, "Duration": 150, "Mode": "Normal", "Text": "メニュー画面のテーマを選んで！" },
+                { "VoiceID": 1156, "Duration": 120, "Mode": "Normal", "Text": "テーマを変更できるチャオ！" },
+                { "VoiceID": 1157, "Duration": 180, "Mode": "Normal", "Text": "おぬし、 ワシが気に入らんのか？" },
+                { "VoiceID": 1158, "Duration": 150, "Mode": "Normal", "Text": "メニュー画面のテーマを変更できるんだ！" },
+                { "VoiceID": 1159, "Duration": 120, "Mode": "Normal", "Text": "メニュー画面を変えられるわ！" },
+                { "VoiceID": 1160, "Duration": 180, "Mode": "Normal", "Text": "ちょっと！ あたしじゃなんか不満な訳？" },
+                { "VoiceID": 1161, "Duration": 150, "Mode": "Normal", "Text": "これで、画面のカスタマイズができる！" },
+                { "VoiceID": 1162, "Duration": 150, "Mode": "Normal", "Text": "メニュー画面をカスタマイズなさいますか？" },
+                { "VoiceID": 1164, "Duration": 150, "Mode": "Normal", "Text": "メニュー画面をカスタマイズできるんだ！" },
+                { "VoiceID": 1165, "Duration": 150, "Mode": "Normal", "Text": "メニュー画面を色々変えられるんだよ！" }
+            ],
+            "Omochao tutorial (accessible with Menu Overhaul)": [
+                { "VoiceID": 860, "Duration": 450, "Mode": "Normal", "Text": "ボク、 オモチャオ。\nボクが、 ゲームの説明をするチャオ！\n説明して欲しいジャンルを選択するチャオ！" },
+                { "VoiceID": 861, "Duration": 90, "Mode": "Normal", "Text": "選ぶチャオ～～！" },
+                { "VoiceID": 862, "Duration": 120, "Mode": "Normal", "Text": "決定はＡボタンチャオ！" },
+                { "VoiceID": 863, "Duration": 180, "Mode": "Normal", "Text": "前の画面に戻るときはＢボタンチャオ！" },
+                { "VoiceID": 864, "Duration": 60, "Mode": "Normal", "Text": "どうしたチャオ？" },
+                { "VoiceID": 865, "Duration": 240, "Mode": "Normal", "Text": "それでは、 ソニックとシャドウのゲームを\n説明するチャオ！" },
+                { "VoiceID": 867, "Duration": 240, "Mode": "Normal", "Text": "それでは、 テイルスとエッグマンのゲームを\n説明するチャオ！" },
+                { "VoiceID": 869, "Duration": 240, "Mode": "Normal", "Text": "それでは、 ナックルズとルージュのゲームを\n説明するチャオ！" },
+                { "VoiceID": 871, "Duration": 180, "Mode": "Normal", "Text": "それでは、 チャオのことを説明するチャオ！" },
+                { "VoiceID": 872, "Duration": 240, "Mode": "Normal", "Text": "それでは、 全キャラクター共通の、\n基本操作を説明するチャオ！" }
+            ]
+        },
+        "Idle": {
+            "Sonic (common)": [
+                { "VoiceID": 1462, "Duration": 150, "Mode": "Normal", "Text": "さーて、 そろそろ行くか？" },
+                { "VoiceID": 1468, "Duration": 60, "Mode": "Normal", "Text": "…ったく。" }
+            ],
+            "Tails (common)": [
+                { "VoiceID": 1463, "Duration": 210, "Mode": "Normal", "Text": "えーと、 どっちに行けばいいのかな？" }
+            ],
+            "Knuckles (common)": [
+                { "VoiceID": 1465, "Duration": 180, "Mode": "Normal", "Text": "さーて、 次のエメラルドを探すか？" }
+            ],
+            "Shadow (common)": [
+                { "VoiceID": 1461, "Duration": 121, "Mode": "OnFrame", "Text": "さて、 次はどいつを片付けるか？" },
+                { "VoiceID": 1467, "Duration": 90, "Mode": "Normal", "Text": "敵の気配を感じる。" }
+            ],
+            "Eggman (common)": [
+                { "VoiceID": 1458, "Duration": 120, "Mode": "Normal", "Text": "まったく、 うるさいハエどもめ！" },
+                { "VoiceID": 1464, "Duration": 240, "Mode": "Normal", "Text": "えっ… 長時間の操縦は堪えるワイ…" }
+            ],
+            "Rouge (common)": [
+                { "VoiceID": 1460, "Duration": 210, "Mode": "Normal", "Text": "フッ… そろそろ行きますか…" },
+                { "VoiceID": 1466, "Duration": 180, "Mode": "Normal", "Text": "さーて、 あたしのお宝はどこかしら？" }
+            ],
+            "City Escape": [
+                { "VoiceID": 1810, "Duration": 150, "Mode": "Normal", "Text": "まったく、 オレが何をしたってんだ？" },
+                { "VoiceID": 1811, "Duration": 120, "Mode": "Normal", "Text": "なーんて傾斜がきつい街だ！" }
+            ],
+            "Wild Canyon": [
+                { "VoiceID": 1822, "Duration": 210, "Mode": "Normal", "Text": "早くしないと！\nあのコウモリ女に先を越されちまうぜ！" },
+                { "VoiceID": 1823, "Duration": 120, "Mode": "Normal", "Text": "しかし、 とんでもねぇ風だ。" }
+            ],
+            "Prison Lane": [
+                { "VoiceID": 2017, "Duration": 150, "Mode": "Normal", "Text": "早くソニックの牢屋を探さなきゃ！" },
+                { "VoiceID": 2018, "Duration": 180, "Mode": "Normal", "Text": "あぁ… 本当 広いなぁ…" }
+            ],
+            "Metal Harbor": [
+                { "VoiceID": 1926, "Duration": 120, "Mode": "Normal", "Text": "こんな所はさっさとおさらばだぜ。" },
+                { "VoiceID": 1927, "Duration": 120, "Mode": "Normal", "Text": "豪勢なこった！", "Comment": "Really not sure about this one" }
+            ],
+            "Green Forest": [
+                { "VoiceID": 1900, "Duration": 120, "Mode": "Normal", "Text": "急がないと、 島が爆発しまう！" },
+                { "VoiceID": 1901, "Duration": 210, "Mode": "Normal", "Text": "ちっ… こんな所にまで軍の警備ロボが！" }
+            ],
+            "Pumpkin Hill": [
+                { "VoiceID": 2011, "Duration": 240, "Mode": "Normal", "Text": "感じる…\nマスターエメラルドの欠片は間違いなくここだ！" },
+                { "VoiceID": 2012, "Duration": 150, "Mode": "Normal", "Text": "まったく、 気味の悪い場所だ。" }
+            ],
+            "Mission Street": [
+                { "VoiceID": 1989, "Duration": 180, "Mode": "Normal", "Text": "なんとか振り切って\n安全の場所を探さなきゃ！" },
+                { "VoiceID": 1990, "Duration": 90, "Mode": "Normal", "Text": "地震 怖いよ！" }
+            ],
+            "Aquatic Mine": [
+                { "VoiceID": 1480, "Duration": 240, "Mode": "Normal", "Text": "マスターエメラルドの欠片…\nこんな所にまで…？" },
+                { "VoiceID": 1481, "Duration": 150, "Mode": "Normal", "Text": "水の高さを利用すればいいんだな。" }
+            ],
+            "Hidden Base": [
+                { "VoiceID": 1931, "Duration": 180, "Mode": "Normal", "Text": "入り口はどこかにあるはずなんだけどなぁ…" },
+                { "VoiceID": 1932, "Duration": 210, "Mode": "Normal", "Text": "これ、 壊しちゃってもいいのかなぁ…？" }
+            ],
+            "Pyramid Cave": [
+                { "VoiceID": 1997, "Duration": 180, "Mode": "Normal", "Text": "その先にきっと宇宙へ行く手がかりあるはずだ。" },
+                { "VoiceID": 1998, "Duration": 270, "Mode": "Normal", "Text": "しかしまぁ…\nピラミッドの中がこんな風になってるとはね…" }
+            ],
+            "Death Chamber": [
+                { "VoiceID": 1843, "Duration": 150, "Mode": "Normal", "Text": "扉の鍵なんてどこを探しちゃいいんだ？" },
+                { "VoiceID": 1844, "Duration": 120, "Mode": "Normal", "Text": "まったく、 まるで迷路だぜ！" }
+            ],
+            "Eternal Engine": [
+                { "VoiceID": 1892, "Duration": 150, "Mode": "Normal", "Text": "早く電源を探して壊さないと！" },
+                { "VoiceID": 1893, "Duration": 180, "Mode": "Normal", "Text": "えぇ、 なんだかちょっと息苦しいな。" }
+            ],
+            "Meteor Herd": [
+                { "VoiceID": 1981, "Duration": 240, "Mode": "Normal", "Text": "やれやれだぜ！\n宇宙に来てまで欠片を探しとはなぁ…" },
+                { "VoiceID": 1982, "Duration": 180, "Mode": "Normal", "Text": "いん石を素手で掘ってるヤツなんて、\nオレくらいだぜ！" },
+                { "VoiceID": 1983, "Duration": 150, "Mode": "Normal", "Text": "一体ここの重力はどうなっているんだ？" }
+            ],
+            "Crazy Gadget": [
+                { "VoiceID": 1750, "Duration": 180, "Mode": "Normal", "Text": "エミー、 テイルス… 待ってろよ！" },
+                { "VoiceID": 1751, "Duration": 180, "Mode": "Normal", "Text": "てっ、 なんて厄介な場所なんだ！" }
+            ],
+            "Final Rush": [
+                { "VoiceID": 1906, "Duration": 180, "Mode": "Normal", "Text": "急がないと！\n発射まで時間がない！" },
+                { "VoiceID": 1907, "Duration": 180, "Mode": "Normal", "Text": "オレの足の付いてるほうが地面さ！\nそうだろ？" },
+                { "VoiceID": 1908, "Duration": 210, "Mode": "Normal", "Text": "宇宙だろが、 どこだろが…\n突っ走てやるぜ！" }
+            ],
+            "Iron Gate": [
+                { "VoiceID": 1918, "Duration": 180, "Mode": "Normal", "Text": "なんとしてでも手に入りてやるワイ！" },
+                { "VoiceID": 1919, "Duration": 210, "Mode": "Normal", "Text": "こんなオモチャでワシを止められると思ってか？" }
+            ],
+            "Dry Lagoon": [
+                { "VoiceID": 1834, "Duration": 210, "Mode": "Normal", "Text": "欠片は集めれば元に戻ると話、\n本当かしら？" },
+                { "VoiceID": 1835, "Duration": 180, "Mode": "Normal", "Text": "こういう泥臭い場所って苦手なのよね！" }
+            ],
+            "Sand Ocean": [
+                { "VoiceID": 2045, "Duration": 180, "Mode": "Normal", "Text": "とにかく基地に戻って出直しじゃ！" },
+                { "VoiceID": 2046, "Duration": 240, "Mode": "Normal", "Text": "砂はメカによろしくない、\n長いは無用じゃ。" }
+            ],
+            "Radical Highway": [
+                { "VoiceID": 1936, "Duration": 150, "Mode": "Normal", "Text": "さっさと雑魚を振り切って街を出るか？" },
+                { "VoiceID": 1937, "Duration": 180, "Mode": "Normal", "Text": "フン、愚かな人間どもめ。" }
+            ],
+            "Egg Quarters": [
+                { "VoiceID": 1853, "Duration": 150, "Mode": "Normal", "Text": "どっかに鍵があるはずなのよねぇ…" },
+                { "VoiceID": 1854, "Duration": 180, "Mode": "Normal", "Text": "物騒なロボットがいるわね！" }
+            ],
+            "Lost Colony": [
+                { "VoiceID": 1951, "Duration": 210, "Mode": "Normal", "Text": "中央制御室はこっちでよかったはずじゃな。" },
+                { "VoiceID": 1952, "Duration": 180, "Mode": "Normal", "Text": "これが、 ジイさんの作ったコロニー…" }
+            ],
+            "Weapons Bed": [
+                { "VoiceID": 2065, "Duration": 120, "Mode": "Normal", "Text": "ひと暴れしてやるワイ！" },
+                { "VoiceID": 2066, "Duration": 180, "Mode": "Normal", "Text": "どいつもこいつもまるで相手にならんワイ！" }
+            ],
+            "Security Hall": [
+                { "VoiceID": 2037, "Duration": 150, "Mode": "Normal", "Text": "「シャドウ」のデータはあと待ちにするか…" },
+                { "VoiceID": 2038, "Duration": 150, "Mode": "Normal", "Text": "本当、 軍のセキュリティまあまいもよね！" }
+            ],
+            "White Jungle": [
+                { "VoiceID": 1940, "Duration": 180, "Mode": "Normal", "Text": "急がなければ、 爆発まで時間がない。" },
+                { "VoiceID": 1941, "Duration": 210, "Mode": "Normal", "Text": "霧か…？\nフン、悪くない。" }
+            ],
+            "Sky Rail": [
+                { "VoiceID": 2041, "Duration": 180, "Mode": "Normal", "Text": "最後のカオスエメラルドも時間の問題だ。" },
+                { "VoiceID": 2042, "Duration": 180, "Mode": "Normal", "Text": "あんなレールでも役に立つものだな…" }
+            ],
+            "Mad Space": [
+                { "VoiceID": 1967, "Duration": 180, "Mode": "Normal", "Text": "欠片探しをいよいよ大詰めって感じね。" },
+                { "VoiceID": 1968, "Duration": 240, "Mode": "Normal", "Text": "もう、 まともな装置はない訳？" }
+            ],
+            "Cosmic Wall": [
+                { "VoiceID": 2062, "Duration": 270, "Mode": "Normal", "Text": "ソニックめ！\n今度こそワシの作戦であの世に送ってやる！" },
+                { "VoiceID": 2063, "Duration": 180, "Mode": "Normal", "Text": "ワシのウォーカーは宇宙でも万能じゃ！" }
+            ],
+            "Final Chase": [
+                { "VoiceID": 1898, "Duration": 240, "Mode": "Normal", "Text": "何者か知らないが、\n邪魔するものには消えてもらう！" },
+                { "VoiceID": 1899, "Duration": 180, "Mode": "Normal", "Text": "フン、 ここは昔のままだな…" }
+            ],
+            "Cannon's Core": [
+                { "VoiceID": 1786, "Duration": 120, "Mode": "Normal", "Text": "まずは僕が頑張らないと！" },
+                { "VoiceID": 1791, "Duration": 150, "Mode": "Normal", "Text": "とにかく、 その先へ向かいはいいんだな。" },
+                { "VoiceID": 1782, "Duration": 210, "Mode": "Normal", "Text": "ここを抜ければ後は奴らにお任せじゃ！" },
+                { "VoiceID": 1787, "Duration": 150, "Mode": "Normal", "Text": "その先にセンタードームがあるはずじゃ。" },
+                { "VoiceID": 1784, "Duration": 180, "Mode": "Normal", "Text": "なんとか半部って感じ、 ギリギリだわ！" },
+                { "VoiceID": 1789, "Duration": 210, "Mode": "Normal", "Text": "もう！ 一体どこにスイッチがあるってのよ？" },
+                { "VoiceID": 1783, "Duration": 180, "Mode": "Normal", "Text": "なんとしてもマスターエメラルドを運ばなくてわ！" },
+                { "VoiceID": 1788, "Duration": 150, "Mode": "Normal", "Text": "エッグマンの言うスイッチはどこにあるんだ？" },
+                { "VoiceID": 1785, "Duration": 120, "Mode": "Normal", "Text": "後は一気に走り抜けるぜ！" },
+                { "VoiceID": 1790, "Duration": 120, "Mode": "Normal", "Text": "この先があの大砲の中心部！" }
+            ],
+			"Chao world (supposedly)": [
+				{ "VoiceID": 2286, "Duration": 120, "Mode": "Normal", "Text": "よぉ！ チビども元気か？" },
+				{ "VoiceID": 2287, "Duration": 120, "Mode": "Normal", "Text": "みんな、 こんにちは！" },
+				{ "VoiceID": 2283, "Duration": 60, "Mode": "Normal", "Text": "やれやれ。" },				
+				{ "VoiceID": 2282, "Duration": 150, "Mode": "Normal", "Text": "世話の焼ける奴らじゃ。" }
+			]
+        },
+        "Stage specific voices": {
+            "City Escape": [
+                { "VoiceID": 1806, "Duration": 540, "Mode": "Normal", "Text": "市内警備中の全車両に告ぐ！\n逃亡者が市内を南に向かって逃走中！\n幹線道路封鎖し、 逃亡者を捕獲せよ！" }
+            ],
+            "Metal Harbor missile launch": [
+                { "VoiceID": 1920, "Duration": 180, "Mode": "Normal", "Text": "Ｍｉｓｓｉｌｅ　ｌａｕｎｃｈ　ｉｎ　１５　ｓｅｃｏｎｄｓ．" },
+                { "VoiceID": 1921, "Duration": 660, "Mode": "Normal", "Text": "１０，　９，　８，　７，　６，　５，　４，　３，　２，　１．" },
+                { "VoiceID": 1922, "Duration": 60, "Mode": "Normal", "Text": "Ｆｉｒｅ！" }
+            ],
+            "Route 101": [
+                { "VoiceID": 1792, "Duration": 210, "Mode": "Normal", "Text": "大統領 この先にいるはず。\n追いかけるぞ!" },
+                { "VoiceID": 1793, "Duration": 150, "Mode": "Normal", "Text": "やった！ 大統領 発見！" },
+                { "VoiceID": 1794, "Duration": 120, "Mode": "Normal", "Text": "よし、 近づいて来たぞ！" },
+                { "VoiceID": 1795, "Duration": 150, "Mode": "Normal", "Text": "テイルス！ 大統領は見つかったか？" },
+                { "VoiceID": 1796, "Duration": 180, "Mode": "Normal", "Text": "もう少しだよ、 ソニック！\nちょっと待ってて！" },
+                { "VoiceID": 1798, "Duration": 180, "Mode": "Normal", "Text": "あぁ… 見失っちゃった…" }
+            ],
+            "Eternal Engine (story mode)": [
+                { "VoiceID": 205, "Duration": 180, "Mode": "Normal", "Text": "テイルスか？ 制御室を発見したぜ！" },
+                { "VoiceID": 206, "Duration": 150, "Mode": "Normal", "Text": "了解！ じゃあ電源を壊すよ！" }
+            ],
+            "Crazy Gadget (story mode)": [
+                { "VoiceID": 1735, "Duration": 480, "Mode": "Normal", "Text": "ホーッホッホッホッホ！ ソニックよ！\n小娘の命が欲しくば、 ここまで来るのじゃ！" },
+                { "VoiceID": 1736, "Duration": 240, "Mode": "Normal", "Text": "何をしておる、 ソニック？\n遊んでる暇はないぞ!" },
+                { "VoiceID": 1737, "Duration": 450, "Mode": "Normal", "Text": "遅いよ、 遅いぞ、 ソニック！\nもたもたしておると小娘の命はないぞ！" },
+                { "VoiceID": 1738, "Duration": 180, "Mode": "Normal", "Text": "エマージェンシー！\nエマージェンシー！" },
+                { "VoiceID": 1739, "Duration": 720, "Mode": "Normal", "Text": "よくぞ、 ここまで来た、 ソニックよ！\nしかし、 その部屋に入ったら最後、\n二度と生きては帰れんぞ！ ホーッホッホッホッホ！" }
+            ],
+            "Iron Gate alerts": [
+                { "VoiceID": 1909, "Duration": 240, "Mode": "Normal", "Text": "侵入者警報！\n第一種警戒態勢！" },
+                { "VoiceID": 1910, "Duration": 360, "Mode": "Normal", "Text": "レベル１隔壁突破！\n緊急配備！\n侵入者を排除せよ！" },
+                { "VoiceID": 1911, "Duration": 300, "Mode": "Normal", "Text": "レベル２隔壁突破！\nレベル２隔壁突破！" },
+                { "VoiceID": 1912, "Duration": 390, "Mode": "Normal", "Text": "レベル３隔壁突破！\nセクション３-８を進行中！ \n排除せよ！" },
+                { "VoiceID": 1913, "Duration": 300, "Mode": "Normal", "Text": "レベル４隔壁突破！\n排除せよ！ 排除せよ！" },
+                { "VoiceID": 1914, "Duration": 510, "Mode": "Normal", "Text": "レベル５隔壁突破！\n本施設は最終防衛モードに移行！\n絶対防御隔壁、急げ！" }
+            ],
+            "Security Hall": [
+                { "VoiceID": 2019, "Duration": 390, "Mode": "Normal", "Text": "ルージュよ！ 軍の連中に気づかれんの内に\nカオスエメラルドを集めるのじゃ！" },
+                { "VoiceID": 2020, "Duration": 270, "Mode": "Normal", "Text": "急げ、 ルージュよ！\n島の爆破まで時間がないぞ！" },
+                { "VoiceID": 2021, "Duration": 330, "Mode": "Normal", "Text": "何をもたもたしておる！？\nさっさとカオスエメラルドを持ってこんか！" },
+                { "VoiceID": 2022, "Duration": 360, "Mode": "Normal", "Text": "一体何をやっとるんじゃ！？\n約束の時間はもうとっくに過ぎておるぞい！" },
+                { "VoiceID": 2023, "Duration": 330, "Mode": "Normal", "Text": "ルージュよ！ 爆破地獄までもう僅かじゃ！\n急げ！ 急ぐのじゃ！" },
+                { "VoiceID": 2024, "Duration": 300, "Mode": "Normal", "Text": "もう！ ダメダメダメダメーーー！\n作戦失敗じゃ！" }
+            ],
+            "Route 280": [
+                { "VoiceID": 1799, "Duration": 210, "Mode": "Normal", "Text": "エメラルド反応発見！\nキツネちゃん、 待ってなさい！" },
+                { "VoiceID": 1800, "Duration": 90, "Mode": "Normal", "Text": "見つけたわよ、 キツネちゃん！" },
+                { "VoiceID": 1801, "Duration": 120, "Mode": "Normal", "Text": "よし、 近づいて来たわね！" },
+                { "VoiceID": 1802, "Duration": 180, "Mode": "Normal", "Text": "ルージュよ！ テイルスは見つかったか？" },
+                { "VoiceID": 1803, "Duration": 180, "Mode": "Normal", "Text": "ちょっと待ってなさい！ うるさいわね！\nあたしに任せなさい！" },
+                { "VoiceID": 1805, "Duration": 150, "Mode": "Normal", "Text": "こんな時にガス欠？ もう！" }
+            ],
+            "Cannon's Core alerts": [
+                { "VoiceID": 1757, "Duration": 630, "Mode": "Normal", "Text": "システムアラート！ システムアラート！\nシステム領域内に侵入者発見！\nデバッグプログラム起動！" },
+                { "VoiceID": 1758, "Duration": 690, "Mode": "Normal", "Text": "システムアラート！ システムアラート！\nエネルギーコア保存プログラム解除！\n自己修復プログラム起動！" },
+                { "VoiceID": 1759, "Duration": 540, "Mode": "Normal", "Text": "システムアラート！ システムアラート！\nトップセキュリティロック解除！\n最終防御プログラム起動！" }
+            ]
+        },
+        "Rank voices": {
+            "Sonic": [
+                { "VoiceID": 1595, "Duration": 150, "Mode": "Normal", "Text": "Ｔｈａｔ　ｗａｓ　ｔｉｇｈｔ！" },
+                { "VoiceID": 1597, "Duration": 150, "Mode": "Normal", "Text": "Ｔｏｏ　ｅａｓｙ！ 楽勝だぜ！" },
+                { "VoiceID": 1599, "Duration": 90, "Mode": "Normal", "Text": "Ｊｕｓｔ　ｍａｄｅ　ｉｔ．" },
+                { "VoiceID": 1601, "Duration": 150, "Mode": "Normal", "Text": "Ｈｕｈ，　ｎｏ　ｐｒｏｂｌｅｍ．" },
+                { "VoiceID": 1603, "Duration": 90, "Mode": "Normal", "Text": "Ｅｈ，　ｎｏｔ　ｍｙ　ｄａｙ…" }
+            ],
+            "Tails": [
+                { "VoiceID": 1705, "Duration": 90, "Mode": "Normal", "Text": "やったよ、 ソニック！" },
+                { "VoiceID": 1707, "Duration": 90, "Mode": "Normal", "Text": "上出来！ 上出来！" },
+                { "VoiceID": 1709, "Duration": 90, "Mode": "Normal", "Text": "ま、 こんなもんかな…" },
+                { "VoiceID": 1711, "Duration": 90, "Mode": "Normal", "Text": "ちょっと手こずちゃった。" },
+                { "VoiceID": 1713, "Duration": 120, "Mode": "Normal", "Text": "もっと頑張らないと…" }
+            ],
+            "Knuckles": [
+                { "VoiceID": 1332, "Duration": 120, "Mode": "Normal", "Text": "よし！ 完ペキだぜ！" },
+                { "VoiceID": 1334, "Duration": 120, "Mode": "Normal", "Text": "よし！ いい感じだ！" },
+                { "VoiceID": 1336, "Duration": 90, "Mode": "Normal", "Text": "ま、 こんなもんだろ…" },
+                { "VoiceID": 1338, "Duration": 120, "Mode": "Normal", "Text": "フン、 手間どっちまったぜ。" },
+                { "VoiceID": 1340, "Duration": 120, "Mode": "Normal", "Text": "くそ！ まだまだだな…" }
+            ],
+            "Shadow": [
+                { "VoiceID": 1584, "Duration": 90, "Mode": "Normal", "Text": "完ペキだ！" },
+                { "VoiceID": 1586, "Duration": 120, "Mode": "Normal", "Text": "へッ、 たわいのない。" },
+                { "VoiceID": 1588, "Duration": 120, "Mode": "Normal", "Text": "まずはこんなところか…" },
+                { "VoiceID": 1590, "Duration": 120, "Mode": "Normal", "Text": "少々遊び過ぎたか…？" },
+                { "VoiceID": 1592, "Duration": 150, "Mode": "Normal", "Text": "まだ力が回復していないのか…？" }
+            ],
+            "Eggman": [
+                { "VoiceID": 1702, "Duration": 210, "Mode": "Normal", "Text": "ドクターエッグマン様の力を思い知ったか！？" },
+                { "VoiceID": 1704, "Duration": 180, "Mode": "Normal", "Text": "はぁーははははは！ 楽勝じゃ！" },
+                { "VoiceID": 1706, "Duration": 120, "Mode": "Normal", "Text": "えっ、 こんなもんじゃろ。" },
+                { "VoiceID": 1708, "Duration": 150, "Mode": "Normal", "Text": "少々力は抜き過ぎた可能…" },
+                { "VoiceID": 1710, "Duration": 120, "Mode": "Normal", "Text": "このワシとしたことが…" }
+            ],
+            "Rouge": [
+                { "VoiceID": 1333, "Duration": 210, "Mode": "Normal", "Text": "どう？ あたしの華麗なテクニック！" },
+                { "VoiceID": 1335, "Duration": 150, "Mode": "Normal", "Text": "これからあたしにとっては朝飯前ね！" },
+                { "VoiceID": 1337, "Duration": 120, "Mode": "Normal", "Text": "まあまあってとこかしらね。" },
+                { "VoiceID": 1339, "Duration": 150, "Mode": "Normal", "Text": "ちょっと時間かかり過ぎちゃったかしら…" },
+                { "VoiceID": 1341, "Duration": 150, "Mode": "Normal", "Text": "これじゃトレジャーハンター失格だわ…" }
+            ]
+        },
+        "Victory lines": {
+            "Sonic": [
+                { "VoiceID": 1593, "Duration": 60, "Mode": "Normal", "Text": "Ｙｅｓ！" },
+                { "VoiceID": 1605, "Duration": 150, "Mode": "Normal", "Text": "Ｈｅｙ　ｇｕｙ！　Ｔａｋｅ　ｃａｒｅ！" },
+                { "VoiceID": 1606, "Duration": 180, "Mode": "Normal", "Text": "オレの名はソニック！\nよく覚えておくんだな！" },
+                { "VoiceID": 1607, "Duration": 150, "Mode": "Normal", "Text": "もっとマシなオモチャを用意するんだな！" },
+                { "VoiceID": 1608, "Duration": 180, "Mode": "Normal", "Text": "残念だったな！ これですべて終わりだ！" },
+                { "VoiceID": 1610, "Duration": 180, "Mode": "Normal", "Text": "バケモノめ！ パーティーは終わりだ！" }
+            ],
+            "Tails": [
+                { "VoiceID": 1703, "Duration": 60, "Mode": "Normal", "Text": "やった！" },
+                { "VoiceID": 1715, "Duration": 90, "Mode": "Victory", "Text": "どうだ？ 参ったか？" }
+            ],
+            "Knuckles": [
+                { "VoiceID": 1330, "Duration": 60, "Mode": "Normal", "Text": "見つけたぜ！" },
+                { "VoiceID": 1342, "Duration": 150, "Mode": "Normal", "Text": "フン、 手間を取らせやがって！" },
+                { "VoiceID": 1344, "Duration": 150, "Mode": "Normal", "Text": "二度とオレのエメラルドに近づかな！" }
+            ],
+            "Shadow": [
+                { "VoiceID": 1552, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
+                { "VoiceID": 1594, "Duration": 180, "Mode": "Normal", "Text": "フン、 非力な人間どもめ。" },
+                { "VoiceID": 1596, "Duration": 180, "Mode": "Normal", "Text": "悪いが、 君と遊んでいる時間はない。" },
+                { "VoiceID": 1598, "Duration": 180, "Mode": "Normal", "Text": "言ったろ。 僕は究極だった。" },
+                { "VoiceID": 1600, "Duration": 150, "Mode": "Normal", "Text": "失せろ！ 醜いサンプルめ！" },
+                { "VoiceID": 1602, "Duration": 180, "Mode": "Normal", "Text": "消えろ！ プロフェッサーの邪念と共に！" }
+            ],
+            "Eggman": [
+                { "VoiceID": 1700, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
+                { "VoiceID": 1642, "Duration": 180, "Mode": "Victory", "Text": "ワシに勝とうなどとは１００年早いわ！" }
+            ], 
+            "Rouge": [
+                { "VoiceID": 1331, "Duration": 60, "Mode": "Normal", "Text": "見つけた！" },
+                { "VoiceID": 1343, "Duration": 210, "Mode": "Normal", "Text": "どう？ あたしって結構 強いでしょう？" },
+                { "VoiceID": 1345, "Duration": 180, "Mode": "Normal", "Text": "さぁ、 あたしの宝石を返してもらうわよ！" }
+            ]
+        },
+        "Gameplay voices": {            
+			"Got Shield": [
+				{ "VoiceID": 1553, "Duration": 60, "Mode": "Normal", "Text": "Ｙｅｓ！" },
+				{ "VoiceID": 1665, "Duration": 60, "Mode": "Normal", "Text": "やれたね！" },
+				{ "VoiceID": 1278, "Duration": 60, "Mode": "Normal", "Text": "よし！" },                
+				{ "VoiceID": 1664, "Duration": 60, "Mode": "Normal", "Text": "いただきじゃ！" },
+				{ "VoiceID": 1279, "Duration": 60, "Mode": "Normal", "Text": "ラッキー！" }
+			],
+			"Got Speed Shoes/Invincibility": [
+				{ "VoiceID": 1555, "Duration": 60, "Mode": "Normal", "Text": "行くぜ！" },				
+                { "VoiceID": 1667, "Duration": 60, "Mode": "Normal", "Text": "行くぞ！" },
+				{ "VoiceID": 1288, "Duration": 60, "Mode": "Normal", "Text": "行くぜ！" },
+				{ "VoiceID": 1666, "Duration": 90, "Mode": "Normal", "Text": "パワーアップじゃ！" },
+				{ "VoiceID": 1289, "Duration": 60, "Mode": "Normal", "Text": "行くわよ！" }
+			],
+			"Light Dash (actually used from soundbanks, need to figure this out)": [
+				{ "VoiceID": 1536, "Duration": 60, "Mode": "Normal", "Text": "邪魔ものめ！" },
+                { "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Ｒｅａｄｙ！" },
+                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "消えろ！" },
+                { "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "Ｇｏ！" }
+			],
+			"Captured/stunned": [
+				{ "VoiceID": 1296, "Duration": 60, "Mode": "Normal", "Text": "くそ！" },
+				{ "VoiceID": 1560, "Duration": 60, "Mode": "Normal", "Text": "こしゃくな！" },				
+                { "VoiceID": 1297, "Duration": 120, "Mode": "Normal", "Text": "もう！ やめて！" }
+			],
+			"Tech points (combos as Tails/Eggman)": [
+				{ "VoiceID": 1651, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
+				{ "VoiceID": 1653, "Duration": 60, "Mode": "Normal", "Text": "Ｙａｙ！" },
+				{ "VoiceID": 1655, "Duration": 60, "Mode": "Normal", "Text": "やった！" },
+				{ "VoiceID": 1650, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
+				{ "VoiceID": 1652, "Duration": 60, "Mode": "Normal", "Text": "ううほほ！" },
+				{ "VoiceID": 1654, "Duration": 90, "Mode": "Normal", "Text": "どうじゃ？ 思い知ったか？" }
+			],
+			"Hunting": [
+                { "VoiceID": 1266, "Duration": 60, "Mode": "Normal", "Text": "あと２つ。" },
+                { "VoiceID": 1267, "Duration": 60, "Mode": "Normal", "Text": "あと２つ。" },
+                { "VoiceID": 1268, "Duration": 60, "Mode": "Normal", "Text": "あと１つ！" },
+                { "VoiceID": 1269, "Duration": 60, "Mode": "Normal", "Text": "残りあと１つ！" },
+                { "VoiceID": 1272, "Duration": 60, "Mode": "Normal", "Text": "だめか…" },
+                { "VoiceID": 1273, "Duration": 60, "Mode": "Normal", "Text": "だめね…" },
+                { "VoiceID": 1274, "Duration": 30, "Mode": "Normal", "Text": "ちっ！" },
+                { "VoiceID": 1275, "Duration": 60, "Mode": "Normal", "Text": "もう！" },
+				{ "VoiceID": 1277, "Duration": 60, "Mode": "Normal", "Text": "よーし！" },				
+                { "VoiceID": 1286, "Duration": 60, "Mode": "Normal", "Text": "この辺りか？" },
+                { "VoiceID": 1287, "Duration": 120, "Mode": "Normal", "Text": "この辺りが怪しいわね…" },
+                { "VoiceID": 1295, "Duration": 60, "Mode": "Normal", "Text": "いたい！" }
+            ],
+            "Mechs taking damage": [
+                { "VoiceID": 1661, "Duration": 120, "Mode": "Normal", "Text": "このままじゃ やられちゃう！" },
+                { "VoiceID": 1663, "Duration": 120, "Mode": "Normal", "Text": "もう、 マシンの限界だ！" },
+                { "VoiceID": 1660, "Duration": 180, "Mode": "Normal", "Text": "おのれ！ このままで済むと思うなよ！" },
+                { "VoiceID": 1662, "Duration": 180, "Mode": "Normal", "Text": "いかん！ パワーが残り僅かじゃ！" }
+            ],
+            "Characters dying from taking damage": [
+                { "VoiceID": 1567, "Duration": 60, "Mode": "Normal", "Text": "Ｎｏ．．．！" },
+                { "VoiceID": 1677, "Duration": 90, "Mode": "Normal", "Text": "ソニック…！" },
+                { "VoiceID": 1300, "Duration": 60, "Mode": "Normal", "Text": "ここまでか…" },
+                { "VoiceID": 1564, "Duration": 120, "Mode": "Normal", "Text": "あっ… マリア…" },
+                { "VoiceID": 1676, "Duration": 120, "Mode": "Normal", "Text": "もはや、 ここまでか…" },
+                { "VoiceID": 1301, "Duration": 90, "Mode": "Normal", "Text": "…ったく もう！" }
+            ],
+			"Falling off stage (Tails only in JP)": [
+				{ "VoiceID": 1679, "Duration": 90, "Mode": "Normal", "Text": "ソニック…！" }
+			],
+            "Chao petting": [
+                { "VoiceID": 1517, "Duration": 60, "Mode": "Normal", "Text": "よし よし。" },
+                { "VoiceID": 1729, "Duration": 90, "Mode": "Normal", "Text": "いい子 いい子。" },
+                { "VoiceID": 1242, "Duration": 60, "Mode": "Normal", "Text": "よし よし。" },
+                { "VoiceID": 1726, "Duration": 90, "Mode": "Normal", "Text": "よーし！" },
+                { "VoiceID": 1243, "Duration": 90, "Mode": "Normal", "Text": "んん、 可愛い！" }
+            ],
+			"Kart racing (boost voices seem to be in soundbanks)": [
+				{ "VoiceID": 1579, "Duration": 60, "Mode": "Normal", "Text": "Ｈｅｙ　ｇｕｙ！" },
+				{ "VoiceID": 1572, "Duration": 60, "Mode": "Normal", "Text": "無駄だ！" },
+				{ "VoiceID": 1581, "Duration": 60, "Mode": "Normal", "Text": "おっ、 おい！" },
+				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "なに…？" },
+				{ "VoiceID": 1577, "Duration": 60, "Mode": "Normal", "Text": "Ｌｅｔ＇ｓ　ｇｏ！" },
+				{ "VoiceID": 1311, "Duration": 60, "Mode": "Normal", "Text": "行け！" },
+				{ "VoiceID": 1312, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
+                { "VoiceID": 1313, "Duration": 60, "Mode": "Normal", "Text": "到着！" },
+				{ "VoiceID": 1314, "Duration": 60, "Mode": "Normal", "Text": "あばよ！" },
+                { "VoiceID": 1315, "Duration": 60, "Mode": "Normal", "Text": "バイバーイ！" },				
+                { "VoiceID": 1316, "Duration": 60, "Mode": "Normal", "Text": "おっ、 おい" },
+                { "VoiceID": 1317, "Duration": 90, "Mode": "Normal", "Text": "ちょっと待ちなさいよ！" },
+				{ "VoiceID": 1685, "Duration": 60, "Mode": "Normal", "Text": "ブーストアップ！" },
+                { "VoiceID": 1686, "Duration": 90, "Mode": "Normal", "Text": "さらばじゃ！" },
+                { "VoiceID": 1687, "Duration": 60, "Mode": "Normal", "Text": "お先に！" },
+				{ "VoiceID": 1688, "Duration": 90, "Mode": "Normal", "Text": "な、 何じゃと？" },
+                { "VoiceID": 1689, "Duration": 120, "Mode": "Normal", "Text": "おい、 ちょっと待って！" }
+			],
+            "Omochao bullying": [
+                { "VoiceID": 1353, "Duration": 540, "Mode": "OnFrame", "Text": "い、 いたいチャオォ…。 なんでボクを\nイジメるチャオ？ ボクわるいこと、\nしてないチャオ…。 もう… おウチにかえるチャオ。" },
+                { "VoiceID": 1354, "Duration": 420, "Mode": "OnFrame", "Text": "いたいチャオ！ スッゴクいたかったチャオ！\nもう怒ったチャオ！！\n何にも教えてあげないチャオ！ プン！" },
+                { "VoiceID": 1355, "Duration": 540, "Mode": "OnFrame", "Text": "イテテテ… まったく、 なんてことするチャオ\n信じらんないチャオ\n人はみかけによらないチャオ" },
+                { "VoiceID": 1356, "Duration": 360, "Mode": "OnFrame", "Text": "ナ、ナニ！？ ナニがおこったチャオ？\nボクはだれ？ ココはどこ？？" },
+                { "VoiceID": 1357, "Duration": 180, "Mode": "OnFrame", "Text": "きゃー！ やめてー！\nボクをはなしてー！" },
+                { "VoiceID": 1358, "Duration": 120, "Mode": "OnFrame", "Text": "あ、 コラ！ やめろチャオ！" },
+                { "VoiceID": 1359, "Duration": 180, "Mode": "OnFrame", "Text": "おねがいチャオ！\nボクをはなしてくれチャオー！" },
+                { "VoiceID": 1360, "Duration": 240, "Mode": "OnFrame", "Text": "ナニをするチャオ！？\nボクは煮ても焼いても、 おいしくないチャオ！" },
+                { "VoiceID": 1361, "Duration": 180, "Mode": "OnFrame", "Text": "キャー！ キャー！\nだれかたすけてチャオー！" },
+                { "VoiceID": 1362, "Duration": 300, "Mode": "OnFrame", "Text": "ボ、 ボクはあなたにヒントをあげる\n味方チャオ！ 敵じゃないチャオー！" },
+                { "VoiceID": 1363, "Duration": 240, "Mode": "OnFrame", "Text": "ゴメン、 ゴメン！ わかったチャオ！\nもうオネショしないチャオ！" },
+                { "VoiceID": 1364, "Duration": 240, "Mode": "OnFrame", "Text": "ボ、 ボクを投げて、 敵をたおすなんて、\n止めてくれチャオー！" },
+                { "VoiceID": 1365, "Duration": 210, "Mode": "OnFrame", "Text": "ダレかー！ ダレかきてチャオー！\nひとさらいチャオー！" },
+                { "VoiceID": 1366, "Duration": 270, "Mode": "OnFrame", "Text": "イイカゲンにしないとボクもおこるチャオ！\nママにいいつけるチャオ！" },
+                { "VoiceID": 1367, "Duration": 240, "Mode": "OnFrame", "Text": "ふー、 たすかったチャオ…。\nびっくりしたチャオ。" },
+                { "VoiceID": 1368, "Duration": 180, "Mode": "OnFrame", "Text": "もー！ なんてことするチャオ！\nゆるさないチャオ！！" },
+                { "VoiceID": 1369, "Duration": 240, "Mode": "OnFrame", "Text": "あー、 ビックリしたチャオ。\nヒント忘れちゃったチャオ…。" },
+                { "VoiceID": 1370, "Duration": 270, "Mode": "OnFrame", "Text": "ダッコしてくれて、 アリガトチャオ！\nでも、 ちょっとランボウだったチャオ。" },
+                { "VoiceID": 1371, "Duration": 120, "Mode": "OnFrame", "Text": "ヤメテー…" },
+                { "VoiceID": 1372, "Duration": 120, "Mode": "OnFrame", "Text": "アワワワー…" },
+                { "VoiceID": 1373, "Duration": 120, "Mode": "OnFrame", "Text": "たすけてー…" },
+                { "VoiceID": 1374, "Duration": 120, "Mode": "OnFrame", "Text": "バイバーイ…" },
+                { "VoiceID": 1387, "Duration": 150, "Mode": "OnFrame", "Text": "ちょっと！ なにをするチャオ？" },
+                { "VoiceID": 1388, "Duration": 210, "Mode": "OnFrame", "Text": "ボ、 ボク悪者じゃないチャオ！\n間違えてるチャオ！" },
+                { "VoiceID": 1389, "Duration": 240, "Mode": "OnFrame", "Text": "たかい、 たかーい！\nって、 遊んでる場合じゃないチャオ！" },
+                { "VoiceID": 1390, "Duration": 210, "Mode": "OnFrame", "Text": "アワワワ！ ちょっとビックリしたチャオ！" },
+                { "VoiceID": 1391, "Duration": 210, "Mode": "OnFrame", "Text": "ウワーァ！ と、 飛んだチャオ！？" },
+                { "VoiceID": 1392, "Duration": 180, "Mode": "OnFrame", "Text": "ワーイ！ トランポリンみたいチャオ！" },
+                { "VoiceID": 1393, "Duration": 210, "Mode": "OnFrame", "Text": "ねぇ、 ちょっと！\nいったいどこまで連れてくつもりチャオ？" },
+                { "VoiceID": 1394, "Duration": 240, "Mode": "OnFrame", "Text": "あーあ、 こんなトコロまできちゃったチャオ…" },
+                { "VoiceID": 1395, "Duration": 150, "Mode": "OnFrame", "Text": "そろそろ帰してくれないかなぁ…" },
+                { "VoiceID": 1396, "Duration": 240, "Mode": "OnFrame", "Text": "ま、 まさか、 このままクリアするつもりチャオ！？" },
+                { "VoiceID": 1397, "Duration": 240, "Mode": "OnFrame", "Text": "イタッ！ ボクまでやられちゃったじゃないか！ プン！" },
+                { "VoiceID": 1398, "Duration": 240, "Mode": "OnFrame", "Text": "イテテテ… なんでボクまでこんな目にあうチャオ…" },
+                { "VoiceID": 1399, "Duration": 300, "Mode": "OnFrame", "Text": "ボ、 ボクは何にも悪いことしてないのに！\nヒ、 ヒドイチャオー！" },
+                { "VoiceID": 1400, "Duration": 300, "Mode": "OnFrame", "Text": "い、 いたいよぉー！\nチャオドクター、 助けてー！" },
+                { "VoiceID": 1401, "Duration": 240, "Mode": "OnFrame", "Text": "ハァー… おっきなトラック、 ビックリしたチャオ！" },
+                { "VoiceID": 1402, "Duration": 300, "Mode": "OnFrame", "Text": "ボクを持ったままクリアするなんて…\nまったく何を考えてるんだか…" },
+                { "VoiceID": 1403, "Duration": 240, "Mode": "OnFrame", "Text": "見渡す限り海ばっかり！\nボクのおうちはどこー！？" },
+                { "VoiceID": 1404, "Duration": 210, "Mode": "OnFrame", "Text": "島が爆発する前にボクも逃げるチャオ！" },
+                { "VoiceID": 1405, "Duration": 180, "Mode": "OnFrame", "Text": "かぼちゃのオバケ、 こわいよぉー！" },
+                { "VoiceID": 1406, "Duration": 150, "Mode": "OnFrame", "Text": "体がぬれて錆びちゃったカモ？" },
+                { "VoiceID": 1407, "Duration": 240, "Mode": "OnFrame", "Text": "あー 恐かった。\nおうち帰って、 テレビみるチャオ" },
+                { "VoiceID": 1408, "Duration": 240, "Mode": "OnFrame", "Text": "ボ、 ボク迷子になっちゃったチャオ！\nだれか助けてー！" },
+                { "VoiceID": 1409, "Duration": 240, "Mode": "OnFrame", "Text": "なんでボク、 宇宙でも飛べるのかな…？\nま、 いっか！" },
+                { "VoiceID": 1410, "Duration": 210, "Mode": "OnFrame", "Text": "それにしてもこの部屋、\nなんかのゲームみたいチャオ？" },
+                { "VoiceID": 1411, "Duration": 210, "Mode": "OnFrame", "Text": "ボクはこのまま、 あの星に帰るチャオ！\nバイバーイ！" },
+                { "VoiceID": 1412, "Duration": 210, "Mode": "OnFrame", "Text": "さぁて、 ボクはカメさんといっしょに遊ぶチャオ" },
+                { "VoiceID": 1413, "Duration": 150, "Mode": "OnFrame", "Text": "め、 目がまわったチャオ…" },
+                { "VoiceID": 1414, "Duration": 240, "Mode": "OnFrame", "Text": "さぁて、 あのロボットに見つからないように\n帰らないと…。" },
+                { "VoiceID": 1415, "Duration": 150, "Mode": "OnFrame", "Text": "ボクもこの金庫から出してー！" },
+                { "VoiceID": 1416, "Duration": 210, "Mode": "OnFrame", "Text": "ここの霧はサンフランシスコみたいチャオ…。" },
+                { "VoiceID": 1417, "Duration": 240, "Mode": "OnFrame", "Text": "あ、 もうこんな時間！\nそろそろ幼稚園行かなきゃ！" },
+                { "VoiceID": 1418, "Duration": 180, "Mode": "OnFrame", "Text": "よいこのみんなはウソついちゃいけないチャオ！" },
+                { "VoiceID": 1419, "Duration": 240, "Mode": "OnFrame", "Text": "ボクのプロペラは宇宙でも飛べるチャオ！\n…なんで？？" },
+                { "VoiceID": 1420, "Duration": 240, "Mode": "OnFrame", "Text": "ココは初めてきたチャオー！\nちょっと観光していくチャオー！" },
+                { "VoiceID": 1421, "Duration": 300, "Mode": "OnFrame", "Text": "あ、 そろそろゼンマイが切れる！！\nちょっと背中のゼンマイ巻いてくれチャオ！" },
+                { "VoiceID": 1422, "Duration": 270, "Mode": "OnFrame", "Text": "よし分かった！\nもう煮るなり焼くなり好きにするチャオ！！" },
+                { "VoiceID": 1423, "Duration": 210, "Mode": "OnFrame", "Text": "いい加減にしないと、\n園長先生に言いつけるチャオ！" },
+                { "VoiceID": 1424, "Duration": 390, "Mode": "OnFrame", "Text": "ねぇ、 ボクって全部で何匹いるか知ってる？\nボクを放してくれたら教えてあげるチャオ！" }
+            ]			
+        },
+        "Bosses": {
+            "Big Foot": [
+                { "VoiceID": 2091, "Duration": 330, "Mode": "OnFrame", "Text": "スパイダー小隊ビッグフットより本部へ。\n手配中の逃亡者発見。\n捕獲作戦を実行する。" },
+                { "VoiceID": 2092, "Duration": 60, "Mode": "OnFrame", "Text": "了解。" },
+                { "VoiceID": 2093, "Duration": 240, "Mode": "OnFrame", "Text": "ビッグフットより本部へ！\n依然逃亡者と交戦中！\n至急応援を頼む！" },
+                { "VoiceID": 2094, "Duration": 120, "Mode": "OnFrame", "Text": "た、 たった一匹のハリネズミに…" }
+            ],
+			"Hot Shot": [
+                { "VoiceID": 2103, "Duration": 360, "Mode": "OnFrame", "Text": "こちらスコーピオン小隊ホットショット。\n機密エリア入り危険分子の覚醒を確認。\n強制排除に移る。" },
+                { "VoiceID": 2104, "Duration": 360, "Mode": "OnFrame", "Text": "こ、 こちらスコーピオン小隊ホットショット！\n想像以上の戦闘能力です！\nだ、 大至急応援を願います！" },
+                { "VoiceID": 2105, "Duration": 180, "Mode": "OnFrame", "Text": "強い… 強すぎる…" }
+            ],
+            "Flying Dog": [
+                { "VoiceID": 2098, "Duration": 360, "Mode": "OnFrame", "Text": "警備中のフライングドッグより司令本部へ。\nセキュリティホールに侵入者発見。\n攻撃態勢に移る。" },
+                { "VoiceID": 2099, "Duration": 390, "Mode": "OnFrame", "Text": "フライングドッグより司令本部へ！\n現在の戦況はかなり深刻です！\n大至急セキュリティホールの封鎖を願います！" },
+                { "VoiceID": 2100, "Duration": 180, "Mode": "OnFrame", "Text": "まさか… このフライングドッグか…" }
+            ],            
+            "Eggman 1": [
+                { "VoiceID": 2067, "Duration": 480, "Mode": "Normal", "Text": "ホーッホッホッホッホ！\nこのワシに歯向かおうとは１００年早いわ！\nこの子ギツネめ！" },
+                { "VoiceID": 2068, "Duration": 60, "Mode": "Normal", "Text": "なんの…？" },
+                { "VoiceID": 2069, "Duration": 240, "Mode": "Normal", "Text": "いたー！ くそ、 ちょこまかと！" },
+                { "VoiceID": 2070, "Duration": 90, "Mode": "Normal", "Text": "これでもくらえ！" },
+                { "VoiceID": 2071, "Duration": 90, "Mode": "Normal", "Text": "逃がさんぞ！" },
+                { "VoiceID": 2072, "Duration": 210, "Mode": "Normal", "Text": "ぬおおお、 許さんぞ！" },
+                { "VoiceID": 2073, "Duration": 180, "Mode": "Normal", "Text": "油断したワイ…" }
+            ],
+            "Eggman 2": [
+                { "VoiceID": 2079, "Duration": 270, "Mode": "Normal", "Text": "貴様、 一人で何ができるというのじゃ？\nこの弱虫子ギツネめ！" },
+                { "VoiceID": 2080, "Duration": 210, "Mode": "Normal", "Text": "くそっ！ いい気になるんだよ！" },
+                { "VoiceID": 2081, "Duration": 240, "Mode": "Normal", "Text": "ううう… やるなテイルス…" },
+                { "VoiceID": 2082, "Duration": 210, "Mode": "Normal", "Text": "テイルスのごときに、このワシが…" },
+                { "VoiceID": 2083, "Duration": 120, "Mode": "Normal", "Text": "遊びはここまでじゃ、 テイルス！" },
+                { "VoiceID": 2084, "Duration": 90, "Mode": "Normal", "Text": "これでもくらえ！" }
+            ],
+            "Knuckles": [
+                { "VoiceID": 2107, "Duration": 240, "Mode": "Normal", "Text": "さ、 お前の集めたマスターエメラルド、\n返してもらうぞ！" },
+                { "VoiceID": 2109, "Duration": 210, "Mode": "Normal", "Text": "あっ！ 勝負はこれからだ！" },
+                { "VoiceID": 2110, "Duration": 210, "Mode": "Normal", "Text": "あっ！ お前、 単なるこそ泥じゃないな！" },
+                { "VoiceID": 2111, "Duration": 210, "Mode": "Normal", "Text": "マスターエメラルドは… オレが守る…" },
+                { "VoiceID": 2112, "Duration": 90, "Mode": "Normal", "Text": "いい加減 諦めろ！" },
+                { "VoiceID": 2113, "Duration": 150, "Mode": "Normal", "Text": "悪いが、 もうこれで終わりだ！" }
+            ],
+            "Rouge": [
+                { "VoiceID": 2194, "Duration": 180, "Mode": "Normal", "Text": "さぁ、 あたしのエメラルドを返してもらうわよ！" },
+                { "VoiceID": 2196, "Duration": 180, "Mode": "Normal", "Text": "いたっ！ もう、 許さないんだから！" },
+                { "VoiceID": 2197, "Duration": 240, "Mode": "Normal", "Text": "いたーい！ こうなったらあたしも本気で行くわよ！" },
+                { "VoiceID": 2198, "Duration": 240, "Mode": "Normal", "Text": "そ、 そんな… あたしが負けるなんて…" },
+                { "VoiceID": 2199, "Duration": 120, "Mode": "Normal", "Text": "行くわよ！ 見てらっしゃい！" },
+                { "VoiceID": 2200, "Duration": 120, "Mode": "Normal", "Text": "行くわよ！ 覚悟しなさい！" }
+            ],
+            "Shadow 1": [
+                { "VoiceID": 2212, "Duration": 240, "Mode": "Normal", "Text": "貴様と遊んでいる時間はない。\nとっとと終わらせてもらうぞ。" },
+                { "VoiceID": 2213, "Duration": 30, "Mode": "Normal", "Text": "なに…？" },
+                { "VoiceID": 2214, "Duration": 120, "Mode": "Normal", "Text": "くっ… おもしろい。" },
+                { "VoiceID": 2215, "Duration": 300, "Mode": "Normal", "Text": "なるほど…\n単なるハリネズミではないらしいな…" },
+                { "VoiceID": 2216, "Duration": 150, "Mode": "Normal", "Text": "さぁ、 そろそろ終わりにしてもらうぞ！" },
+                { "VoiceID": 2218, "Duration": 180, "Mode": "Normal", "Text": "こいつ… フェイクの分際で…" }
+            ],
+            "Shadow 2": [
+                { "VoiceID": 2224, "Duration": 300, "Mode": "Normal", "Text": "冥土の土産だ。\n真のカオスコントロール、 とくと見るがいい！" },
+                { "VoiceID": 2225, "Duration": 180, "Mode": "Normal", "Text": "くっ… なるほど、 やるな…" },
+                { "VoiceID": 2226, "Duration": 270, "Mode": "Normal", "Text": "あっ… まさか、 ここまでの実力とは…" },
+                { "VoiceID": 2227, "Duration": 180, "Mode": "Normal", "Text": "究極… 生命体の… 僕が…" },
+                { "VoiceID": 2230, "Duration": 150, "Mode": "Normal", "Text": "これが究極の力だ！" }
+            ],
+            "Sonic 1": [
+                { "VoiceID": 2236, "Duration": 210, "Mode": "Normal", "Text": "今度は逃さないぜ！ このニセモノめ！" },
+                { "VoiceID": 2238, "Duration": 120, "Mode": "Normal", "Text": "やるな…" },
+                { "VoiceID": 2239, "Duration": 210, "Mode": "Normal", "Text": "貴様、 一体何者なんだ？" },
+                { "VoiceID": 2242, "Duration": 210, "Mode": "Normal", "Text": "まさか… ここまでのやつとは…" }
+            ],
+            "Sonic 2": [
+                { "VoiceID": 2247, "Duration": 210, "Mode": "Normal", "Text": "さぁて、 そろそろケリをつけるか！\nシャドウ！" },
+                { "VoiceID": 2248, "Duration": 180, "Mode": "Normal", "Text": "…さすがオレのニセモノだ。" },
+                { "VoiceID": 2249, "Duration": 300, "Mode": "Normal", "Text": "ぐっ… そろそろ遊びは終わりだ！\n行くぜ！" },
+                { "VoiceID": 2250, "Duration": 150, "Mode": "Normal", "Text": "まだまだ行くぜ、 シャドウ！" },
+                { "VoiceID": 2252, "Duration": 90, "Mode": "Normal", "Text": "くそっ… ダメか…" },
+                { "VoiceID": 2254, "Duration": 180, "Mode": "Normal", "Text": "お前の技、 借りるぜ！" },
+                { "VoiceID": 2255, "Duration": 180, "Mode": "Normal", "Text": "カオス コントロール！" }
+            ],
+            "Tails 1": [
+                { "VoiceID": 2259, "Duration": 210, "Mode": "Normal", "Text": "エッグマン、 悪いことをすると僕は許さないぞ！" },
+                { "VoiceID": 2261, "Duration": 240, "Mode": "Normal", "Text": "いた…！ くそ！ エッグマンめ！" },
+                { "VoiceID": 2263, "Duration": 90, "Mode": "Normal", "Text": "バルカン砲、 発射！" },
+                { "VoiceID": 2264, "Duration": 150, "Mode": "Normal", "Text": "いたっ…！ もう怒ったぞ！" },
+                { "VoiceID": 2265, "Duration": 180, "Mode": "Normal", "Text": "ああ、 もう少しだったのに…" }
+            ],
+            "Tails 2": [
+                { "VoiceID": 2270, "Duration": 270, "Mode": "Normal", "Text": "よくも！ よくもソニックを！\n絶対に許さない！！" },
+                { "VoiceID": 2271, "Duration": 210, "Mode": "Normal", "Text": "いたっ…！ くそ！ 今度は本気で行くぞ！" },
+                { "VoiceID": 2272, "Duration": 240, "Mode": "Normal", "Text": "僕は、 僕は絶対に負けない！" },
+                { "VoiceID": 2273, "Duration": 150, "Mode": "Normal", "Text": "ごめんよ、 ソニック…" },
+                { "VoiceID": 2274, "Duration": 180, "Mode": "Normal", "Text": "サイクロンの真の力、 見せてやる！" },
+                { "VoiceID": 2275, "Duration": 90, "Mode": "Normal", "Text": "行け！！" },
+                { "VoiceID": 2276, "Duration": 150, "Mode": "Normal", "Text": "まだまだ行くぞ、 エッグマン！" }
+            ],
+            "Finalhazard": [
+                { "VoiceID": 2151, "Duration": 270, "Mode": "Normal", "Text": "シャドウ！ オレと変わるんだ！\nもうリングの残りが僅かだぞ！" },
+                { "VoiceID": 2152, "Duration": 210, "Mode": "Normal", "Text": "シャドウ！ リングがない！\nスーパー化が解けるぞ！" },
+                { "VoiceID": 2153, "Duration": 240, "Mode": "Normal", "Text": "ソニック！ 何をしている！？\nリングが残り僅かだ！ 僕と変われ！" },
+                { "VoiceID": 2154, "Duration": 180, "Mode": "Normal", "Text": "ソニック！ リングがない！\nスーパー化が解けるぞ！" },
+                { "VoiceID": 2155, "Duration": 210, "Mode": "Normal", "Text": "シャドウ！ オレはリングを集める！\nしばらくの間 頼んだぞ！" },
+                { "VoiceID": 2156, "Duration": 90, "Mode": "Normal", "Text": "頼んだぜ、 シャドウ！" },
+                { "VoiceID": 2157, "Duration": 210, "Mode": "Normal", "Text": "Ｙｅｓ！ ダメージを当たりだぜ！\nそちらどうだ、 シャドウ？" },
+                { "VoiceID": 2158, "Duration": 150, "Mode": "Normal", "Text": "リングを集める！\nソニック、 頼んだぞ！" },
+                { "VoiceID": 2159, "Duration": 90, "Mode": "Normal", "Text": "ソニック、 頼んだぞ！" },
+                { "VoiceID": 2160, "Duration": 270, "Mode": "Normal", "Text": "よし、 かなり効いてるはずだ！\nソニック、 お前の方はどうだ？" },
+                { "VoiceID": 2161, "Duration": 270, "Mode": "Normal", "Text": "シャドウ、 お前は休んだな！\n今度オレが遊んでやるぜ！" },
+                { "VoiceID": 2162, "Duration": 150, "Mode": "Normal", "Text": "さあて、 そろそろきめるか！" },
+                { "VoiceID": 2163, "Duration": 240, "Mode": "Normal", "Text": "ソニック、 ここは僕に任せろ！\n息の根を止めてやる！" },
+                { "VoiceID": 2164, "Duration": 90, "Mode": "Normal", "Text": "行くぞ、 化け物め！" }
+            ]
+        },
+        "2P Battle": {
+            "Knuckles and Rouge": [
+                { "VoiceID": 1244, "Duration": 90, "Mode": "Normal", "Text": "遊びは終わりだ！" },
+                { "VoiceID": 1245, "Duration": 90, "Mode": "Normal", "Text": "行くわよ！" },
+                { "VoiceID": 1246, "Duration": 60, "Mode": "Normal", "Text": "落ちろ!" },
+                { "VoiceID": 1247, "Duration": 90, "Mode": "Normal", "Text": "ヒップドロップ！" },
+                { "VoiceID": 1248, "Duration": 60, "Mode": "Normal", "Text": "くらえ！" },
+                { "VoiceID": 1249, "Duration": 60, "Mode": "Normal", "Text": "ブラックウェーブ！" },
+                { "VoiceID": 1250, "Duration": 90, "Mode": "Normal", "Text": "これでもくらえ！" },
+                { "VoiceID": 1251, "Duration": 60, "Mode": "Normal", "Text": "チャームレイ！" },
+                { "VoiceID": 1252, "Duration": 121, "Mode": "OnFrame", "Text": "マスターエメラルドは誰にも渡さん！" },
+                { "VoiceID": 1253, "Duration": 121, "Mode": "OnFrame", "Text": "あんたなんかに負けないわよ！" },
+                { "VoiceID": 1254, "Duration": 120, "Mode": "Victory", "Text": "フン、 口ほどにもない。" },
+                { "VoiceID": 1255, "Duration": 180, "Mode": "Victory", "Text": "世界中の宝石はみんなあたしのもの！" },
+                { "VoiceID": 1256, "Duration": 120, "Mode": "Victory", "Text": "悪いが、 勝負にならんな。" },
+                { "VoiceID": 1257, "Duration": 150, "Mode": "Victory", "Text": "フフ、 あたしのほうが一枚上手のようね！" },
+                { "VoiceID": 1258, "Duration": 121, "Mode": "OnFrame", "Text": "なんどやっても同じことだ！" },
+                { "VoiceID": 1259, "Duration": 121, "Mode": "OnFrame", "Text": "今度も容赦しないわよ！" },
+                { "VoiceID": 1260, "Duration": 121, "Mode": "OnFrame", "Text": "今度は容赦しないぞ！" },
+                { "VoiceID": 1261, "Duration": 121, "Mode": "OnFrame", "Text": "今度こそ本気で行くわよ！" },
+                { "VoiceID": 1262, "Duration": 90, "Mode": "Normal", "Text": "この勝負もらった！" },
+                { "VoiceID": 1263, "Duration": 120, "Mode": "Normal", "Text": "これで勝ったも同然ね！" },
+                { "VoiceID": 1264, "Duration": 90, "Mode": "Normal", "Text": "これで１対１だ！" },
+                { "VoiceID": 1265, "Duration": 120, "Mode": "Normal", "Text": "最後はあたしがもらうわよ！" },
+                { "VoiceID": 1310, "Duration": 121, "Mode": "OnFrame", "Text": "行くぜ！" },
+				{ "VoiceID": 2284, "Duration": 121, "Mode": "OnFrame", "Text": "たまにはこういうのもいいわね。" }
+            ],
+            "Sonic and Shadow": [
+                { "VoiceID": 1518, "Duration": 90, "Mode": "Normal", "Text": "遊びは終わりだ！" },
+                { "VoiceID": 1519, "Duration": 60, "Mode": "Normal", "Text": "行くぜ！" },
+                { "VoiceID": 1520, "Duration": 60, "Mode": "Normal", "Text": "行くぞ！" },
+                { "VoiceID": 1521, "Duration": 90, "Mode": "Normal", "Text": "Ｓｐｅｅｄ　ｕｐ！" },
+                { "VoiceID": 1522, "Duration": 60, "Mode": "Normal", "Text": "消えろ！" },
+                { "VoiceID": 1523, "Duration": 90, "Mode": "Normal", "Text": "Ｓｏｎｉｃ　Ｗｉｎｄ！" },
+                { "VoiceID": 1524, "Duration": 90, "Mode": "Normal", "Text": "カオスコントロール！" },
+                { "VoiceID": 1525, "Duration": 120, "Mode": "Normal", "Text": "Ｔｉｍｅ　ｓｔｏｐ！" },
+                { "VoiceID": 1526, "Duration": 121, "Mode": "OnFrame", "Text": "力の差を教えてあげよ！" },
+                { "VoiceID": 1527, "Duration": 121, "Mode": "OnFrame", "Text": "さ、 始めるぜ！" },
+                { "VoiceID": 1528, "Duration": 180, "Mode": "Victory", "Text": "フン、 所詮フェイクはフェイクか…" },
+                { "VoiceID": 1529, "Duration": 150, "Mode": "Victory", "Text": "Ｈｅｙ　ｇｕｙ！ また遊んでやるぜ！" },
+                { "VoiceID": 1530, "Duration": 180, "Mode": "Victory", "Text": "フン、 君には失望したよ！" },
+                { "VoiceID": 1531, "Duration": 120, "Mode": "Victory", "Text": "どうした、 ニセモノ？ もう苦戦か？" },
+                { "VoiceID": 1532, "Duration": 121, "Mode": "OnFrame", "Text": "なんどやっても無駄だ！" },
+                { "VoiceID": 1533, "Duration": 121, "Mode": "OnFrame", "Text": "ＯＫ，　ｃ｀ｍｏｎ！" },
+                { "VoiceID": 1534, "Duration": 121, "Mode": "OnFrame", "Text": "そろそろ本気を出させてもらうよ。" },
+                { "VoiceID": 1535, "Duration": 121, "Mode": "OnFrame", "Text": "今度は本気で行くぜ！" },
+                { "VoiceID": 1587, "Duration": 121, "Mode": "OnFrame", "Text": "Ｈｅｒｅ　ｗｅ　ｇｏ！" },
+                { "VoiceID": 1604, "Duration": 180, "Mode": "Victory", "Text": "フン、 所詮そんなところか？" },
+                { "VoiceID": 1613, "Duration": 120, "Mode": "Victory", "Text": "走ることなら誰にも負けないぜ！" }
+            ],
+            "Tails and Eggman": [
+                { "VoiceID": 1632, "Duration": 90, "Mode": "Normal", "Text": "行くぞ、 子ギツネめ！" },
+                { "VoiceID": 1633, "Duration": 60, "Mode": "Normal", "Text": "充電完了！" },
+                { "VoiceID": 1634, "Duration": 60, "Mode": "Normal", "Text": "これでもくらえ！" },
+                { "VoiceID": 1635, "Duration": 90, "Mode": "Normal", "Text": "レーザー発射！" },
+                { "VoiceID": 1636, "Duration": 90, "Mode": "Normal", "Text": "お次はこれじゃ！" },
+                { "VoiceID": 1637, "Duration": 90, "Mode": "Normal", "Text": "ロケットランチャー発射！" },
+                { "VoiceID": 1638, "Duration": 90, "Mode": "Normal", "Text": "これでとどめじゃ！" },
+                { "VoiceID": 1639, "Duration": 90, "Mode": "Normal", "Text": "パワーレーザー発射！" },
+                { "VoiceID": 1640, "Duration": 121, "Mode": "OnFrame", "Text": "このワシに勝てるとでも思っとるのか？" },
+                { "VoiceID": 1641, "Duration": 121, "Mode": "OnFrame", "Text": "負けないぞ！" },
+                { "VoiceID": 1643, "Duration": 150, "Mode": "Victory", "Text": "やった！ 僕の勝ちだ！" },
+                { "VoiceID": 1644, "Duration": 150, "Mode": "Victory", "Text": "ホーッホホホ！ 思い知ったか？" },
+                { "VoiceID": 1645, "Duration": 150, "Mode": "Victory", "Text": "エッグマンなんかに負けるもんか！" },
+                { "VoiceID": 1646, "Duration": 121, "Mode": "OnFrame", "Text": "身の程を思い知らせてくれる!" },
+                { "VoiceID": 1647, "Duration": 121, "Mode": "OnFrame", "Text": "もう一度、勝負だ！" },
+                { "VoiceID": 1648, "Duration": 121, "Mode": "OnFrame", "Text": "今度こそパワー全開じゃ！" },
+                { "VoiceID": 1649, "Duration": 121, "Mode": "OnFrame", "Text": "よし、今度こそ！" },
+                { "VoiceID": 1732, "Duration": 120, "Mode": "Normal", "Text": "よし、 充電完了じゃ！" }
+            ],
+            "Amy": [
+                { "VoiceID": 2663, "Duration": 181, "Mode": "OnFrame", "Text": "エミーローズ 華麗に見参ってカンジ？" },
+                { "VoiceID": 2664, "Duration": 120, "Mode": "Normal", "Text": "いいから退きなさいよ！" },
+                { "VoiceID": 2667, "Duration": 90, "Mode": "Normal", "Text": "ソニック…" },
+                { "VoiceID": 2668, "Duration": 181, "Mode": "OnFrame", "Text": "ソニックじゃない！ アンタ誰！？" },
+                { "VoiceID": 2669, "Duration": 181, "Mode": "OnFrame", "Text": "もう！ いっつもアタシだけのけ者なんだからっ" },
+                { "VoiceID": 2670, "Duration": 60, "Mode": "Victory", "Text": "おめでとう！" },
+                { "VoiceID": 2671, "Duration": 180, "Mode": "Normal", "Text": "そろそろいっぱいたまったんじゃない？" },
+                { "VoiceID": 2672, "Duration": 90, "Mode": "Normal", "Text": "ちょっと待っててね！" },
+                { "VoiceID": 2673, "Duration": 120, "Mode": "Victory", "Text": "あたしの名前はエミーローズ！" },
+                { "VoiceID": 2677, "Duration": 60, "Mode": "Normal", "Text": "やった！" },
+                { "VoiceID": 2678, "Duration": 60, "Mode": "Victory", "Text": "やったね！" },
+                { "VoiceID": 2679, "Duration": 90, "Mode": "Victory", "Text": "やったー！" },
+                { "VoiceID": 2680, "Duration": 150, "Mode": "Victory", "Text": "あたしだってやる時はやるんだから！" },
+                { "VoiceID": 2681, "Duration": 180, "Mode": "Victory", "Text": "やぁぁ、 あたしって最高！" },
+                { "VoiceID": 2682, "Duration": 180, "Mode": "Victory", "Text": "ああ… 退屈…" },
+                { "VoiceID": 2684, "Duration": 90, "Mode": "Normal", "Text": "行くわよ！" },
+                { "VoiceID": 2685, "Duration": 181, "Mode": "OnFrame", "Text": "なんだかワクワクしちゃう…" },
+                { "VoiceID": 2686, "Duration": 181, "Mode": "OnFrame", "Text": "ソニック、 あたし頑張る！" }
+            ],
+            "Tikal": [
+                { "VoiceID": 2716, "Duration": 150, "Mode": "Victory", "Text": "ついにエメラルドを手に入れたのね！" },
+                { "VoiceID": 2720, "Duration": 60, "Mode": "Normal", "Text": "こっちよ！" },
+                { "VoiceID": 2721, "Duration": 90, "Mode": "Normal", "Text": "ごめんなさい。" },
+                { "VoiceID": 2722, "Duration": 120, "Mode": "Normal", "Text": "それ以上近づかないで！" },
+                { "VoiceID": 2723, "Duration": 60, "Mode": "Normal", "Text": "止めて！" },
+                { "VoiceID": 2725, "Duration": 121, "Mode": "OnFrame", "Text": "エメラルドを探さなきゃ…" },
+                { "VoiceID": 2726, "Duration": 121, "Mode": "OnFrame", "Text": "なんとかしなきゃ…" }
+            ],
+            "Empty lines for Chaos 0, Chao, Dark Chao and Metal Sonic 2P intros": [
+                { "VoiceID": 2689, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
+                { "VoiceID": 2699, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
+                { "VoiceID": 2710, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
+                { "VoiceID": 2715, "Duration": 120, "Mode": "EmptyIntro", "Text": "" }
+            ]
+        }
+    }
+}
