@@ -27,7 +27,7 @@ Other features in the mod config (for all languages in the game):
 
 All subtitles are stored in JSON files made specifically for this mod.
 
-Subtitles were generally tested to fit 4:3 aspect ratio and the following font settings in Render Fix config: "Comfy" letter spacing (matching console versions), Comic Sans Latin font (also like console versions), vanilla Japanese font (which is wider than the console one).
+Subtitles were generally tested to fit 4:3 aspect ratio with the following font settings in Render Fix config: "Comfy" letter spacing (matching console versions), Comic Sans Latin font (also like console versions), vanilla Japanese font (which is wider than the console one).
 
 This mod does NOT feature retranslated English subtitles as they are a part of [Retranslated Story -COMPLETE-](https://gamebanana.com/mods/437858) mod. If you're playing with the said mod AND this mod, it will display a warning message.
 
