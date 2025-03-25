@@ -36,3 +36,5 @@ Contributions for other languages (French, Spanish, German, Italian) would be ap
 ## Usage
 
 You need [SA Mod Manager](https://github.com/X-Hax/SA-Mod-Manager) to play this mod.
+
+[Mod page on Gamebanana](https://gamebanana.com/mods/583770)
