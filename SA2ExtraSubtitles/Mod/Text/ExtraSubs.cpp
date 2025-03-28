@@ -7,20 +7,6 @@
 
 
 DataPointer(int, HudControl, 0x174AFE0);
-DataPointer(int, SplitScreenControl, 0x1DD946C);
-DataPointer(short, MenuOrGame, 0x1934BE0);
-
-
-enum DisplayTextMode
-{
-	NoDisappear,	// 0 - 2 lines, doesn't disappear
-	TopAlign,		// 1 - 2 lines, text aligned to the top
-	BottomAlign,	// 2 - 2 lines, text aligned to the bottom
-	Adjusting,		// 3 - number of lines depends on the text
-	Animated,		// 4 - same as 3 but animated
-	DisplayNothing, // 5 - empty
-};
-
 FunctionPointer(ObjectMaster*, DrawSubtitles, (DisplayTextMode mode, const char* text, int duration, int language), 0x6B6E20);
 UsercallFunc(signed int, PlayVoice_Hook, (int idk, int id), (idk, id), 0x443130, rEAX, rEDX, stack4);
 
@@ -58,7 +44,7 @@ void SetUp2PModeParameters()
 	if (TwoPlayerMode)
 	{
 		HudControl = 0;
-		SplitScreenControl = 1;
+		SplitscreenMode = 1;
 	}
 }
 
@@ -88,7 +74,7 @@ void DisplayExtraSub(int id)
 	}
 	else if (ExtraSubs[TextLanguage]->at(id).Condition == EmptyIntro)
 	{
-		if (MenuOrGame != 0)
+		if (GameState != GameStates_Inactive)
 		{
 			SetUpOnFrameBasedSubtitle(id);
 		}
@@ -217,11 +203,11 @@ void Do2PThings()
 		if (SubtitleDisplayFrameCount++ > SubtitleDuration)
 		{
 			HudControl = 1;
-			SplitScreenControl = 2;
+			SplitscreenMode = 2;
 			if (NonSplitScreen2PStage())
 			{
 				HudControl = 0;
-				SplitScreenControl = 1;
+				SplitscreenMode = 1;
 			}
 			ClearSubtitle();
 		}
