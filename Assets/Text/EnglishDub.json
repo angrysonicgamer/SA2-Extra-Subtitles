@@ -515,10 +515,10 @@
 				{ "VoiceID": 1289, "Duration": 60, "Mode": "Normal", "Text": "Here we come!" }
 			],
 			"Light Dash (actually used from soundbanks, need to figure this out)": [
-				{ "VoiceID": 1536, "Duration": 120, "Mode": "Normal", "Text": "There's no time to play games!" },
-                { "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Ready!" },
-                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "Vanish!" },
-                { "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "Go!" }
+				{ "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Ready!" },
+				{ "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "Go!" },
+				{ "VoiceID": 1536, "Duration": 120, "Mode": "Normal", "Text": "There's no time to play games!" },                
+                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "Vanish!" }                
 			],
 			"Captured/stunned": [
 				{ "VoiceID": 1296, "Duration": 60, "Mode": "Normal", "Text": "...drats!" },

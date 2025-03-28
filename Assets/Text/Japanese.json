@@ -225,7 +225,7 @@
             ],
             "Eggman (common)": [
                 { "VoiceID": 1458, "Duration": 120, "Mode": "Normal", "Text": "まったく、 うるさいハエどもめ！" },
-                { "VoiceID": 1464, "Duration": 240, "Mode": "Normal", "Text": "えっ… 長時間の操縦は堪えるワイ…" }
+                { "VoiceID": 1464, "Duration": 240, "Mode": "Normal", "Text": "えっ… 長時間の操縦はこたえるワイ…" }
             ],
             "Rouge (common)": [
                 { "VoiceID": 1460, "Duration": 210, "Mode": "Normal", "Text": "フッ… そろそろ行きますか…" },
@@ -269,7 +269,7 @@
             ],
             "Pyramid Cave": [
                 { "VoiceID": 1997, "Duration": 180, "Mode": "Normal", "Text": "その先にきっと宇宙へ行く手がかりあるはずだ。" },
-                { "VoiceID": 1998, "Duration": 270, "Mode": "Normal", "Text": "しかしまぁ…\nピラミッドの中がこんな風になってるとはね…" }
+                { "VoiceID": 1998, "Duration": 270, "Mode": "Normal", "Text": "しかしまぁ… ピラミッドの中が\nこんなふうになってるとはね…" }
             ],
             "Death Chamber": [
                 { "VoiceID": 1843, "Duration": 150, "Mode": "Normal", "Text": "扉の鍵なんてどこを探しちゃいいんだ？" },
@@ -295,10 +295,10 @@
             ],
             "Iron Gate": [
                 { "VoiceID": 1918, "Duration": 180, "Mode": "Normal", "Text": "なんとしてでも手に入りてやるワイ！" },
-                { "VoiceID": 1919, "Duration": 210, "Mode": "Normal", "Text": "こんなオモチャでワシを止められると思ってか？" }
+                { "VoiceID": 1919, "Duration": 210, "Mode": "Normal", "Text": "こんなオモチャで\nワシを止められると思ってか？" }
             ],
             "Dry Lagoon": [
-                { "VoiceID": 1834, "Duration": 210, "Mode": "Normal", "Text": "欠片は集めれば元に戻ると話、\n本当かしら？" },
+                { "VoiceID": 1834, "Duration": 210, "Mode": "Normal", "Text": "欠片は集めれば元に戻るって話、\n本当かしら？" },
                 { "VoiceID": 1835, "Duration": 180, "Mode": "Normal", "Text": "こういう泥臭い場所って苦手なのよね！" }
             ],
             "Sand Ocean": [
@@ -323,7 +323,7 @@
             ],
             "Security Hall": [
                 { "VoiceID": 2037, "Duration": 150, "Mode": "Normal", "Text": "「シャドウ」のデータはあと待ちにするか…" },
-                { "VoiceID": 2038, "Duration": 150, "Mode": "Normal", "Text": "本当、 軍のセキュリティまあまいもよね！" }
+                { "VoiceID": 2038, "Duration": 150, "Mode": "Normal", "Text": "本当、 軍のセキュリティもあまいもんよね！" }
             ],
             "White Jungle": [
                 { "VoiceID": 1940, "Duration": 180, "Mode": "Normal", "Text": "急がなければ、 爆発まで時間がない。" },
@@ -376,7 +376,7 @@
             "Route 101": [
                 { "VoiceID": 1792, "Duration": 210, "Mode": "Normal", "Text": "大統領 この先にいるはず。\n追いかけるぞ！" },
                 { "VoiceID": 1793, "Duration": 150, "Mode": "Normal", "Text": "やった！ 大統領 発見！" },
-                { "VoiceID": 1794, "Duration": 120, "Mode": "Normal", "Text": "よし、 近づいて来たぞ！" },
+                { "VoiceID": 1794, "Duration": 120, "Mode": "Normal", "Text": "よし、 近づいてきたぞ！" },
                 { "VoiceID": 1795, "Duration": 150, "Mode": "Normal", "Text": "テイルス！ 大統領は見つかったか？" },
                 { "VoiceID": 1796, "Duration": 180, "Mode": "Normal", "Text": "もう少しだよ、 ソニック！\nちょっと待ってて！" },
                 { "VoiceID": 1798, "Duration": 180, "Mode": "Normal", "Text": "あぁ… 見失っちゃった…" }
@@ -401,7 +401,7 @@
                 { "VoiceID": 1914, "Duration": 510, "Mode": "Normal", "Text": "レベル５隔壁突破！\n本施設は最終防衛モードに移行！\n絶対防御隔壁、急げ！" }
             ],
             "Security Hall": [
-                { "VoiceID": 2019, "Duration": 390, "Mode": "Normal", "Text": "ルージュよ！ 軍の連中に気づかれんの内に\nカオスエメラルドを集めるのじゃ！" },
+                { "VoiceID": 2019, "Duration": 390, "Mode": "Normal", "Text": "ルージュよ！ 軍の連中に気づかれんの内に、\nカオスエメラルドを集めるのじゃ！" },
                 { "VoiceID": 2020, "Duration": 270, "Mode": "Normal", "Text": "急げ、 ルージュよ！\n島の爆破まで時間がないぞ！" },
                 { "VoiceID": 2021, "Duration": 330, "Mode": "Normal", "Text": "何をもたもたしておる！？\nさっさとカオスエメラルドを持ってこんか！" },
                 { "VoiceID": 2022, "Duration": 360, "Mode": "Normal", "Text": "一体何をやっとるんじゃ！？\n約束の時間はもうとっくに過ぎておるぞい！" },
@@ -411,7 +411,7 @@
             "Route 280": [
                 { "VoiceID": 1799, "Duration": 210, "Mode": "Normal", "Text": "エメラルド反応発見！\nキツネちゃん、 待ってなさい！" },
                 { "VoiceID": 1800, "Duration": 90, "Mode": "Normal", "Text": "見つけたわよ、 キツネちゃん！" },
-                { "VoiceID": 1801, "Duration": 120, "Mode": "Normal", "Text": "よし、 近づいて来たわね！" },
+                { "VoiceID": 1801, "Duration": 120, "Mode": "Normal", "Text": "よし、 近づいてきたわね！" },
                 { "VoiceID": 1802, "Duration": 180, "Mode": "Normal", "Text": "ルージュよ！ テイルスは見つかったか？" },
                 { "VoiceID": 1803, "Duration": 180, "Mode": "Normal", "Text": "ちょっと待ってなさい！ うるさいわね！\nあたしに任せなさい！" },
                 { "VoiceID": 1805, "Duration": 150, "Mode": "Normal", "Text": "こんな時にガス欠？ もう！" }
@@ -428,7 +428,7 @@
                 { "VoiceID": 1597, "Duration": 150, "Mode": "Normal", "Text": "Ｔｏｏ　ｅａｓｙ！ 楽勝だぜ！" },
                 { "VoiceID": 1599, "Duration": 90, "Mode": "Normal", "Text": "Ｊｕｓｔ　ｍａｄｅ　ｉｔ．" },
                 { "VoiceID": 1601, "Duration": 150, "Mode": "Normal", "Text": "Ｈｕｈ，　ｎｏ　ｐｒｏｂｌｅｍ．" },
-                { "VoiceID": 1603, "Duration": 90, "Mode": "Normal", "Text": "Ｅｈ，　ｎｏｔ　ｍｙ　ｄａｙ…" }
+                { "VoiceID": 1603, "Duration": 180, "Mode": "Normal", "Text": "Ｅｈ，　ｎｏｔ　ｍｙ　ｄａｙ…" }
             ],
             "Tails": [
                 { "VoiceID": 1705, "Duration": 90, "Mode": "Normal", "Text": "やったよ、 ソニック！" },
@@ -453,7 +453,7 @@
             ],
             "Eggman": [
                 { "VoiceID": 1702, "Duration": 210, "Mode": "Normal", "Text": "ドクターエッグマン様の力を思い知ったか！？" },
-                { "VoiceID": 1704, "Duration": 180, "Mode": "Normal", "Text": "はぁーははははは！ 楽勝じゃ！" },
+                { "VoiceID": 1704, "Duration": 180, "Mode": "Normal", "Text": "ハーッハッハッハッハッハ！\n楽勝じゃ！" },
                 { "VoiceID": 1706, "Duration": 120, "Mode": "Normal", "Text": "えっ、 こんなもんじゃろ。" },
                 { "VoiceID": 1708, "Duration": 150, "Mode": "Normal", "Text": "少々力は抜き過ぎた可能…" },
                 { "VoiceID": 1710, "Duration": 120, "Mode": "Normal", "Text": "このワシとしたことが…" }
@@ -518,22 +518,23 @@
 				{ "VoiceID": 1289, "Duration": 60, "Mode": "Normal", "Text": "行くわよ！" }
 			],
 			"Light Dash (actually used from soundbanks, need to figure this out)": [
-				{ "VoiceID": 1536, "Duration": 60, "Mode": "Normal", "Text": "邪魔ものめ！" },
-                { "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Ｒｅａｄｙ！" },
-                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "消えろ！" },
-                { "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "Ｇｏ！" }
+				{ "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Ｒｅａｄｙ！" },
+				{ "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "Ｇｏ！" },
+				{ "VoiceID": 1536, "Duration": 60, "Mode": "Normal", "Text": "邪魔ものめ！" },                
+                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "消えろ！" }                
 			],
 			"Captured/stunned": [
+				{ "VoiceID": 1563, "Duration": 60, "Mode": "Normal", "Text": "くそ…" },
 				{ "VoiceID": 1296, "Duration": 60, "Mode": "Normal", "Text": "くそ！" },
 				{ "VoiceID": 1560, "Duration": 60, "Mode": "Normal", "Text": "こしゃくな！" },				
                 { "VoiceID": 1297, "Duration": 120, "Mode": "Normal", "Text": "もう！ やめて！" }
 			],
 			"Tech points (combos as Tails/Eggman)": [
 				{ "VoiceID": 1651, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
-				{ "VoiceID": 1653, "Duration": 60, "Mode": "Normal", "Text": "Ｙａｙ！" },
+				{ "VoiceID": 1653, "Duration": 60, "Mode": "Normal", "Text": "イェーイ！" },
 				{ "VoiceID": 1655, "Duration": 60, "Mode": "Normal", "Text": "やった！" },
 				{ "VoiceID": 1650, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
-				{ "VoiceID": 1652, "Duration": 60, "Mode": "Normal", "Text": "ううほほ！" },
+				{ "VoiceID": 1652, "Duration": 60, "Mode": "Normal", "Text": "ウーホッホ!" },
 				{ "VoiceID": 1654, "Duration": 90, "Mode": "Normal", "Text": "どうじゃ？ 思い知ったか？" }
 			],
 			"Hunting": [
@@ -737,7 +738,7 @@
                 { "VoiceID": 2255, "Duration": 180, "Mode": "Normal", "Text": "カオス コントロール！" }
             ],
             "Tails 1": [
-                { "VoiceID": 2259, "Duration": 210, "Mode": "Normal", "Text": "エッグマン、 悪いことをすると僕は許さないぞ！" },
+                { "VoiceID": 2259, "Duration": 210, "Mode": "Normal", "Text": "エッグマン、 悪いことをすると僕が許さないぞ！" },
                 { "VoiceID": 2261, "Duration": 240, "Mode": "Normal", "Text": "いた…！ くそ！ エッグマンめ！" },
                 { "VoiceID": 2263, "Duration": 90, "Mode": "Normal", "Text": "バルカン砲、 発射！" },
                 { "VoiceID": 2264, "Duration": 150, "Mode": "Normal", "Text": "いたっ…！ もう怒ったぞ！" },
@@ -852,7 +853,7 @@
                 { "VoiceID": 2677, "Duration": 60, "Mode": "Normal", "Text": "やった！" },
                 { "VoiceID": 2678, "Duration": 60, "Mode": "Victory", "Text": "やったね！" },
                 { "VoiceID": 2679, "Duration": 90, "Mode": "Victory", "Text": "やったー！" },
-                { "VoiceID": 2680, "Duration": 150, "Mode": "Victory", "Text": "あたしだってやる時はやるんだから！" },
+                { "VoiceID": 2680, "Duration": 150, "Mode": "Victory", "Text": "あたしだってやるときはやるんだから！" },
                 { "VoiceID": 2681, "Duration": 180, "Mode": "Victory", "Text": "やぁぁ、 あたしって最高！" },
                 { "VoiceID": 2682, "Duration": 180, "Mode": "Victory", "Text": "ああ… 退屈…" },
                 { "VoiceID": 2684, "Duration": 90, "Mode": "Normal", "Text": "行くわよ！" },
