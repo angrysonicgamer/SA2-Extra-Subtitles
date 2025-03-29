@@ -1,0 +1,887 @@
+{
+    "Language": "French",
+    "Subtitles": {
+        "Menu": {
+            "Default menu voice": [
+                { "VoiceID": 883, "Duration": 60, "Mode": "Normal", "Text": "Sélection de l'histoire." },
+                { "VoiceID": 884, "Duration": 60, "Mode": "Normal", "Text": "Sélection de la scène." },
+                { "VoiceID": 885, "Duration": 60, "Mode": "Normal", "Text": "Sélection du personnage." },
+                { "VoiceID": 886, "Duration": 60, "Mode": "Normal", "Text": "Sélection du niveau." },
+                { "VoiceID": 887, "Duration": 60, "Mode": "Normal", "Text": "Sélection du type." },
+                { "VoiceID": 889, "Duration": 60, "Mode": "Normal", "Text": "Sélection du groupe." },
+                { "VoiceID": 890, "Duration": 60, "Mode": "Normal", "Text": "Sélection de la partie." },
+                { "VoiceID": 892, "Duration": 60, "Mode": "Normal", "Text": "Options." },
+                { "VoiceID": 893, "Duration": 60, "Mode": "Normal", "Text": "Test sonore." },
+                { "VoiceID": 895, "Duration": 60, "Mode": "Normal", "Text": "Sélection du fichier." },
+                { "VoiceID": 899, "Duration": 60, "Mode": "Normal", "Text": "Liste des emblèmes." },
+                { "VoiceID": 900, "Duration": 60, "Mode": "Normal", "Text": "Course de karts." },
+                { "VoiceID": 902, "Duration": 60, "Mode": "Normal", "Text": "Sélection du thème." }
+            ],
+            "Story select (order: Amy, Omochao, Eggman, Knuckles, Maria, Rouge, Shadow, Secretary, Sonic, Tails)": [
+                { "VoiceID": 906, "Duration": 120, "Mode": "Normal", "Text": "Choisis une histoire !" },
+                { "VoiceID": 907, "Duration": 120, "Mode": "Normal", "Text": "Choisis une histoire." },
+                { "VoiceID": 909, "Duration": 120, "Mode": "Normal", "Text": "Choisis une histoire." },
+                { "VoiceID": 910, "Duration": 120, "Mode": "Normal", "Text": "Choisis une histoire." },
+                { "VoiceID": 911, "Duration": 120, "Mode": "Normal", "Text": "Choisis une histoire." },
+                { "VoiceID": 912, "Duration": 120, "Mode": "Normal", "Text": "Choisis une histoire." },
+                { "VoiceID": 913, "Duration": 120, "Mode": "Normal", "Text": "Choisis une histoire." },
+                { "VoiceID": 914, "Duration": 120, "Mode": "Normal", "Text": "Quelle histoire voudriez-vous essayer ?" },
+                { "VoiceID": 916, "Duration": 120, "Mode": "Normal", "Text": "Choisis ton histoire." },
+                { "VoiceID": 917, "Duration": 120, "Mode": "Normal", "Text": "Choisis une histoire." }
+            ],
+            "Scene select": [
+                { "VoiceID": 918, "Duration": 120, "Mode": "Normal", "Text": "Choisis une scène !" },
+                { "VoiceID": 919, "Duration": 120, "Mode": "Normal", "Text": "Choisis une scène." },
+                { "VoiceID": 921, "Duration": 120, "Mode": "Normal", "Text": "Par quelle scène veux-tu commencer ?" },
+                { "VoiceID": 922, "Duration": 120, "Mode": "Normal", "Text": "Choisis une scène." },
+                { "VoiceID": 923, "Duration": 120, "Mode": "Normal", "Text": "Choisis une scène." },
+                { "VoiceID": 924, "Duration": 120, "Mode": "Normal", "Text": "Choisis une scène." },
+                { "VoiceID": 925, "Duration": 120, "Mode": "Normal", "Text": "Maintenant, choisis une scène." },
+                { "VoiceID": 926, "Duration": 120, "Mode": "Normal", "Text": "Je vous prie de choisir une scène." },
+                { "VoiceID": 928, "Duration": 120, "Mode": "Normal", "Text": "Tu veux commencer avec quelle scène ?" },
+                { "VoiceID": 929, "Duration": 120, "Mode": "Normal", "Text": "Par où veux-tu commencer ?" }
+            ],
+            "Character select": [
+                { "VoiceID": 930, "Duration": 120, "Mode": "Normal", "Text": "Choisis ton personnage !" },
+                { "VoiceID": 931, "Duration": 120, "Mode": "Normal", "Text": "Choisis un personnage." },
+                { "VoiceID": 933, "Duration": 120, "Mode": "Normal", "Text": "Choisis-moi !" },
+                { "VoiceID": 934, "Duration": 120, "Mode": "Normal", "Text": "Choisis un personnage." },
+                { "VoiceID": 935, "Duration": 120, "Mode": "Normal", "Text": "Choisis un personnage." },
+                { "VoiceID": 936, "Duration": 120, "Mode": "Normal", "Text": "Qui vas-tu être ?" },
+                { "VoiceID": 937, "Duration": 120, "Mode": "Normal", "Text": "Qui seras-tu ?" },
+                { "VoiceID": 938, "Duration": 120, "Mode": "Normal", "Text": "Choisissez un personnage." },
+                { "VoiceID": 940, "Duration": 120, "Mode": "Normal", "Text": "Qui c'est que tu veux être ?" },
+                { "VoiceID": 941, "Duration": 120, "Mode": "Normal", "Text": "Choisis un personnage." }
+            ],
+            "Stage select": [
+                { "VoiceID": 942, "Duration": 120, "Mode": "Normal", "Text": "Choisis un niveau marrant !" },
+                { "VoiceID": 943, "Duration": 120, "Mode": "Normal", "Text": "Choisis un niveau." },
+                { "VoiceID": 945, "Duration": 120, "Mode": "Normal", "Text": "Choisis un niveau." },
+                { "VoiceID": 946, "Duration": 120, "Mode": "Normal", "Text": "Choisis un niveau." },
+                { "VoiceID": 947, "Duration": 120, "Mode": "Normal", "Text": "Choisis un niveau." },
+                { "VoiceID": 948, "Duration": 120, "Mode": "Normal", "Text": "Quel niveau voudrais-tu choisir." },
+                { "VoiceID": 949, "Duration": 120, "Mode": "Normal", "Text": "Choisis un niveau." },
+                { "VoiceID": 950, "Duration": 120, "Mode": "Normal", "Text": "Est-ce le niveau que vous voudriez jouer ?" },
+                { "VoiceID": 952, "Duration": 120, "Mode": "Normal", "Text": "Choisis un niveau." },
+                { "VoiceID": 953, "Duration": 120, "Mode": "Normal", "Text": "Quel niveau est-ce qu'on va jouer ?" }
+            ],
+            "2P battle screen": [
+                { "VoiceID": 990, "Duration": 120, "Mode": "Normal", "Text": "Avec qui vas-tu jouer ?" },
+                { "VoiceID": 991, "Duration": 120, "Mode": "Normal", "Text": "Choisis ton combat." },
+                { "VoiceID": 993, "Duration": 120, "Mode": "Normal", "Text": "Les héros sont des pleurnichards !" },
+                { "VoiceID": 994, "Duration": 120, "Mode": "Normal", "Text": "Se battre en suivant ces règles ?" },
+                { "VoiceID": 995, "Duration": 120, "Mode": "Normal", "Text": "Choisis un jeu." },
+                { "VoiceID": 996, "Duration": 120, "Mode": "Normal", "Text": "Choisis quelque chose ici." },
+                { "VoiceID": 997, "Duration": 120, "Mode": "Normal", "Text": "Décide des règles du défi." },
+                { "VoiceID": 998, "Duration": 120, "Mode": "Normal", "Text": "Quel jeu souhaiteriez-vous jouer ?" },
+                { "VoiceID": 1000, "Duration": 120, "Mode": "Normal", "Text": "Mieux vaut ne pas laisser le côté obscur l'emporter !" },
+                { "VoiceID": 1001, "Duration": 120, "Mode": "Normal", "Text": "Qui vas-tu être ? Moi ?" }
+            ],
+            "Also 2P, I think": [
+                { "VoiceID": 954, "Duration": 120, "Mode": "Normal", "Text": "Que veux-tu ?" },
+                { "VoiceID": 955, "Duration": 120, "Mode": "Normal", "Text": "Que voudrais-tu choisir ?" },
+                { "VoiceID": 957, "Duration": 120, "Mode": "Normal", "Text": "Quel jeu ?" },
+                { "VoiceID": 958, "Duration": 120, "Mode": "Normal", "Text": "À quel jeu veux-tu jouer ?" },
+                { "VoiceID": 959, "Duration": 120, "Mode": "Normal", "Text": "Choisis-en un ici." },
+                { "VoiceID": 960, "Duration": 120, "Mode": "Normal", "Text": "Quelle histoire ?" },
+                { "VoiceID": 961, "Duration": 120, "Mode": "Normal", "Text": "Laquelle ?" },
+                { "VoiceID": 962, "Duration": 120, "Mode": "Normal", "Text": "Quelle histoire vous intéresse ?" },
+                { "VoiceID": 964, "Duration": 120, "Mode": "Normal", "Text": "Choisis-en une." },
+                { "VoiceID": 965, "Duration": 120, "Mode": "Normal", "Text": "Choisis quelque chose de sympa !" }
+            ],
+            "2P group select (Dreamcast)": [
+                { "VoiceID": 978, "Duration": 120, "Mode": "Normal", "Text": "Les gentils ? Ou les méchants ?" },
+                { "VoiceID": 979, "Duration": 120, "Mode": "Normal", "Text": "Tu veux être un héros ? Ou un vilain ?" },
+                { "VoiceID": 981, "Duration": 120, "Mode": "Normal", "Text": "Tu ferais mieux de choisir le côté obscur !" },
+                { "VoiceID": 982, "Duration": 120, "Mode": "Normal", "Text": "Tu es un gentil ou un méchant ?" },
+                { "VoiceID": 983, "Duration": 120, "Mode": "Normal", "Text": "Qui préfères-tu ?" },
+                { "VoiceID": 984, "Duration": 120, "Mode": "Normal", "Text": "Quel côté choisis-tu ?" },
+                { "VoiceID": 985, "Duration": 120, "Mode": "Normal", "Text": "Les héros ou les vilains ? Que choisis-tu ?" },
+                { "VoiceID": 986, "Duration": 120, "Mode": "Normal", "Text": "Réfléchissez à votre côté préféré." },
+                { "VoiceID": 988, "Duration": 120, "Mode": "Normal", "Text": "Alors, c'est qui le héros ?" },
+                { "VoiceID": 989, "Duration": 120, "Mode": "Normal", "Text": "Les gentils ? Ou les méchants ?" }
+            ],
+            "2P character selected (Sonic, Shadow, Tails, Eggman, Knuckles, Rouge, Amy, Tikal": [
+                { "VoiceID": 1585, "Duration": 60, "Mode": "Normal", "Text": "On s'bouge !" },
+                { "VoiceID": 1576, "Duration": 120, "Mode": "Normal", "Text": "Je te promets... vengeance !" },
+                { "VoiceID": 1695, "Duration": 120, "Mode": "Normal", "Text": "Cyclone en marche !" },
+                { "VoiceID": 1692, "Duration": 120, "Mode": "Normal", "Text": "Le monde sera mien !" },
+                { "VoiceID": 1322, "Duration": 120, "Mode": "Normal", "Text": "Je protégerai la Master Emerald !" },
+                { "VoiceID": 1323, "Duration": 150, "Mode": "Normal", "Text": "Je n'ai jamais fait échouer une mission." },
+                { "VoiceID": 2683, "Duration": 120, "Mode": "Normal", "Text": "À moi de jouer !" },
+                { "VoiceID": 2724, "Duration": 90, "Mode": "Normal", "Text": "Je suis Tikal." }
+            ],
+            "Options": [
+                { "VoiceID": 1002, "Duration": 180, "Mode": "Normal", "Text": "J'ai l'impression que tu peux changer pas mal de choses !" },
+                { "VoiceID": 1003, "Duration": 180, "Mode": "Normal", "Text": "Tu devrais pouvoir changer des choses." },
+                { "VoiceID": 1005, "Duration": 180, "Mode": "Normal", "Text": "Tu devrais pouvoir changer les paramètres." },
+                { "VoiceID": 1006, "Duration": 180, "Mode": "Normal", "Text": "Tu peux choisir divers paramètres." },
+                { "VoiceID": 1007, "Duration": 180, "Mode": "Normal", "Text": "J'ai l'impression que tu peux changer pas mal de choses." },
+                { "VoiceID": 1008, "Duration": 180, "Mode": "Normal", "Text": "J'ai l'impression que tu peux changer pas mal de choses." },
+                { "VoiceID": 1010, "Duration": 120, "Mode": "Normal", "Text": "Change les options." },
+                { "VoiceID": 1011, "Duration": 180, "Mode": "Normal", "Text": "Vous pouvez changer les choses comme il vous convient, ici." },
+                { "VoiceID": 1013, "Duration": 180, "Mode": "Normal", "Text": "Tu veux changer les paramètres ?" },
+                { "VoiceID": 1014, "Duration": 180, "Mode": "Normal", "Text": "Modifie les paramètres, ici." }
+            ],
+            "Sound test": [
+                { "VoiceID": 1015, "Duration": 120, "Mode": "Normal", "Text": "Écoute des chansons trop cools !" },
+                { "VoiceID": 1016, "Duration": 120, "Mode": "Normal", "Text": "Tu peux écouter des chansons ici." },
+                { "VoiceID": 1018, "Duration": 120, "Mode": "Normal", "Text": "Nous n'avons pas le temps d'écouter de la musique !" },
+                { "VoiceID": 1019, "Duration": 120, "Mode": "Normal", "Text": "Écoute divers sons du jeu." },
+                { "VoiceID": 1020, "Duration": 120, "Mode": "Normal", "Text": "Tu peux écouter des chansons, ici." },
+                { "VoiceID": 1021, "Duration": 180, "Mode": "Normal", "Text": "Choisis une chanson si ça te dit." },
+                { "VoiceID": 1022, "Duration": 120, "Mode": "Normal", "Text": "Ça ne m'intéresse pas." },
+                { "VoiceID": 1023, "Duration": 120, "Mode": "Normal", "Text": "Quelle musique voudriez-vous écouter ?" },
+                { "VoiceID": 1025, "Duration": 120, "Mode": "Normal", "Text": "Tu veux écouter quelque chose ?" },
+                { "VoiceID": 1026, "Duration": 120, "Mode": "Normal", "Text": "Si tu veux, tu peux écouter de la musique." }
+            ],
+            "Emblem results": [
+                { "VoiceID": 1122, "Duration": 210, "Mode": "Normal", "Text": "T'as pratiquement récupéré tous les\nemblèmes, dis-moi ?" },
+                { "VoiceID": 1123, "Duration": 180, "Mode": "Normal", "Text": "Tu peux voir tous les emblèmes\nque tu as récupérés." },
+                { "VoiceID": 1124, "Duration": 120, "Mode": "Normal", "Text": "Tu n'as pas encore tous les emblèmes ?" },
+                { "VoiceID": 1125, "Duration": 180, "Mode": "Normal", "Text": "Alors, ça fait combien d'emblèmes ?" },
+                { "VoiceID": 1126, "Duration": 180, "Mode": "Normal", "Text": "Tu peux voir tous les emblèmes\nque tu as récupérés." },
+                { "VoiceID": 1127, "Duration": 120, "Mode": "Normal", "Text": "Tu m'expliques pourquoi tu ne\nles as pas encore tous ?" },
+                { "VoiceID": 1128, "Duration": 120, "Mode": "Normal", "Text": "Liste des emblèmes." },
+                { "VoiceID": 1129, "Duration": 180, "Mode": "Normal", "Text": "Voici les résultats concernant les\nemblèmes que vous avez récupérés." },
+                { "VoiceID": 1131, "Duration": 180, "Mode": "Normal", "Text": "Mate tous les emblèmes que t'as." },
+                { "VoiceID": 1132, "Duration": 120, "Mode": "Normal", "Text": "T'as combien d'emblèmes ?" }
+            ],
+            "File select": [
+                { "VoiceID": 1039, "Duration": 120, "Mode": "Normal", "Text": "Quel fichier ?" },
+                { "VoiceID": 1040, "Duration": 120, "Mode": "Normal", "Text": "Quel fichier ?" },
+                { "VoiceID": 1042, "Duration": 120, "Mode": "Normal", "Text": "Où est ce fichier ?" },
+                { "VoiceID": 1043, "Duration": 120, "Mode": "Normal", "Text": "Choisis un fichier." },
+                { "VoiceID": 1044, "Duration": 120, "Mode": "Normal", "Text": "Choisis un fichier." },
+                { "VoiceID": 1045, "Duration": 120, "Mode": "Normal", "Text": "Où est ton fichier ?" },
+                { "VoiceID": 1046, "Duration": 120, "Mode": "Normal", "Text": "Trouve ton fichier." },
+                { "VoiceID": 1047, "Duration": 120, "Mode": "Normal", "Text": "Je vous prie de choisir un fichier." },
+                { "VoiceID": 1049, "Duration": 120, "Mode": "Normal", "Text": "Choisis un fichier." },
+                { "VoiceID": 1050, "Duration": 120, "Mode": "Normal", "Text": "Quel fichier veux-tu ?" }
+            ],
+            "Confirm selected file": [
+                { "VoiceID": 1088, "Duration": 90, "Mode": "Normal", "Text": "Alors ?" },
+                { "VoiceID": 1089, "Duration": 90, "Mode": "Normal", "Text": "Alors ?" },
+                { "VoiceID": 1091, "Duration": 90, "Mode": "Normal", "Text": "En es-tu sûr ?" },
+                { "VoiceID": 1092, "Duration": 90, "Mode": "Normal", "Text": "Alors ?" },
+                { "VoiceID": 1093, "Duration": 90, "Mode": "Normal", "Text": "Alors ?" },
+                { "VoiceID": 1094, "Duration": 90, "Mode": "Normal", "Text": "Alors ?" },
+                { "VoiceID": 1095, "Duration": 90, "Mode": "Normal", "Text": "Alors ?" },
+                { "VoiceID": 1096, "Duration": 90, "Mode": "Normal", "Text": "Cela vous va-t-il ?" },
+                { "VoiceID": 1098, "Duration": 120, "Mode": "Normal", "Text": "Ça te va ?" },
+                { "VoiceID": 1099, "Duration": 120, "Mode": "Normal", "Text": "Ça te va ?" }
+            ],
+            "Kart racing": [
+                { "VoiceID": 1133, "Duration": 120, "Mode": "Normal", "Text": "Voici le mini-jeu de course de karts !" },
+                { "VoiceID": 1134, "Duration": 120, "Mode": "Normal", "Text": "Course de karts." },
+                { "VoiceID": 1135, "Duration": 120, "Mode": "Normal", "Text": "Je déteste conduire !" },
+                { "VoiceID": 1136, "Duration": 120, "Mode": "Normal", "Text": "Voici un jeu de course." },
+                { "VoiceID": 1137, "Duration": 150, "Mode": "Normal", "Text": "Tu sais, c'est un jeu de course." },
+                { "VoiceID": 1138, "Duration": 120, "Mode": "Normal", "Text": "Essaye de m'attraper !" },
+                { "VoiceID": 1139, "Duration": 120, "Mode": "Normal", "Text": "Course de karts." },
+                { "VoiceID": 1140, "Duration": 120, "Mode": "Normal", "Text": "Voici le jeu de course de karts." },
+                { "VoiceID": 1142, "Duration": 120, "Mode": "Normal", "Text": "Ça c'est la course de karts !" },
+                { "VoiceID": 1143, "Duration": 120, "Mode": "Normal", "Text": "Course de karts. Mon passe-temps préféré !" }
+            ],
+            "Theme select": [
+                { "VoiceID": 1155, "Duration": 120, "Mode": "Normal", "Text": "Choisis un thème pour ton menu !" },
+                { "VoiceID": 1156, "Duration": 120, "Mode": "Normal", "Text": "Tu peux changer le thème\npour ton menu." },
+                { "VoiceID": 1157, "Duration": 120, "Mode": "Normal", "Text": "Quoi ? Tu m'aimes pas ?" },
+                { "VoiceID": 1158, "Duration": 120, "Mode": "Normal", "Text": "Tu peux changer diverses choses\nsur ton menu." },
+                { "VoiceID": 1159, "Duration": 150, "Mode": "Normal", "Text": "Tu peux changer le thème du menu." },
+                { "VoiceID": 1160, "Duration": 120, "Mode": "Normal", "Text": "Quoi ? Je suis pas assez bien pour toi ?" },
+                { "VoiceID": 1161, "Duration": 150, "Mode": "Normal", "Text": "Customise ton thème de menu." },
+                { "VoiceID": 1162, "Duration": 120, "Mode": "Normal", "Text": "Voudriez-vous changer le thème\ndu menu principal ?" },
+                { "VoiceID": 1164, "Duration": 150, "Mode": "Normal", "Text": "Customise ton thème de menu." },
+                { "VoiceID": 1165, "Duration": 180, "Mode": "Normal", "Text": "Youpi, customisation du thème du menu !" }
+            ],
+            "Omochao tutorial (accessible with Menu Overhaul)": [
+                { "VoiceID": 860, "Duration": 300, "Mode": "Normal", "Text": "Salut ! Moi c'est Omochao ! Laisse-moi te guider !\nChoisis une catégorie que tu\nsouhaiterais explorer !" },
+                { "VoiceID": 861, "Duration": 90, "Mode": "Normal", "Text": "Choisis." },
+                { "VoiceID": 862, "Duration": 150, "Mode": "Normal", "Text": "Appuie sur le bouton A pour confirmer la sélection." },
+                { "VoiceID": 863, "Duration": 180, "Mode": "Normal", "Text": "Appuie sur le bouton B pour revenir à l'écran précédent." },
+                { "VoiceID": 864, "Duration": 60, "Mode": "Normal", "Text": "Qu'y a-t-il ?" },
+                { "VoiceID": 865, "Duration": 240, "Mode": "Normal", "Text": "Laisse-moi te parler du gameplay\nde Sonic et de Shadow !" },
+                { "VoiceID": 867, "Duration": 240, "Mode": "Normal", "Text": "Laisse-moi te parler du gameplay\nd'Eggman et de Tails !" },
+                { "VoiceID": 869, "Duration": 240, "Mode": "Normal", "Text": "Laisse-moi te parler du gameplay\nde Knuckles et de Rouge !" },
+                { "VoiceID": 871, "Duration": 180, "Mode": "Normal", "Text": "Laisse-moi te parler des Chao !" },
+                { "VoiceID": 872, "Duration": 240, "Mode": "Normal", "Text": "Laisse-moi te parler des contrôles de base\npour tous les personnages !" }
+            ]
+        },
+        "Idle": {
+            "Sonic (common)": [
+                { "VoiceID": 1462, "Duration": 120, "Mode": "Normal", "Text": "Bon, mieux vaut ne pas tarder." },
+                { "VoiceID": 1468, "Duration": 90, "Mode": "Normal", "Text": "Ça devrait pas tarder." }
+            ],
+            "Tails (common)": [
+                { "VoiceID": 1463, "Duration": 150, "Mode": "Normal", "Text": "Hmm, où devrais-je aller ?" }
+            ],
+            "Knuckles (common)": [
+                { "VoiceID": 1465, "Duration": 180, "Mode": "Normal", "Text": "Bien, trouvons la prochaine Émeraude." }
+            ],
+            "Shadow (common)": [
+                { "VoiceID": 1461, "Duration": 121, "Mode": "OnFrame", "Text": "Bon, à qui le tour ?" },
+                { "VoiceID": 1467, "Duration": 150, "Mode": "Normal", "Text": "Je suis en terrain hostile." }
+            ],
+            "Eggman (common)": [
+                { "VoiceID": 1458, "Duration": 240, "Mode": "Normal", "Text": "Que c'est frustrant.\nJe suis entouré de trouillards." },
+                { "VoiceID": 1464, "Duration": 300, "Mode": "Normal", "Text": "Eugh... Je commence à en avoir\nmarre de devoir utiliser cette machine." }
+            ],
+            "Rouge (common)": [
+                { "VoiceID": 1460, "Duration": 120, "Mode": "Normal", "Text": "Ne devrions-nous pas continuer ?" },
+                { "VoiceID": 1466, "Duration": 120, "Mode": "Normal", "Text": "Où pourrait bien être mon Émeraude ?" }
+            ],
+            "City Escape": [
+                { "VoiceID": 1810, "Duration": 120, "Mode": "Normal", "Text": "J'ai fait quoi ?" },
+                { "VoiceID": 1811, "Duration": 150, "Mode": "Normal", "Text": "Elle a des collines sacrément raides, cette ville." }
+            ],
+            "Wild Canyon": [
+                { "VoiceID": 1822, "Duration": 210, "Mode": "Normal", "Text": "Si je ne me dépêche pas, cette fille\nchauve-souris les trouveras avant moi." },
+                { "VoiceID": 1823, "Duration": 120, "Mode": "Normal", "Text": "Il est violent, ce vent." }
+            ],
+            "Prison Lane": [
+                { "VoiceID": 2017, "Duration": 240, "Mode": "Normal", "Text": "Il faut que je retrouve Sonic.\nIl est en prison !" },
+                { "VoiceID": 2018, "Duration": 180, "Mode": "Normal", "Text": "Quel endroit gigantesque !" }
+            ],
+            "Metal Harbor": [
+                { "VoiceID": 1926, "Duration": 90, "Mode": "Normal", "Text": "Je me tire d'ici." },
+                { "VoiceID": 1927, "Duration": 120, "Mode": "Normal", "Text": "Je suis impressionné !" }
+            ],
+            "Green Forest": [
+                { "VoiceID": 1900, "Duration": 240, "Mode": "Normal", "Text": "Il n'y a plus beaucoup de temps.\nCette île va exploser !" },
+                { "VoiceID": 1901, "Duration": 180, "Mode": "Normal", "Text": "Même ici, il y a des robots militaires !" }
+            ],
+            "Pumpkin Hill": [
+                { "VoiceID": 2011, "Duration": 210, "Mode": "Normal", "Text": "Je sens un morceau\nd'Émeraude pas loin." },
+                { "VoiceID": 2012, "Duration": 120, "Mode": "Normal", "Text": "Quel endroit bizarre." }
+            ],
+            "Mission Street": [
+                { "VoiceID": 1989, "Duration": 240, "Mode": "Normal", "Text": "Il faut que je les perde.\nIl doit bien y avoir un endroit où se cacher !" },
+                { "VoiceID": 1990, "Duration": 120, "Mode": "Normal", "Text": "Je déteste les tremblements de terre." }
+            ],
+            "Aquatic Mine": [
+                { "VoiceID": 1480, "Duration": 180, "Mode": "Normal", "Text": "Que fait un morceau de la Master Emerald\nici ?" },
+                { "VoiceID": 1481, "Duration": 180, "Mode": "Normal", "Text": "Je vais utiliser le niveau de l'eau\nà mon avantage." }
+            ],
+            "Hidden Base": [
+                { "VoiceID": 1931, "Duration": 180, "Mode": "Normal", "Text": "Il doit bien avoir un moyen d'entrer." },
+                { "VoiceID": 1932, "Duration": 120, "Mode": "Normal", "Text": "Pourrais-je la défoncer ?.." }
+            ],
+            "Pyramid Cave": [
+                { "VoiceID": 1997, "Duration": 180, "Mode": "Normal", "Text": "Il doit bien y avoir un moyen\nde s'enfuir." },
+                { "VoiceID": 1998, "Duration": 240, "Mode": "Normal", "Text": "C'est donc comme ça qu'est l'intérieur de la\npyramide." }
+            ],
+            "Death Chamber": [
+                { "VoiceID": 1843, "Duration": 210, "Mode": "Normal", "Text": "Où pourrais bien être cachée cette clé ? ...\nRéfléchis !" },
+                { "VoiceID": 1844, "Duration": 120, "Mode": "Normal", "Text": "Pff, c'est un véritable labyrinthe." }
+            ],
+            "Eternal Engine": [
+                { "VoiceID": 1892, "Duration": 180, "Mode": "Normal", "Text": "Je dois trouver l'alimentation et\nla détruire !" },
+                { "VoiceID": 1893, "Duration": 150, "Mode": "Normal", "Text": "Ça devient compliqué de respirer." }
+            ],
+            "Meteor Herd": [
+                { "VoiceID": 1981, "Duration": 270, "Mode": "Normal", "Text": "Ça n'a aucun sens.\nQue font ces Émeraudes dans l'espace ?" },
+                { "VoiceID": 1982, "Duration": 180, "Mode": "Normal", "Text": "Quelque chose affecte la gravité, ici." }
+            ],
+            "Crazy Gadget": [
+                { "VoiceID": 1750, "Duration": 180, "Mode": "Normal", "Text": "Amy, Tails, j'arrive !" },
+                { "VoiceID": 1751, "Duration": 180, "Mode": "Normal", "Text": "Qu'est-ce qu'il est lourd, cet endroit !" }
+            ],
+            "Final Rush": [
+                { "VoiceID": 1906, "Duration": 180, "Mode": "Normal", "Text": "Je n'ai pas de temps à perdre.\nIl va bientôt tirer !" },
+                { "VoiceID": 1908, "Duration": 240, "Mode": "Normal", "Text": "Rien ne peut m'arrêter.\nMême dans l'espace." }
+            ],
+            "Iron Gate": [
+                { "VoiceID": 1918, "Duration": 180, "Mode": "Normal", "Text": "Je ne sais pas ce que vous\nfaites, mais ça m'appartient !" },
+                { "VoiceID": 1919, "Duration": 240, "Mode": "Normal", "Text": "Pensez-vous vraiment que ces tas\nde ferraille m'arrêteront ?" }
+            ],
+            "Dry Lagoon": [
+                { "VoiceID": 1834, "Duration": 270, "Mode": "Normal", "Text": "Même si je venais à récupérer tous les morceaux,\npourrait-il vraiment la réassembler ?" },
+                { "VoiceID": 1835, "Duration": 150, "Mode": "Normal", "Text": "Qu'est-ce que je déteste ce genre d'endroit." }
+            ],
+            "Sand Ocean": [
+                { "VoiceID": 2045, "Duration": 180, "Mode": "Normal", "Text": "Je vais devoir tout recommencer\ndepuis la base." },
+                { "VoiceID": 2046, "Duration": 240, "Mode": "Normal", "Text": "Mes machines détestent le sable,\nil faut que je m'en aille." }
+            ],
+            "Radical Highway": [
+                { "VoiceID": 1936, "Duration": 210, "Mode": "Normal", "Text": "Débarrassons-nous de ces types\navant de faire exploser la ville." },
+                { "VoiceID": 1937, "Duration": 180, "Mode": "Normal", "Text": "Stupides humains." }
+            ],
+            "Egg Quarters": [
+                { "VoiceID": 1853, "Duration": 150, "Mode": "Normal", "Text": "La clé doit bien être dans\nles parages." },
+                { "VoiceID": 1854, "Duration": 180, "Mode": "Normal", "Text": "Il y a quand même des robots\nsacrément bizarres, ici." }
+            ],
+            "Lost Colony": [
+                { "VoiceID": 1951, "Duration": 210, "Mode": "Normal", "Text": "Je pense que la salle de contrôle\ncentrale se trouve là-bas." },
+                { "VoiceID": 1952, "Duration": 210, "Mode": "Normal", "Text": "Serait-ce l'endroit dont parlait les\nles écrits de mon grand-père ?" }
+            ],
+            "Weapons Bed": [
+                { "VoiceID": 2065, "Duration": 210, "Mode": "Normal", "Text": "Voyons si je vais pouvoir m'amuser !" },
+                { "VoiceID": 2066, "Duration": 180, "Mode": "Normal", "Text": "Ces imbéciles ne font pas le poids face à moi !" }
+            ],
+            "Security Hall": [
+                { "VoiceID": 2037, "Duration": 150, "Mode": "Normal", "Text": "Je ferai mes recherches sur Shadow plus tard." },
+                { "VoiceID": 2038, "Duration": 210, "Mode": "Normal", "Text": "C'est une blague ?!\nLa sécurité mise en place est ridicule !" }
+            ],
+            "White Jungle": [
+                { "VoiceID": 1940, "Duration": 180, "Mode": "Normal", "Text": "Il n'y a pas de temps à perdre.\nÇa va exploser." },
+                { "VoiceID": 1941, "Duration": 150, "Mode": "Normal", "Text": "Du brouillard ? Ça ne me dérange pas." }
+            ],
+            "Sky Rail": [
+                { "VoiceID": 2041, "Duration": 210, "Mode": "Normal", "Text": "La dernière Chaos Emerald\nsera bientôt entre mes mains." },
+                { "VoiceID": 2042, "Duration": 120, "Mode": "Normal", "Text": "Ces rails sont bien utiles." }
+            ],
+            "Mad Space": [
+                { "VoiceID": 1967, "Duration": 180, "Mode": "Normal", "Text": "On devrait bientôt avoir\ntous les morceaux." },
+                { "VoiceID": 1968, "Duration": 180, "Mode": "Normal", "Text": "Hmm... Ces indices n'ont aucun sens !" }
+            ],
+            "Cosmic Wall": [
+                { "VoiceID": 2062, "Duration": 180, "Mode": "Normal", "Text": "Sonic ! Cette fois-ci, je ne perdrai pas !" },
+                { "VoiceID": 2063, "Duration": 270, "Mode": "Normal", "Text": "Eh bé, le design de cette machine\nest parfait pour l'espace !" }
+            ],
+            "Final Chase": [
+                { "VoiceID": 1898, "Duration": 210, "Mode": "Normal", "Text": "Je ne te connais pas mais je te\nréduirai en poussière !" },
+                { "VoiceID": 1899, "Duration": 120, "Mode": "Normal", "Text": "Cet endroit n'a pas changé." }
+            ],
+            "Cannon's Core": [
+                { "VoiceID": 1786, "Duration": 120, "Mode": "Normal", "Text": "Je vais tout donner !" },
+                { "VoiceID": 1791, "Duration": 150, "Mode": "Normal", "Text": "Je devrais y aller. Tout de suite !" },
+                { "VoiceID": 1782, "Duration": 210, "Mode": "Normal", "Text": "Une fois que tu seras sorti,\nce sera à eux de jouer." },
+                { "VoiceID": 1787, "Duration": 150, "Mode": "Normal", "Text": "Le dôme central doit se trouver ici." },
+                { "VoiceID": 1784, "Duration": 180, "Mode": "Normal", "Text": "On ne se rapprocherait pas de la limite ?\nIl y a pas le temps !" },
+                { "VoiceID": 1789, "Duration": 120, "Mode": "Normal", "Text": "Où est cet interrupteur ?" },
+                { "VoiceID": 1783, "Duration": 210, "Mode": "Normal", "Text": "Je ne peux pas partir sans cette\nÉmeraude." },
+                { "VoiceID": 1788, "Duration": 180, "Mode": "Normal", "Text": "Où est cet interrupteur\ndont parlait Eggman ?" },
+                { "VoiceID": 1785, "Duration": 120, "Mode": "Normal", "Text": "Plus rien ne peut m'arrêter !" },
+                { "VoiceID": 1790, "Duration": 150, "Mode": "Normal", "Text": "Le cœur du canon se trouve ici." }
+            ],
+			"Chao world (supposedly)": [
+				{ "VoiceID": 2286, "Duration": 120, "Mode": "Normal", "Text": "Salut les enfants, ça va comment ?" },
+				{ "VoiceID": 2287, "Duration": 90, "Mode": "Normal", "Text": "Coucou tout le monde !" },
+				{ "VoiceID": 2283, "Duration": 90, "Mode": "Normal", "Text": "Ouh, trop mignons." },				
+				{ "VoiceID": 2282, "Duration": 150, "Mode": "Normal", "Text": "Vous avez de ces têtes marrantes !" }
+			]
+        },
+        "Stage specific voices": {
+            "City Escape": [
+                { "VoiceID": 1806, "Duration": 540, "Mode": "Normal", "Text": "À toutes les unités ! Le suspect a été\napperçu en direction du sud ! Bloquez toutes\nles routes principales et capturez le suspect !" }
+            ],
+            "Metal Harbor missile launch": [
+                { "VoiceID": 1920, "Duration": 180, "Mode": "Normal", "Text": "Lancement du missile dans 15 secondes." },
+                { "VoiceID": 1922, "Duration": 60, "Mode": "Normal", "Text": "Feu !" }
+            ],
+            "Route 101": [
+                { "VoiceID": 1792, "Duration": 210, "Mode": "Normal", "Text": "Le président doit se trouver là-bas.\nAllons-y !" },
+                { "VoiceID": 1793, "Duration": 150, "Mode": "Normal", "Text": "Ouais ! J'ai trouvé le président !" },
+                { "VoiceID": 1794, "Duration": 90, "Mode": "Normal", "Text": "Je me rapproche !" },
+                { "VoiceID": 1795, "Duration": 150, "Mode": "Normal", "Text": "Tails, t'as trouvé le président ?" },
+                { "VoiceID": 1796, "Duration": 180, "Mode": "Normal", "Text": "Presque, Sonic !\nEncore quelques minutes !" },
+                { "VoiceID": 1798, "Duration": 90, "Mode": "Normal", "Text": "Oh non, je l'ai perdu !" }
+            ],
+            "Eternal Engine (story mode)": [
+                { "VoiceID": 205, "Duration": 150, "Mode": "Normal", "Text": "Tails, j'ai trouvé la salle de contrôle !" },
+                { "VoiceID": 206, "Duration": 180, "Mode": "Normal", "Text": "Bien reçu ! Je vais détruire l'alimentation !" }
+            ],
+            "Crazy Gadget (story mode)": [
+                { "VoiceID": 1735, "Duration": 330, "Mode": "Normal", "Text": "Ha ha ha ha ! Sonic !\nViens si tu veux lui sauver la vie !" },
+                { "VoiceID": 1736, "Duration": 270, "Mode": "Normal", "Text": "Que fais-tu, Sonic ?\nCe n'est pas le moment de se tourner les pouces !" },
+                { "VoiceID": 1737, "Duration": 300, "Mode": "Normal", "Text": "Tu es trop lent ! Sonic !\nSi tu ne viens pas, elle mourra !" },
+                { "VoiceID": 1738, "Duration": 150, "Mode": "Normal", "Text": "Attention ! Attention !" },
+                { "VoiceID": 1739, "Duration": 330, "Mode": "Normal", "Text": "Bien joué, Sonic ! Mais tu ne quitteras jamais\ncette pièce vivant, ha ha !" }
+            ],
+            "Iron Gate alerts": [
+                { "VoiceID": 1909, "Duration": 240, "Mode": "Normal", "Text": "Alerte intrusion !\nFormation de défense de niveau 1 demandée !" },
+                { "VoiceID": 1910, "Duration": 330, "Mode": "Normal", "Text": "Porte de sécurité de niveau 1 franchie !\nFormation urgente !\nInterceptez l'intrus !" },
+                { "VoiceID": 1911, "Duration": 270, "Mode": "Normal", "Text": "Porte de sécurité de niveau 2 franchie !\nPorte de sécurité de niveau 2 franchie !" },
+                { "VoiceID": 1912, "Duration": 390, "Mode": "Normal", "Text": "Porte de sécurité de niveau 3 franchie !\nL'intrus a franchi la sections 3-8 !\nAttrapez-le !" },
+                { "VoiceID": 1913, "Duration": 150, "Mode": "Normal", "Text": "Porte de sécurité de niveau 4 franchie !" },
+                { "VoiceID": 1914, "Duration": 390, "Mode": "Normal", "Text": "Porte de sécurité de niveau 5 franchie !\nPassage au mode défense d'urgence !\nFermeture de la dernière porte de sécurité !" }
+            ],
+            "Security Hall": [
+                { "VoiceID": 2019, "Duration": 240, "Mode": "Normal", "Text": "Rouge ! Prends les Chaos Emeralds\navant que les militaires ne te retrouvent !" },
+                { "VoiceID": 2020, "Duration": 210, "Mode": "Normal", "Text": "Dépêche-toi, Rouge !\nL'île est sur le point d'exploser !" },
+                { "VoiceID": 2021, "Duration": 330, "Mode": "Normal", "Text": "Qu'est-ce que tu fais ? Dépêche-toi !\nApporte-moi tout de suite les Chaos Emeralds !" },
+                { "VoiceID": 2022, "Duration": 300, "Mode": "Normal", "Text": "Qu'est-ce que tu fabriques ?\nTu prends bien plus de temps que convenu !" },
+                { "VoiceID": 2023, "Duration": 270, "Mode": "Normal", "Text": "Rouge ! Ça va exploser !\nDépêche-toi ! Vite !" },
+                { "VoiceID": 2024, "Duration": 300, "Mode": "Normal", "Text": "Non ! Ce n'est pas possible !\nTu as ruiné mes plans !" }
+            ],
+            "Route 280": [
+                { "VoiceID": 1799, "Duration": 270, "Mode": "Normal", "Text": "Je détecte un signal d'une Émeraude.\nAttends-moi, jeune renard !" },
+                { "VoiceID": 1800, "Duration": 120, "Mode": "Normal", "Text": "Je l'ai trouvé, ce jeune renard !" },
+                { "VoiceID": 1801, "Duration": 120, "Mode": "Normal", "Text": "Je devrais être proche." },
+                { "VoiceID": 1802, "Duration": 150, "Mode": "Normal", "Text": "Rouge, as-tu trouvé Tails ?" },
+                { "VoiceID": 1803, "Duration": 210, "Mode": "Normal", "Text": "Attends une minute ! Et tais-toi !\nFais-moi confiance !" },
+                { "VoiceID": 1805, "Duration": 150, "Mode": "Normal", "Text": "Ce n'est vraiment pas le moment de tomber à court d'essence..." }
+            ],
+            "Cannon's Core alerts": [
+                { "VoiceID": 1757, "Duration": 450, "Mode": "Normal", "Text": "Alerte système ! Alerte système !\nL'intrus a pénétré dans une zone système !\nDébut du programme de débogage !" },
+                { "VoiceID": 1758, "Duration": 570, "Mode": "Normal", "Text": "Alerte système ! Alerte système !\nProgramme de sécurité du cœur énergétique désactivé !\nProgramme d'auto-réparation lancé !" },
+                { "VoiceID": 1759, "Duration": 540, "Mode": "Normal", "Text": "Alerte système ! Alerte système !\nVerrou principal de sécurité système désactivé !\nMise en marche des défenses finales du système !" }
+            ]
+        },
+        "Rank voices": {
+            "Sonic": [
+                { "VoiceID": 1595, "Duration": 120, "Mode": "Normal", "Text": "C'était génial !" },
+                { "VoiceID": 1597, "Duration": 120, "Mode": "Normal", "Text": "Trop facile ! C'était du gâteau !" },
+                { "VoiceID": 1599, "Duration": 90, "Mode": "Normal", "Text": "J'y suis arrivé." },
+                { "VoiceID": 1601, "Duration": 90, "Mode": "Normal", "Text": "Hm, ça passe." },
+                { "VoiceID": 1603, "Duration": 90, "Mode": "Normal", "Text": "C'est pas passé loin." }
+            ],
+            "Tails": [
+                { "VoiceID": 1705, "Duration": 90, "Mode": "Normal", "Text": "J'ai réussi, Sonic !" },
+                { "VoiceID": 1707, "Duration": 90, "Mode": "Normal", "Text": "Très bien !" },
+                { "VoiceID": 1709, "Duration": 90, "Mode": "Normal", "Text": "C'était facile." },
+                { "VoiceID": 1711, "Duration": 120, "Mode": "Normal", "Text": "C'était pas simple." },
+                { "VoiceID": 1713, "Duration": 150, "Mode": "Normal", "Text": "Il va falloir que je redouble\nd'efforts, la prochaine fois." }
+            ],
+            "Knuckles": [
+                { "VoiceID": 1332, "Duration": 120, "Mode": "Normal", "Text": "Ouais ! C'est parfait !" },
+                { "VoiceID": 1334, "Duration": 120, "Mode": "Normal", "Text": "Ouais ! Ça fait du bien !" },
+                { "VoiceID": 1336, "Duration": 90, "Mode": "Normal", "Text": "Pas trop mal." },
+                { "VoiceID": 1338, "Duration": 120, "Mode": "Normal", "Text": "Pfiou. C'était pas une partie de plaisir." },
+                { "VoiceID": 1340, "Duration": 120, "Mode": "Normal", "Text": "Il faut que je fasse mieux." }
+            ],
+            "Shadow": [
+                { "VoiceID": 1584, "Duration": 120, "Mode": "Normal", "Text": "Victoire ultime !" },
+                { "VoiceID": 1586, "Duration": 150, "Mode": "Normal", "Text": "Hmm, trop facile pour moi !" },
+                { "VoiceID": 1588, "Duration": 90, "Mode": "Normal", "Text": "Ce n'était pas bien dur." },
+                { "VoiceID": 1590, "Duration": 120, "Mode": "Normal", "Text": "Je n'y ai peut-être pas mis toute ma volonté." },
+                { "VoiceID": 1592, "Duration": 150, "Mode": "Normal", "Text": "Je ne dois pas être en pleine forme." }
+            ],
+            "Eggman": [
+                { "VoiceID": 1702, "Duration": 180, "Mode": "Normal", "Text": "Maintenant, vous savez pourquoi je suis le meilleur !" },
+                { "VoiceID": 1704, "Duration": 150, "Mode": "Normal", "Text": "Ha ha ha ! C'était du gâteau !" },
+                { "VoiceID": 1706, "Duration": 150, "Mode": "Normal", "Text": "Hmm, ce n'était pas si difficile." },
+                { "VoiceID": 1708, "Duration": 150, "Mode": "Normal", "Text": "J'aurais dû y aller plus fort." },
+                { "VoiceID": 1710, "Duration": 90, "Mode": "Normal", "Text": "Ce n'est vraiment pas passé loin." }
+            ],
+            "Rouge": [
+                { "VoiceID": 1333, "Duration": 180, "Mode": "Normal", "Text": "C'était comment ? Parfait ? Tout comme moi ?!" },
+                { "VoiceID": 1335, "Duration": 150, "Mode": "Normal", "Text": "C'est bien trop facile pour moi !" },
+                { "VoiceID": 1337, "Duration": 120, "Mode": "Normal", "Text": "Pas trop mal, j'imagine." },
+                { "VoiceID": 1339, "Duration": 150, "Mode": "Normal", "Text": "J'ai peut-être pris un peu trop de temps." },
+                { "VoiceID": 1341, "Duration": 150, "Mode": "Normal", "Text": "J'ai honte de porter le nom de chasseuse de trésors." }
+            ]
+        },
+        "Victory lines": {
+            "Sonic": [
+                { "VoiceID": 1593, "Duration": 60, "Mode": "Normal", "Text": "Ouais !" },                
+                { "VoiceID": 1605, "Duration": 120, "Mode": "Normal", "Text": "Bon, les gars ! Prenez soin de vous !" },
+                { "VoiceID": 1606, "Duration": 120, "Mode": "Normal", "Text": "Sais-tu qui je suis ?" },
+                { "VoiceID": 1607, "Duration": 90, "Mode": "Normal", "Text": "Pas mal pour un débutant !" },
+                { "VoiceID": 1608, "Duration": 120, "Mode": "Normal", "Text": "Fin de partie, Shadow !" },
+                { "VoiceID": 1610, "Duration": 150, "Mode": "Normal", "Text": "Tu pensais sincèrement avoir une chance ?" }
+            ],
+            "Tails": [
+                { "VoiceID": 1703, "Duration": 60, "Mode": "Normal", "Text": "J'ai réussi !" },
+                { "VoiceID": 1715, "Duration": 90, "Mode": "Victory", "Text": "Alors, qu'est-ce que t'en penses ?" }
+            ],
+            "Knuckles": [
+                { "VoiceID": 1330, "Duration": 90, "Mode": "Normal", "Text": "Je les ai trouvées !" },
+                { "VoiceID": 1342, "Duration": 150, "Mode": "Normal", "Text": "Pff, quelle galère." },
+                { "VoiceID": 1344, "Duration": 120, "Mode": "Normal", "Text": "Pas touche à mes Émeraudes !" }
+            ],
+            "Shadow": [
+                { "VoiceID": 1552, "Duration": 60, "Mode": "Normal", "Text": "Et voilà !" },
+                { "VoiceID": 1594, "Duration": 150, "Mode": "Normal", "Text": "Hm, misérables humains." },
+                { "VoiceID": 1596, "Duration": 180, "Mode": "Normal", "Text": "Je n'ai pas de temps à perdre\navec ta personne." },
+                { "VoiceID": 1598, "Duration": 150, "Mode": "Normal", "Text": "Je te l'ai dit, je suis al forme de vie ultime." },
+                { "VoiceID": 1600, "Duration": 180, "Mode": "Normal", "Text": "Hors de ma vue, affreux prototype !" },
+                { "VoiceID": 1602, "Duration": 210, "Mode": "Normal", "Text": "Je dois mettre fin au mal\nqu'a créé le professeur !" }
+            ],
+            "Eggman": [
+                { "VoiceID": 1700, "Duration": 60, "Mode": "Normal", "Text": "Bien !" },
+                { "VoiceID": 1642, "Duration": 180, "Mode": "Victory", "Text": "Tu feras mieux la prochaine fois, jeune renard !" }
+            ], 
+            "Rouge": [
+                { "VoiceID": 1331, "Duration": 90, "Mode": "Normal", "Text": "Je l'ai !" },
+                { "VoiceID": 1343, "Duration": 180, "Mode": "Normal", "Text": "Pas mal, hein ?\nJe sais, je ne retiens pas mes coups !" },
+                { "VoiceID": 1345, "Duration": 120, "Mode": "Normal", "Text": "Maintenant, redonne-moi ces joyaux !" }
+            ]
+        },
+        "Gameplay voices": {            
+			"Got Shield": [
+				{ "VoiceID": 1553, "Duration": 60, "Mode": "Normal", "Text": "Ouais !" },
+				{ "VoiceID": 1665, "Duration": 60, "Mode": "Normal", "Text": "J'ai réussi !" },
+				{ "VoiceID": 1278, "Duration": 60, "Mode": "Normal", "Text": "Bien." },                
+				{ "VoiceID": 1664, "Duration": 60, "Mode": "Normal", "Text": "Je l'ai !" },
+				{ "VoiceID": 1279, "Duration": 60, "Mode": "Normal", "Text": "Quelle chance !" }
+			],
+			"Got Speed Shoes/Invincibility": [				
+				{ "VoiceID": 1555, "Duration": 60, "Mode": "Normal", "Text": "On y va !" },				
+                { "VoiceID": 1667, "Duration": 60, "Mode": "Normal", "Text": "Allons-y !" },
+				{ "VoiceID": 1288, "Duration": 60, "Mode": "Normal", "Text": "J'y vais !" },
+				{ "VoiceID": 1666, "Duration": 60, "Mode": "Normal", "Text": "Hausse de puissance !" },
+				{ "VoiceID": 1289, "Duration": 60, "Mode": "Normal", "Text": "Allons-y !" }
+			],
+			"Light Dash (actually used from soundbanks, need to figure this out)": [
+				{ "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Prêts !" },
+				{ "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "On y va !" },
+				{ "VoiceID": 1536, "Duration": 120, "Mode": "Normal", "Text": "Je n'ai pas le temps de jouer !" },                
+                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "Disparaissez !" }                
+			],
+			"Captured/stunned": [
+				{ "VoiceID": 1296, "Duration": 60, "Mode": "Normal", "Text": "... Mince !" },
+				{ "VoiceID": 1560, "Duration": 90, "Mode": "Normal", "Text": "Tu penses pouvoir me retenir ?" },				
+                { "VoiceID": 1297, "Duration": 60, "Mode": "Normal", "Text": "Arrête !" }
+			],
+			"Tech points (Sonic's trick ramps and combos as Tails/Eggman)": [
+				{ "VoiceID": 1541, "Duration": 60, "Mode": "Normal", "Text": "Ouais !" },
+				{ "VoiceID": 1543, "Duration": 60, "Mode": "Normal", "Text": "Ouais !" },
+				{ "VoiceID": 1545, "Duration": 60, "Mode": "Normal", "Text": "Yahou !" },
+				{ "VoiceID": 1651, "Duration": 60, "Mode": "Normal", "Text": "OK !" },
+				{ "VoiceID": 1653, "Duration": 60, "Mode": "Normal", "Text": "Bien !" },
+				{ "VoiceID": 1655, "Duration": 90, "Mode": "Normal", "Text": "Génial !" },
+				{ "VoiceID": 1650, "Duration": 60, "Mode": "Normal", "Text": "Bien !" },
+				{ "VoiceID": 1652, "Duration": 60, "Mode": "Normal", "Text": "Ho ho ho ho !" },
+				{ "VoiceID": 1654, "Duration": 120, "Mode": "Normal", "Text": "Vous avez été témoins de ma toute puissance !" }
+			],
+			"Hunting": [
+                { "VoiceID": 1266, "Duration": 60, "Mode": "Normal", "Text": "Encore deux." },
+                { "VoiceID": 1267, "Duration": 60, "Mode": "Normal", "Text": "Plus que deux !" },
+                { "VoiceID": 1268, "Duration": 60, "Mode": "Normal", "Text": "Encore une." },
+                { "VoiceID": 1269, "Duration": 60, "Mode": "Normal", "Text": "Plus qu'une !" },
+                { "VoiceID": 1272, "Duration": 60, "Mode": "Normal", "Text": "Je ne peux pas." },
+                { "VoiceID": 1273, "Duration": 60, "Mode": "Normal", "Text": "Je peux pas !" },
+                { "VoiceID": 1274, "Duration": 60, "Mode": "Normal", "Text": "Rien !" },
+                { "VoiceID": 1275, "Duration": 60, "Mode": "Normal", "Text": "Mince !" },
+				{ "VoiceID": 1277, "Duration": 60, "Mode": "Normal", "Text": "Bien." },				
+                { "VoiceID": 1286, "Duration": 60, "Mode": "Normal", "Text": "Je m'en rapproche." },
+                { "VoiceID": 1287, "Duration": 90, "Mode": "Normal", "Text": "Elle ne doit pas être loin !" },
+				{ "VoiceID": 1294, "Duration": 60, "Mode": "Normal", "Text": "Mince !" },
+                { "VoiceID": 1295, "Duration": 60, "Mode": "Normal", "Text": "Aïe !" }
+            ],
+            "Mechs taking damage": [
+                { "VoiceID": 1661, "Duration": 120, "Mode": "Normal", "Text": "Je perds en puissance !" },
+                { "VoiceID": 1663, "Duration": 150, "Mode": "Normal", "Text": "Ma machine a atteint ses limites !" },
+                { "VoiceID": 1660, "Duration": 180, "Mode": "Normal", "Text": "Toi ! Tu paieras pour cet affront !" },
+                { "VoiceID": 1662, "Duration": 180, "Mode": "Normal", "Text": "Oh non ! Je perds en puissance !" }
+            ],
+            "Characters dying from taking damage": [
+                { "VoiceID": 1567, "Duration": 60, "Mode": "Normal", "Text": "Non..." },
+                { "VoiceID": 1677, "Duration": 90, "Mode": "Normal", "Text": "Sonic..." },
+                { "VoiceID": 1300, "Duration": 90, "Mode": "Normal", "Text": "C'est terminé..." },
+                { "VoiceID": 1564, "Duration": 120, "Mode": "Normal", "Text": "Haah... Maria..." },
+                { "VoiceID": 1676, "Duration": 90, "Mode": "Normal", "Text": "Est-ce la fin... ?" },
+                { "VoiceID": 1301, "Duration": 120, "Mode": "Normal", "Text": "Je pensais pouvoir le faire..." }
+            ],
+			"Falling off stage (Tails, Eggman)": [
+				{ "VoiceID": 1679, "Duration": 60, "Mode": "Normal", "Text": "Sonic... !" },
+				{ "VoiceID": 1678, "Duration": 60, "Mode": "Normal", "Text": "Non... !" }
+			],
+			"Drowning (Shadow only)": [
+				{ "VoiceID": 1566, "Duration": 90, "Mode": "Normal", "Text": "Pas comme ça..." }
+			],
+            "Chao petting": [
+                { "VoiceID": 1517, "Duration": 90, "Mode": "Normal", "Text": "N'aie pas peur, mon pote." },
+                { "VoiceID": 1729, "Duration": 120, "Mode": "Normal", "Text": "Ça ira." },
+                { "VoiceID": 1242, "Duration": 90, "Mode": "Normal", "Text": "Voilà." },
+                { "VoiceID": 1726, "Duration": 90, "Mode": "Normal", "Text": "Bieeeeeeen." },
+                { "VoiceID": 1243, "Duration": 90, "Mode": "Normal", "Text": "Trop mignon." }
+            ],
+			"Kart racing (boost voices seem to be in soundbanks)": [
+				{ "VoiceID": 1579, "Duration": 60, "Mode": "Normal", "Text": "À plus !" },
+				{ "VoiceID": 1572, "Duration": 60, "Mode": "Normal", "Text": "Quel amateur." },
+				{ "VoiceID": 1581, "Duration": 60, "Mode": "Normal", "Text": "Oups." },
+				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "Quoi ? ..." },
+				{ "VoiceID": 1577, "Duration": 60, "Mode": "Normal", "Text": "Allons-y !" },				
+				{ "VoiceID": 1308, "Duration": 60, "Mode": "Normal", "Text": "Hé !" },
+				{ "VoiceID": 1309, "Duration": 60, "Mode": "Normal", "Text": "Ouais !" },
+				{ "VoiceID": 1311, "Duration": 60, "Mode": "Normal", "Text": "Allons-y !" },
+				{ "VoiceID": 1312, "Duration": 60, "Mode": "Normal", "Text": "Ouais !" },
+                { "VoiceID": 1313, "Duration": 60, "Mode": "Normal", "Text": "On y va !" },
+				{ "VoiceID": 1314, "Duration": 60, "Mode": "Normal", "Text": "À plus !" },
+                { "VoiceID": 1315, "Duration": 60, "Mode": "Normal", "Text": "Au revoir !" },				
+                { "VoiceID": 1316, "Duration": 60, "Mode": "Normal", "Text": "Hé !" },
+                { "VoiceID": 1317, "Duration": 90, "Mode": "Normal", "Text": "Attends une minute !" },
+				{ "VoiceID": 1683, "Duration": 60, "Mode": "Normal", "Text": "Yahou !" },
+				{ "VoiceID": 1684, "Duration": 90, "Mode": "Normal", "Text": "Ho ho ho ho ho ho !" },
+				{ "VoiceID": 1685, "Duration": 60, "Mode": "Normal", "Text": "À fond les bananes !" },
+                { "VoiceID": 1686, "Duration": 60, "Mode": "Normal", "Text": "Adieux !" },
+                { "VoiceID": 1687, "Duration": 90, "Mode": "Normal", "Text": "Tu ne m'attraperas pas !" },
+				{ "VoiceID": 1688, "Duration": 60, "Mode": "Normal", "Text": "Hé !" },
+                { "VoiceID": 1689, "Duration": 90, "Mode": "Normal", "Text": "Attends !" }
+			],
+            "Omochao bullying": [
+                { "VoiceID": 1353, "Duration": 390, "Mode": "OnFrame", "Text": "Ouille ! Pourquoi t'es méchant avec moi ?\nJe n'ai rien fait de mal !\nJe m'en vais !" },
+                { "VoiceID": 1354, "Duration": 420, "Mode": "OnFrame", "Text": "Aïe ! Ça fait mal ! Je suis très en colère !\nJe t'aiderai plus jamais, pour la peine !\nHm !" },
+                { "VoiceID": 1355, "Duration": 330, "Mode": "OnFrame", "Text": "Ouille-ouille ! Je n'arrive pas à croire que tu m'aies fait une chose pareille !\nPourquoi t'as fait ça ?" },
+                { "VoiceID": 1356, "Duration": 360, "Mode": "OnFrame", "Text": "Q-Quoi ? Que s'est-il passé ?\nQui suis-je ? Où suis-je ?" },
+                { "VoiceID": 1357, "Duration": 180, "Mode": "OnFrame", "Text": "Agh ! Arrête ! Laisse-moi partir !" },
+                { "VoiceID": 1358, "Duration": 90, "Mode": "OnFrame", "Text": "Hé ! Arrête !" },
+                { "VoiceID": 1359, "Duration": 150, "Mode": "OnFrame", "Text": "Je t'en prie ! Lâche-moi !" },
+                { "VoiceID": 1360, "Duration": 210, "Mode": "OnFrame", "Text": "Qu'est-ce que tu fais ?\nEt si tu allais te chercher\nun nounours à la place ?" },
+                { "VoiceID": 1361, "Duration": 150, "Mode": "OnFrame", "Text": "Ah ! Aaah ! Aidez-moi !" },
+                { "VoiceID": 1362, "Duration": 300, "Mode": "OnFrame", "Text": "Hé, je suis de ton côté, tu sais ?!\nJe peux te donner des astuces pour t'aider !" },
+                { "VoiceID": 1363, "Duration": 270, "Mode": "OnFrame", "Text": "Pardon. J'ai compris ma leçon.\nJe mangerai mes carottes." },
+                { "VoiceID": 1364, "Duration": 180, "Mode": "OnFrame", "Text": "Je ne suis pas une arme à jeter sur\ndes ennemis, tu sais ?!" },
+                { "VoiceID": 1365, "Duration": 180, "Mode": "OnFrame", "Text": "Que quelqu'un me vienne en aide !\nC'est de pire en pire !" },
+                { "VoiceID": 1366, "Duration": 300, "Mode": "OnFrame", "Text": "Si tu ne t'arrêtes pas tout de suite, je vais m'énerver !\nEt je vais tout raconter à ma maman !" },
+                { "VoiceID": 1367, "Duration": 180, "Mode": "OnFrame", "Text": "Merci de m'avoir sauvé !\nJ'ai eu si peur !" },
+                { "VoiceID": 1368, "Duration": 240, "Mode": "OnFrame", "Text": "Arrête ! Que fais-tu ?\nQu'est-ce que tu m'énerves !" },
+                { "VoiceID": 1369, "Duration": 240, "Mode": "OnFrame", "Text": "Aaah, j'ai eu si peur...\nQuoi ? Un indice ?" },
+                { "VoiceID": 1370, "Duration": 240, "Mode": "OnFrame", "Text": "Merci de m'avoir tenu.\nMais tu sers un peu trop fort." },
+                { "VoiceID": 1371, "Duration": 90, "Mode": "OnFrame", "Text": "Arrête !" },
+                { "VoiceID": 1373, "Duration": 90, "Mode": "OnFrame", "Text": "Aidez-moi !" },
+                { "VoiceID": 1374, "Duration": 90, "Mode": "OnFrame", "Text": "Au revoir !" },
+                { "VoiceID": 1387, "Duration": 150, "Mode": "OnFrame", "Text": "Salut ! Qu'est-ce que tu fais ?" },
+                { "VoiceID": 1388, "Duration": 210, "Mode": "OnFrame", "Text": "Je ne suis pas un ennemi !\nIl y a malentendu !" },
+                { "VoiceID": 1389, "Duration": 180, "Mode": "OnFrame", "Text": "C'est trop haut, par ici !\nEt j'ai peur du vide !" },
+                { "VoiceID": 1390, "Duration": 180, "Mode": "OnFrame", "Text": "Woouh... J'ai eu un peu peur !" },
+                { "VoiceID": 1391, "Duration": 150, "Mode": "OnFrame", "Text": "Woooah ! Je vole !" },
+                { "VoiceID": 1392, "Duration": 180, "Mode": "OnFrame", "Text": "Wouhou ! C'est comme un trampoline !" },
+                { "VoiceID": 1393, "Duration": 150, "Mode": "OnFrame", "Text": "Hé, toi ! Où est-ce que tu m'amènes ?" },
+                { "VoiceID": 1394, "Duration": 150, "Mode": "OnFrame", "Text": "Mince... Où suis-je... ?" },
+                { "VoiceID": 1395, "Duration": 120, "Mode": "OnFrame", "Text": "Je veux rentrer chez moi..." },
+                { "VoiceID": 1396, "Duration": 210, "Mode": "OnFrame", "Text": "Je n'arrive pas à croire que tu aies fini\nle niveau avec moi !" },
+                { "VoiceID": 1397, "Duration": 150, "Mode": "OnFrame", "Text": "Aïe ! Hé, ça fait mal !" },
+                { "VoiceID": 1398, "Duration": 180, "Mode": "OnFrame", "Text": "Ouille ! Pourquoi est-ce que je dois subir tout ça ?" },
+                { "VoiceID": 1399, "Duration": 210, "Mode": "OnFrame", "Text": "C'est pas après moi qu'ils en ont, si ?\nT'es horrible !" },
+                { "VoiceID": 1400, "Duration": 210, "Mode": "OnFrame", "Text": "Ouille ! Docteur Chao, aidez-moi !" },
+                { "VoiceID": 1401, "Duration": 180, "Mode": "OnFrame", "Text": "Pfiou ! Il m'a fait peur, ce gros camion !" },
+                { "VoiceID": 1402, "Duration": 240, "Mode": "OnFrame", "Text": "À quoi tu joues,\ntu veux finir le niveau avec moi ?" },
+                { "VoiceID": 1403, "Duration": 240, "Mode": "OnFrame", "Text": "Je vois de l'eau à perte de vue.\nOù est la maison ?" },
+                { "VoiceID": 1404, "Duration": 210, "Mode": "OnFrame", "Text": "Il faut que je m'enfuis\navant que cette île n'explose !" },
+                { "VoiceID": 1405, "Duration": 180, "Mode": "OnFrame", "Text": "Un fantôme citrouille ? J'ai peur !" },
+                { "VoiceID": 1406, "Duration": 150, "Mode": "OnFrame", "Text": "Peut-être que ça a rouillé à cause de l'eau." },
+                { "VoiceID": 1407, "Duration": 270, "Mode": "OnFrame", "Text": "Woah, c'était terrifiant !\nJe rentre chez moi pour voir la télé." },
+                { "VoiceID": 1408, "Duration": 180, "Mode": "OnFrame", "Text": "Où suis-je ? Que quelqu'un m'aide !" },
+                { "VoiceID": 1409, "Duration": 240, "Mode": "OnFrame", "Text": "Qu'est-ce que je fais dans l'espace ?\nBon, pas grave..." },
+                { "VoiceID": 1410, "Duration": 180, "Mode": "OnFrame", "Text": "Hmm, ça ressemble à un jeu\nque j'ai vu par le passé." },
+                { "VoiceID": 1411, "Duration": 150, "Mode": "OnFrame", "Text": "Je vais retrouver la maison.\nAu revoir !" },
+                { "VoiceID": 1412, "Duration": 150, "Mode": "OnFrame", "Text": "Je vais jouer avec\nla tortue." },
+                { "VoiceID": 1413, "Duration": 90, "Mode": "OnFrame", "Text": "J'ai la tête qui tourne." },
+                { "VoiceID": 1414, "Duration": 180, "Mode": "OnFrame", "Text": "Je m'en vais\navant que le robot ne m'attrape !" },
+                { "VoiceID": 1415, "Duration": 120, "Mode": "OnFrame", "Text": "Laissez-moi sortir !" },
+                { "VoiceID": 1416, "Duration": 210, "Mode": "OnFrame", "Text": "Ce brouillard me rappelle San Francisco." },
+                { "VoiceID": 1417, "Duration": 210, "Mode": "OnFrame", "Text": "Woah, il se fait tard.\nIl faut que je retourne à la garderie." },
+                { "VoiceID": 1418, "Duration": 150, "Mode": "OnFrame", "Text": "Tu ne devrais jamais mentir !" },
+                { "VoiceID": 1419, "Duration": 270, "Mode": "OnFrame", "Text": "Je vais utiliser mes fusées pour\nvoler dans l'espace. Mais pourquoi faire ?" },
+                { "VoiceID": 1420, "Duration": 240, "Mode": "OnFrame", "Text": "Je n'avais encore jamais été ici.\nJe vais admirer la vue !" },
+                { "VoiceID": 1421, "Duration": 270, "Mode": "OnFrame", "Text": "Je n'ai pratiquement plus d'énergie.\nIl faut que j'aille me recharger." },
+                { "VoiceID": 1422, "Duration": 120, "Mode": "OnFrame", "Text": "D'accord. Si on veut !" },
+                { "VoiceID": 1423, "Duration": 240, "Mode": "OnFrame", "Text": "Si tu n'arrêtes pas ça,\nje vais le dire au principal !" },
+                { "VoiceID": 1424, "Duration": 390, "Mode": "OnFrame", "Text": "Si tu me laisses partir, je te dirai\ncombien d'Omochao existent !" }
+            ]			
+        },
+        "Bosses": {
+            "Big Foot": [
+                { "VoiceID": 2091, "Duration": 240, "Mode": "OnFrame", "Text": "Big Foot de la troupe araignée\nà base d'opérations.\nIntrus localisé." },
+                { "VoiceID": 2092, "Duration": 60, "Mode": "OnFrame", "Text": "Bien reçu." },
+                { "VoiceID": 2093, "Duration": 330, "Mode": "OnFrame", "Text": "Ici Big Foot de la troupe araignée. Big Foot\nà base d'opérations, terminé ! Nous avons engagé le combat\navec l'ennemi et demandons des renforts !" },
+                { "VoiceID": 2094, "Duration": 120, "Mode": "OnFrame", "Text": "Comment... ? Pour un simple hérisson... ?" }
+            ],
+			"Hot Shot": [
+                { "VoiceID": 2103, "Duration": 360, "Mode": "OnFrame", "Text": "Ici Hot Shot de la troupe scorpion.\nMouvements ennemi repérés.\nNous nous préparons à l'intercepter et à le détruire." },
+                { "VoiceID": 2104, "Duration": 390, "Mode": "OnFrame", "Text": "Ici Hot Shot de la troupe scorpion.\nL'ennemi est plus puissant que prévu.\nNous demandons des renforts !" },
+                { "VoiceID": 2105, "Duration": 90, "Mode": "OnFrame", "Text": "Il est bien trop fort !" }
+            ],
+            "Flying Dog": [
+                { "VoiceID": 2098, "Duration": 330, "Mode": "OnFrame", "Text": "Flying Dog à base d'opérations.\nIntrus détecté à Security Hall.\nPréparation à l'attaque." },
+                { "VoiceID": 2099, "Duration": 300, "Mode": "OnFrame", "Text": "Flying Dog à base d'opérations.\nNous encaissons de lourds dégâts.\nFaites fermer Security Hall !" },
+                { "VoiceID": 2100, "Duration": 240, "Mode": "OnFrame", "Text": "C'est impossible...\nFlying Dog ne peut pas être détruit comme ça..." }
+            ],            
+            "Eggman 1": [
+                { "VoiceID": 2067, "Duration": 540, "Mode": "Normal", "Text": "Mwahahaha ! Tu n'es qu'un enfant !\nCe n'est pas demain la veille que tu me vaincras !\nStupide petit renard !" },
+                { "VoiceID": 2068, "Duration": 60, "Mode": "Normal", "Text": "Comment ? ..." },
+                { "VoiceID": 2069, "Duration": 210, "Mode": "Normal", "Text": "Aïe ! C'en est trop ! Je vais te réduire en cendres !" },
+                { "VoiceID": 2070, "Duration": 90, "Mode": "Normal", "Text": "Prends ça !" },
+                { "VoiceID": 2071, "Duration": 150, "Mode": "Normal", "Text": "Tu ne m'échapperas pas, cette fois !" },
+                { "VoiceID": 2072, "Duration": 180, "Mode": "Normal", "Text": "Woah ! Ça y est, tu m'as mis en rogne !" },
+                { "VoiceID": 2073, "Duration": 240, "Mode": "Normal", "Text": "Mince... J'ai baissé ma garde..." }
+            ],
+            "Eggman 2": [
+                { "VoiceID": 2079, "Duration": 210, "Mode": "Normal", "Text": "You're no match for me,\nyou weak little fox !" },
+                { "VoiceID": 2080, "Duration": 180, "Mode": "Normal", "Text": "Aaah ! Don't think you've won yet !" },
+                { "VoiceID": 2081, "Duration": 180, "Mode": "Normal", "Text": "Whoa ! Now you've done it, Tails !" },
+                { "VoiceID": 2082, "Duration": 210, "Mode": "Normal", "Text": "No... I can't lost to Tails..." },
+                { "VoiceID": 2083, "Duration": 180, "Mode": "Normal", "Text": "All right. No more games, Tails !" },
+                { "VoiceID": 2084, "Duration": 60, "Mode": "Normal", "Text": "Take this !" }
+            ],
+            "Knuckles": [
+                { "VoiceID": 2107, "Duration": 180, "Mode": "Normal", "Text": "Hand over those Master Emeralds.\nGive them to me !" },
+                { "VoiceID": 2109, "Duration": 240, "Mode": "Normal", "Text": "Ugh... I have no choice but to fight now !" },
+                { "VoiceID": 2110, "Duration": 210, "Mode": "Normal", "Text": "Ugh... You're no ordinary thief..." },
+                { "VoiceID": 2111, "Duration": 270, "Mode": "Normal", "Text": "I must... protect...\nthe Master Emerald..." },
+                { "VoiceID": 2112, "Duration": 90, "Mode": "Normal", "Text": "Don't make me do this !" },
+                { "VoiceID": 2113, "Duration": 150, "Mode": "Normal", "Text": "Now witness my powers !" }
+            ],
+            "Rouge": [
+                { "VoiceID": 2194, "Duration": 270, "Mode": "Normal", "Text": "Very well. If that's how you wanna play,\nI will take it from you !" },
+                { "VoiceID": 2196, "Duration": 150, "Mode": "Normal", "Text": "Aah ! Now you've made me mad !" },
+                { "VoiceID": 2197, "Duration": 180, "Mode": "Normal", "Text": "Aaah ! Now I mean business !" },
+                { "VoiceID": 2198, "Duration": 180, "Mode": "Normal", "Text": "This can't be true...\nI never lose..." },
+                { "VoiceID": 2199, "Duration": 150, "Mode": "Normal", "Text": "Here I come ! Just watch me !" },
+                { "VoiceID": 2200, "Duration": 150, "Mode": "Normal", "Text": "Here I come ! Get ready !" }
+            ],
+            "Shadow 1": [
+                { "VoiceID": 2212, "Duration": 240, "Mode": "Normal", "Text": "There's no time to play games.\nYou won't even get the chance." },
+                { "VoiceID": 2213, "Duration": 60, "Mode": "Normal", "Text": "What ?.." },
+                { "VoiceID": 2214, "Duration": 150, "Mode": "Normal", "Text": "Khh... I'm the coolest !" },
+                { "VoiceID": 2215, "Duration": 240, "Mode": "Normal", "Text": "Oh, I see.\nSo you're not just a hedgehog." },
+                { "VoiceID": 2216, "Duration": 120, "Mode": "Normal", "Text": "Time to put this to rest !" },
+                { "VoiceID": 2218, "Duration": 180, "Mode": "Normal", "Text": "Darn... Not bad for an imposter..." }
+            ],
+            "Shadow 2": [
+                { "VoiceID": 2224, "Duration": 330, "Mode": "Normal", "Text": "Before this is over, I'll show you\nthe true power of Chaos Control !" },
+                { "VoiceID": 2225, "Duration": 180, "Mode": "Normal", "Text": "Khh... Hmm, that hurt." },
+                { "VoiceID": 2226, "Duration": 180, "Mode": "Normal", "Text": "Oh... You're better than I thought..." },
+                { "VoiceID": 2227, "Duration": 240, "Mode": "Normal", "Text": "Impossible...\nI am the ultimate life..." },
+                { "VoiceID": 2230, "Duration": 150, "Mode": "Normal", "Text": "This is the ultimate power !" }
+            ],
+            "Sonic 1": [
+                { "VoiceID": 2236, "Duration": 240, "Mode": "Normal", "Text": "You can't get away this time !\nThere's only one real Sonic !" },
+                { "VoiceID": 2238, "Duration": 120, "Mode": "Normal", "Text": "Kh... Bring it on !" },
+                { "VoiceID": 2239, "Duration": 210, "Mode": "Normal", "Text": "Ghh... Who are you... ?" },
+                { "VoiceID": 2242, "Duration": 210, "Mode": "Normal", "Text": "Uhh... That hurts..." }
+            ],
+            "Sonic 2": [
+                { "VoiceID": 2247, "Duration": 180, "Mode": "Normal", "Text": "All right, Shadow !\nTime for me to finish this !" },
+                { "VoiceID": 2248, "Duration": 150, "Mode": "Normal", "Text": "Ghh... Well done, faker." },
+                { "VoiceID": 2249, "Duration": 300, "Mode": "Normal", "Text": "Ugh... No time to waste...\nTake this !" },
+                { "VoiceID": 2250, "Duration": 120, "Mode": "Normal", "Text": "I'm not done with you yet !" },
+                { "VoiceID": 2252, "Duration": 180, "Mode": "Normal", "Text": "Shoot... I failed..." },
+                { "VoiceID": 2254, "Duration": 120, "Mode": "Normal", "Text": "I'll use your technique !" },
+                { "VoiceID": 2255, "Duration": 120, "Mode": "Normal", "Text": "Chaos Control !" }
+            ],
+            "Tails 1": [
+                { "VoiceID": 2259, "Duration": 150, "Mode": "Normal", "Text": "Eggman !\nYou won't get away with this !" },
+                { "VoiceID": 2261, "Duration": 120, "Mode": "Normal", "Text": "Owie ! Darn it, Eggman !" },
+                { "VoiceID": 2263, "Duration": 120, "Mode": "Normal", "Text": "Volkan Cannon, fire !" },
+                { "VoiceID": 2264, "Duration": 150, "Mode": "Normal", "Text": "Ow ! I'm mad now !" },
+                { "VoiceID": 2265, "Duration": 210, "Mode": "Normal", "Text": "Shoot... I was so close..." }
+            ],
+            "Tails 2": [
+                { "VoiceID": 2270, "Duration": 210, "Mode": "Normal", "Text": "What have you done to Sonic ?\nI'll never forgive you for this !" },
+                { "VoiceID": 2271, "Duration": 180, "Mode": "Normal", "Text": "Oww... Now I'm serious !" },
+                { "VoiceID": 2272, "Duration": 180, "Mode": "Normal", "Text": "Uh... There's no way I'm gonna lose !" },
+                { "VoiceID": 2273, "Duration": 210, "Mode": "Normal", "Text": "Forgive me, Sonic..." },
+                { "VoiceID": 2274, "Duration": 180, "Mode": "Normal", "Text": "I'll show you how powerful\nmy Cyclone is !" },
+                { "VoiceID": 2275, "Duration": 60, "Mode": "Normal", "Text": "Fire !" },
+                { "VoiceID": 2276, "Duration": 120, "Mode": "Normal", "Text": "It's not over yet, Eggman !" }
+            ],
+            "Finalhazard": [
+                { "VoiceID": 2151, "Duration": 180, "Mode": "Normal", "Text": "Shadow, switch places with me !\nYou're out of rings !" },
+                { "VoiceID": 2152, "Duration": 210, "Mode": "Normal", "Text": "Shadow, you're almost out of rings !\nYou'll lose your super form !" },
+                { "VoiceID": 2153, "Duration": 240, "Mode": "Normal", "Text": "Sonic, what are you doing ?\nYou're almost out of rings.\nSwitch places with me !" },
+                { "VoiceID": 2154, "Duration": 240, "Mode": "Normal", "Text": "Sonic, you're out of rings !\nYou will lose your super form !" },
+                { "VoiceID": 2155, "Duration": 210, "Mode": "Normal", "Text": "Shadow, let me collect rings !\nKeep him busy for a while !" },
+                { "VoiceID": 2156, "Duration": 90, "Mode": "Normal", "Text": "It's up to you, Shadow !" },
+                { "VoiceID": 2157, "Duration": 210, "Mode": "Normal", "Text": "Yeah ! Take that, you creep !\nShadow, are you OK ?" },
+                { "VoiceID": 2158, "Duration": 180, "Mode": "Normal", "Text": "I'll collect the rings.\nNow it's up to you, Sonic !" },
+                { "VoiceID": 2159, "Duration": 90, "Mode": "Normal", "Text": "It's up to you, Sonic !" },
+                { "VoiceID": 2160, "Duration": 240, "Mode": "Normal", "Text": "All right, this is working !\nSonic, how are you doing ?" },
+                { "VoiceID": 2161, "Duration": 180, "Mode": "Normal", "Text": "Shadow, you need rest.\nLet me give it a try !" },
+                { "VoiceID": 2162, "Duration": 90, "Mode": "Normal", "Text": "We've almost got him !" },
+                { "VoiceID": 2163, "Duration": 180, "Mode": "Normal", "Text": "Sonic, leave it to me !\nI'll destroy him !" },
+                { "VoiceID": 2164, "Duration": 120, "Mode": "Normal", "Text": "Here I come, you creep !" }
+            ]
+        },
+        "2P Battle": {
+            "Knuckles and Rouge": [
+                { "VoiceID": 1244, "Duration": 90, "Mode": "Normal", "Text": "No time for games !" },
+                { "VoiceID": 1245, "Duration": 60, "Mode": "Normal", "Text": "Here I come !" },
+                { "VoiceID": 1246, "Duration": 60, "Mode": "Normal", "Text": "Get down !" },
+                { "VoiceID": 1247, "Duration": 60, "Mode": "Normal", "Text": "Hip Drop !" },
+                { "VoiceID": 1248, "Duration": 60, "Mode": "Normal", "Text": "Take this !" },
+                { "VoiceID": 1249, "Duration": 60, "Mode": "Normal", "Text": "Black Wave !" },
+                { "VoiceID": 1250, "Duration": 60, "Mode": "Normal", "Text": "Take that !" },
+                { "VoiceID": 1251, "Duration": 60, "Mode": "Normal", "Text": "Charm Ray !" },
+                { "VoiceID": 1252, "Duration": 121, "Mode": "OnFrame", "Text": "I am one with the Master Emerald !" },
+                { "VoiceID": 1253, "Duration": 121, "Mode": "OnFrame", "Text": "I won't lose to the likes of you !" },
+                { "VoiceID": 1254, "Duration": 150, "Mode": "Victory", "Text": "Hm, not as strong\nas you thought you were." },
+                { "VoiceID": 1255, "Duration": 150, "Mode": "Victory", "Text": "All the world's jewels will be mine !" },
+                { "VoiceID": 1256, "Duration": 120, "Mode": "Victory", "Text": "You need more practice." },
+                { "VoiceID": 1257, "Duration": 150, "Mode": "Victory", "Text": "Haha, I'm better than you are !" },
+                { "VoiceID": 1258, "Duration": 121, "Mode": "OnFrame", "Text": "You have no chance against me !" },
+                { "VoiceID": 1259, "Duration": 121, "Mode": "OnFrame", "Text": "I won't give you a chance !" },
+                { "VoiceID": 1260, "Duration": 121, "Mode": "OnFrame", "Text": "You won't be so lucky this time !" },
+                { "VoiceID": 1261, "Duration": 121, "Mode": "OnFrame", "Text": "This time I'm serious !" },
+                { "VoiceID": 1262, "Duration": 150, "Mode": "Normal", "Text": "My Emerald, my destiny." },
+                { "VoiceID": 1263, "Duration": 150, "Mode": "Normal", "Text": "Looks like I'm winning. As usual." },
+                { "VoiceID": 1264, "Duration": 90, "Mode": "Normal", "Text": "We're tied now." },
+                { "VoiceID": 1265, "Duration": 120, "Mode": "Normal", "Text": "I'll get the last piece too !" },
+                { "VoiceID": 1310, "Duration": 121, "Mode": "OnFrame", "Text": "Here we go !" },
+				{ "VoiceID": 2284, "Duration": 121, "Mode": "OnFrame", "Text": "This isn't too bad." }
+            ],
+            "Sonic and Shadow": [
+                { "VoiceID": 1518, "Duration": 90, "Mode": "Normal", "Text": "Playtime is over !" },
+                { "VoiceID": 1519, "Duration": 60, "Mode": "Normal", "Text": "Here I go !" },
+                { "VoiceID": 1520, "Duration": 60, "Mode": "Normal", "Text": "Here I come !" },
+                { "VoiceID": 1521, "Duration": 60, "Mode": "Normal", "Text": "Speed up !" },
+                { "VoiceID": 1522, "Duration": 60, "Mode": "Normal", "Text": "Disappear !" },
+                { "VoiceID": 1523, "Duration": 60, "Mode": "Normal", "Text": "Sonic Wind !" },
+                { "VoiceID": 1524, "Duration": 60, "Mode": "Normal", "Text": "Chaos Control !" },
+                { "VoiceID": 1525, "Duration": 60, "Mode": "Normal", "Text": "Time stop !" },
+                { "VoiceID": 1526, "Duration": 121, "Mode": "OnFrame", "Text": "Let me show you my real power." },
+                { "VoiceID": 1527, "Duration": 121, "Mode": "OnFrame", "Text": "Let's do this !" },
+                { "VoiceID": 1528, "Duration": 240, "Mode": "Victory", "Text": "Hm, faker.\nNo chance to win against me !" },
+                { "VoiceID": 1529, "Duration": 120, "Mode": "Victory", "Text": "Hey guy ! Let's play again !" },
+                { "VoiceID": 1530, "Duration": 150, "Mode": "Victory", "Text": "Hmmm... You disappoint me !" },
+                { "VoiceID": 1531, "Duration": 120, "Mode": "Victory", "Text": "What's up, faker ? Give up ?" },
+                { "VoiceID": 1532, "Duration": 121, "Mode": "OnFrame", "Text": "No matter what, you'll still lose !" },
+                { "VoiceID": 1533, "Duration": 121, "Mode": "OnFrame", "Text": "OK, come on !" },
+                { "VoiceID": 1534, "Duration": 121, "Mode": "OnFrame", "Text": "Soon enough...\nI'll show you my true power." },
+                { "VoiceID": 1535, "Duration": 121, "Mode": "OnFrame", "Text": "This time I won't lose !" },
+                { "VoiceID": 1587, "Duration": 121, "Mode": "OnFrame", "Text": "Bring it on !" },
+                { "VoiceID": 1604, "Duration": 120, "Mode": "Victory", "Text": "You're not as strong as I thought." },
+                { "VoiceID": 1613, "Duration": 90, "Mode": "Victory", "Text": "Nobody's faster than me !" }
+            ],
+            "Tails and Eggman": [
+                { "VoiceID": 1632, "Duration": 90, "Mode": "Normal", "Text": "On guard, Tails !" },
+                { "VoiceID": 1633, "Duration": 90, "Mode": "Normal", "Text": "Recharged !" },
+                { "VoiceID": 1634, "Duration": 60, "Mode": "Normal", "Text": "Take this !" },
+                { "VoiceID": 1635, "Duration": 60, "Mode": "Normal", "Text": "Fire laser !" },
+                { "VoiceID": 1636, "Duration": 60, "Mode": "Normal", "Text": "How's this ?" },
+                { "VoiceID": 1637, "Duration": 90, "Mode": "Normal", "Text": "Fire rocket launcher !" },
+                { "VoiceID": 1638, "Duration": 90, "Mode": "Normal", "Text": "You're no match for me !" },
+                { "VoiceID": 1639, "Duration": 90, "Mode": "Normal", "Text": "Fire power laser !" },
+                { "VoiceID": 1640, "Duration": 121, "Mode": "OnFrame", "Text": "Do you think you can beat me ?" },
+                { "VoiceID": 1641, "Duration": 121, "Mode": "OnFrame", "Text": "I'll beat you !" },
+                { "VoiceID": 1643, "Duration": 120, "Mode": "Victory", "Text": "Yeah ! I won !" },
+                { "VoiceID": 1644, "Duration": 120, "Mode": "Victory", "Text": "Hahaha ! How's that ?" },
+                { "VoiceID": 1645, "Duration": 120, "Mode": "Victory", "Text": "Eggman, you're no challenge !" },
+                { "VoiceID": 1646, "Duration": 121, "Mode": "OnFrame", "Text": "At least make it challenging !" },
+                { "VoiceID": 1647, "Duration": 121, "Mode": "OnFrame", "Text": "Let's do it one more time !" },
+                { "VoiceID": 1648, "Duration": 121, "Mode": "OnFrame", "Text": "This time I will show you my power !" },
+                { "VoiceID": 1649, "Duration": 121, "Mode": "OnFrame", "Text": "I'll win this time !" },
+                { "VoiceID": 1732, "Duration": 180, "Mode": "Normal", "Text": "Yes ! Recharged !" }
+            ],
+            "Amy": [
+                { "VoiceID": 2663, "Duration": 181, "Mode": "OnFrame", "Text": "Amy Rose is here !" },
+                { "VoiceID": 2664, "Duration": 120, "Mode": "Normal", "Text": "Move aside, Knuckles !" },
+                { "VoiceID": 2667, "Duration": 90, "Mode": "Normal", "Text": "Sonic !" },
+                { "VoiceID": 2668, "Duration": 181, "Mode": "OnFrame", "Text": "You're not Sonic ! Who are you ?" },
+                { "VoiceID": 2669, "Duration": 181, "Mode": "OnFrame", "Text": "Ooooh, I hate it when\nthey leave me behind !" },
+                { "VoiceID": 2670, "Duration": 60, "Mode": "Victory", "Text": "Awesome !" },
+                { "VoiceID": 2671, "Duration": 210, "Mode": "Normal", "Text": "You've gotten just about\nall of the emblems, haven't you ?" },
+                { "VoiceID": 2672, "Duration": 90, "Mode": "Normal", "Text": "Just wait a minute !" },
+                { "VoiceID": 2673, "Duration": 120, "Mode": "Victory", "Text": "My name is Amy Rose !" },
+                { "VoiceID": 2677, "Duration": 60, "Mode": "Normal", "Text": "Yeah !" },
+                { "VoiceID": 2678, "Duration": 120, "Mode": "Victory", "Text": "Yay ! All right !" },
+                { "VoiceID": 2679, "Duration": 90, "Mode": "Victory", "Text": "All right !" },
+                { "VoiceID": 2680, "Duration": 90, "Mode": "Victory", "Text": "Yes ! Yes ! Yes !" },
+                { "VoiceID": 2681, "Duration": 120, "Mode": "Victory", "Text": "Wow ! I'm good !" },
+                { "VoiceID": 2682, "Duration": 90, "Mode": "Victory", "Text": "Hey, come on !" },
+                { "VoiceID": 2684, "Duration": 120, "Mode": "Normal", "Text": "Here I come !" },
+                { "VoiceID": 2685, "Duration": 181, "Mode": "OnFrame", "Text": "I'm getting excited !" },
+                { "VoiceID": 2686, "Duration": 181, "Mode": "OnFrame", "Text": "I'm going to do my best, Sonic !" }
+            ],
+            "Tikal": [
+                { "VoiceID": 2716, "Duration": 90, "Mode": "Victory", "Text": "The fighting's over." },
+                { "VoiceID": 2720, "Duration": 60, "Mode": "Normal", "Text": "Hear me now !" },
+                { "VoiceID": 2721, "Duration": 60, "Mode": "Normal", "Text": "I'm sorry." },
+                { "VoiceID": 2722, "Duration": 90, "Mode": "Normal", "Text": "I beg of you !" },
+                { "VoiceID": 2723, "Duration": 120, "Mode": "Normal", "Text": "How can I make you understand ?" },
+                { "VoiceID": 2725, "Duration": 121, "Mode": "OnFrame", "Text": "I must do something..." },
+                { "VoiceID": 2726, "Duration": 121, "Mode": "OnFrame", "Text": "I must do something..." }
+            ],
+            "Empty lines for Chaos 0, Chao, Dark Chao and Metal Sonic 2P intros": [
+                { "VoiceID": 2689, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
+                { "VoiceID": 2699, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
+                { "VoiceID": 2710, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
+                { "VoiceID": 2715, "Duration": 120, "Mode": "EmptyIntro", "Text": "" }
+            ]
+        }
+    }
+}
