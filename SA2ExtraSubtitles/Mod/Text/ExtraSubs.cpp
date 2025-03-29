@@ -20,12 +20,13 @@ const char* TextBuffer = nullptr;
 
 static std::map<int, SubtitleData> ExtraSubs_English;
 static std::map<int, SubtitleData> ExtraSubs_Japanese;
+static std::map<int, SubtitleData> ExtraSubs_French;
 
 static std::map<int, SubtitleData>* ExtraSubs[]
 {
 	&ExtraSubs_Japanese,
 	&ExtraSubs_English,
-	nullptr,				// French
+	& ExtraSubs_French,				// French
 	nullptr,				// Spanish
 	nullptr,				// German
 	nullptr,				// Italian
@@ -98,55 +99,57 @@ signed int PlayVoice_ExtraSubs(int idk, int id)
 
 // Loading extra subs
 
-void ReadGroup(const char* group, const json& english, const json& japanese) // just add more languages here if needed
+void ReadGroup(const char* group, const json& english, const json& japanese, const json& french) // just add more languages here if needed
 {
 	Json::ReadSubtitlesGroup(english, ExtraSubs_English, group, Windows1252);
 	Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, group, ShiftJIS);
+	Json::ReadSubtitlesGroup(french, ExtraSubs_French, group, Windows1252);
 }
 
 void LoadExtraSubs(const char* modPath)
 {
 	json english = Json::Read(modPath, "EnglishDub.json");
 	json japanese = Json::Read(modPath, "Japanese.json");
+	json french = Json::Read(modPath, "French.json");
 
 	if (Config::MenuSubsEnabled)
 	{
-		ReadGroup("Menu", english, japanese);
+		ReadGroup("Menu", english, japanese, french);
 	}
 
 	if (Config::IdleSubsEnabled)
 	{
-		ReadGroup("Idle", english, japanese);
+		ReadGroup("Idle", english, japanese, french);
 	}
 
 	if (Config::StageSpecificSubsEnabled)
 	{
-		ReadGroup("Stage specific voices", english, japanese);
+		ReadGroup("Stage specific voices", english, japanese, french);
 	}
 
 	if (Config::RankSubsEnabled)
 	{
-		ReadGroup("Rank voices", english, japanese);
+		ReadGroup("Rank voices", english, japanese, french);
 	}
 
 	if (Config::VictorySubsEnabled)
 	{
-		ReadGroup("Victory lines", english, japanese);
+		ReadGroup("Victory lines", english, japanese, french);
 	}
 
 	if (Config::GameplaySubsEnabled)
 	{
-		ReadGroup("Gameplay voices", english, japanese);
+		ReadGroup("Gameplay voices", english, japanese, french);
 	}
 
 	if (Config::BossSubsEnabled)
 	{
-		ReadGroup("Bosses", english, japanese);
+		ReadGroup("Bosses", english, japanese, french);
 	}
 	
 	if (Config::TwoPlayerSubsEnabled)
 	{
-		ReadGroup("2P Battle", english, japanese);
+		ReadGroup("2P Battle", english, japanese, french);
 	}
 }
 
