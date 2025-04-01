@@ -34,6 +34,51 @@ This mod does NOT feature retranslated English subtitles as they are a part of [
 
 Contributions for other languages (French, Spanish, German, Italian) would be appreciated.
 
+## Using API
+
+The mod features a single exported function that allows other mods to load their custom sets of extra subtitles without implementing the whole thing, just by calling a single function. This is the function declaration:
+
+```c++
+void LoadCustomExtraSubs(const char* jsonPath, Languages language, int codepage)
+```
+
+First, set up a function pointer to the exported function in your mod's code. The function takes 3 arguments: path to JSON file with extra subtitles, language and codepage. The function pointer would look like this:
+
+```c++
+void (*LoadCustomExtraSubs)(const char* jsonPath, Languages language, int codepage) = nullptr;
+```
+Then, in your mod's `Init` function or any other function that would be called in `Init` you need to retrieve the exported function. You can do this using the mod loader API or WinAPI.
+
+Using the mod loader API:
+
+```c++
+auto sa2ExtraSubs = helperFunctions.Mods->find("sa2-extra-subtitles");
+if (sa2ExtraSubs != nullptr)
+{
+	LoadCustomExtraSubs = sa2ExtraSubs->GetDllExport<decltype(LoadCustomExtraSubs)>("LoadCustomExtraSubs");
+	// call the retrieved function later
+}
+```
+Using WinAPI:
+
+```c++
+HMODULE sa2ExtraSubs = GetModuleHandle(L"SA2ExtraSubtitles");
+if (sa2ExtraSubs != nullptr)
+{
+	LoadCustomExtraSubs = (decltype(LoadCustomExtraSubs))GetProcAddress(sa2ExtraSubs, "LoadCustomExtraSubs");
+	// call the retrieved function later
+}
+```
+After retrieving the function pointer check if it is not null and then call it like this:
+
+```c++
+if (LoadCustomExtraSubs != nullptr)
+{
+	std::string jsonPath = std::string(modPath) + "\\ExtraSubs\\Custom.json"; // modPath is the path to YOUR mod, the rest might be anything you want
+	LoadCustomExtraSubs(jsonPath.c_str(), Language_English, 1252);
+}
+```
+
 ## Usage
 
 You need [SA Mod Manager](https://github.com/X-Hax/SA-Mod-Manager) to play this mod.
