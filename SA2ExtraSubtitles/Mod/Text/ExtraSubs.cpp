@@ -10,35 +10,22 @@ DataPointer(int, HudControl, 0x174AFE0);
 FunctionPointer(ObjectMaster*, DrawSubtitles, (DisplayTextMode mode, const char* text, int duration, int language), 0x6B6E20);
 UsercallFunc(signed int, PlayVoice_Hook, (int idk, int id), (idk, id), 0x443130, rEAX, rEDX, stack4);
 
+static std::map<int, SubtitleData> ExtraSubs[6];
+
+
+// For OnFrame setup
+
 int SubtitleDuration = 0;
 int SubtitleDisplayFrameCount = 0;
 int CurrentDisplayCondition = 0;
 const char* TextBuffer = nullptr;
 
 
-// Subtitles maps
-
-static std::map<int, SubtitleData> ExtraSubs_English;
-static std::map<int, SubtitleData> ExtraSubs_Japanese;
-static std::map<int, SubtitleData> ExtraSubs_French;
-static std::map<int, SubtitleData> ExtraSubs_Spanish;
-
-static std::map<int, SubtitleData>* ExtraSubs[]
-{
-	&ExtraSubs_Japanese,
-	&ExtraSubs_English,
-	&ExtraSubs_French,
-	&ExtraSubs_Spanish,
-	nullptr,				// German
-	nullptr,				// Italian
-};
-
-
 // Subtitles for normal voices
 
 void DisplaySubtitleNormally(int id)
 {
-	DrawSubtitles(Adjusting, ExtraSubs[TextLanguage]->at(id).Text, ExtraSubs[TextLanguage]->at(id).Duration, TextLanguage);
+	DrawSubtitles(Adjusting, ExtraSubs[TextLanguage][id].Text, ExtraSubs[TextLanguage][id].Duration, TextLanguage);
 }
 
 void SetUp2PModeParameters()
@@ -52,29 +39,28 @@ void SetUp2PModeParameters()
 
 void SetUpOnFrameBasedSubtitle(int id)
 {
-	TextBuffer = ExtraSubs[TextLanguage]->at(id).Text;
-	SubtitleDuration = ExtraSubs[TextLanguage]->at(id).Duration;
+	TextBuffer = ExtraSubs[TextLanguage][id].Text;
+	SubtitleDuration = ExtraSubs[TextLanguage][id].Duration;
 	SubtitleDisplayFrameCount = 1;
-	CurrentDisplayCondition = ExtraSubs[TextLanguage]->at(id).Condition;
+	CurrentDisplayCondition = ExtraSubs[TextLanguage][id].Condition;
 	SetUp2PModeParameters();
 }
 
 
 void DisplayExtraSub(int id)
 {
-	if (ExtraSubs[TextLanguage] == nullptr) return;
-	if (!ExtraSubs[TextLanguage]->count(id)) return;
+	if (!ExtraSubs[TextLanguage].count(id)) return;
 	
-	if (ExtraSubs[TextLanguage]->at(id).Condition == Normal)
+	if (ExtraSubs[TextLanguage][id].Condition == Normal)
 	{
 		DisplaySubtitleNormally(id);
 	}
-	else if (ExtraSubs[TextLanguage]->at(id).Condition == Victory)
+	else if (ExtraSubs[TextLanguage][id].Condition == Victory)
 	{
 		SetUp2PModeParameters();
 		DisplaySubtitleNormally(id);
 	}
-	else if (ExtraSubs[TextLanguage]->at(id).Condition == EmptyIntro)
+	else if (ExtraSubs[TextLanguage][id].Condition == EmptyIntro)
 	{
 		if (GameState != GameStates_Inactive)
 		{
@@ -100,59 +86,61 @@ signed int PlayVoice_ExtraSubs(int idk, int id)
 
 // Loading extra subs
 
-void ReadGroup(const char* group, const json& japanese, const json& english, const json& french, const json& spanish) // just add more languages here if needed
+void ReadGroup(const char* group, Json* languages)
 {
-	Json::ReadSubtitlesGroup(japanese, ExtraSubs_Japanese, group, ShiftJIS);
-	Json::ReadSubtitlesGroup(english, ExtraSubs_English, group, Windows1252);	
-	Json::ReadSubtitlesGroup(french, ExtraSubs_French, group, Windows1252);
-	Json::ReadSubtitlesGroup(spanish, ExtraSubs_Spanish, group, Windows1252);
+	languages[Language_Japanese].GetSubtitlesGroup(ExtraSubs[Language_Japanese], group, ShiftJIS);
+	languages[Language_English].GetSubtitlesGroup(ExtraSubs[Language_English], group, Windows1252);
+	languages[Language_French].GetSubtitlesGroup(ExtraSubs[Language_French], group, Windows1252);
+	languages[Language_Spanish].GetSubtitlesGroup(ExtraSubs[Language_Spanish], group, Windows1252);
+	// just add more languages here if needed
 }
 
 void LoadExtraSubs(const char* modPath)
 {
-	json japanese = Json::Read(modPath, "Japanese.json");
-	json english = Json::Read(modPath, "EnglishDub.json");	
-	json french = Json::Read(modPath, "French.json");
-	json spanish = Json::Read(modPath, "Spanish.json");
+	Json languages[6];
+	languages[Language_Japanese].Read(modPath, "Japanese.json");
+	languages[Language_English].Read(modPath, "EnglishDub.json");
+	languages[Language_French].Read(modPath, "French.json");
+	languages[Language_Spanish].Read(modPath, "Spanish.json");
 
 	if (Config::MenuSubsEnabled)
 	{
-		ReadGroup("Menu", japanese, english, french, spanish);
+		ReadGroup("Menu", languages);
 	}
 
 	if (Config::IdleSubsEnabled)
 	{
-		ReadGroup("Idle", japanese, english, french, spanish);
+		ReadGroup("Idle", languages);
 	}
 
 	if (Config::StageSpecificSubsEnabled)
 	{
-		ReadGroup("Stage specific voices", japanese, english, french, spanish);
+		ReadGroup("Stage specific voices", languages);
 	}
 
 	if (Config::RankSubsEnabled)
 	{
-		ReadGroup("Rank voices", japanese, english, french, spanish);
+		ReadGroup("Rank voices", languages);
 	}
 
 	if (Config::VictorySubsEnabled)
 	{
-		ReadGroup("Victory lines", japanese, english, french, spanish);
+		ReadGroup("Victory lines", languages);
 	}
 
 	if (Config::GameplaySubsEnabled)
 	{
-		ReadGroup("Gameplay voices", japanese, english, french, spanish);
+		ReadGroup("Gameplay voices", languages);
 	}
 
 	if (Config::BossSubsEnabled)
 	{
-		ReadGroup("Bosses", japanese, english, french, spanish);
+		ReadGroup("Bosses", languages);
 	}
 	
 	if (Config::TwoPlayerSubsEnabled)
 	{
-		ReadGroup("2P Battle", japanese, english, french, spanish);
+		ReadGroup("2P Battle", languages);
 	}
 }
 

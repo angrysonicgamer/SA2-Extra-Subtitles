@@ -7,7 +7,17 @@ using json = nlohmann::json;
 
 class Json
 {
+private:
+	json contents;
+
 public:
-	static json Read(const char* modPath, const char* jsonName);
-	static void ReadSubtitlesGroup(const json& j, std::map<int, SubtitleData>& extraSubs, const char* group, Encoding encoding);
+	/// <summary>
+	/// Parses specified JSON file containing extra subtitles
+	/// </summary>
+	void Read(const char* modPath, const char* jsonName);
+
+	/// <summary>
+	/// Reads a group of subtitles from parsed JSON and adds it to the destination map
+	/// </summary>
+	void GetSubtitlesGroup(std::map<int, SubtitleData>& destination, const char* group, Encoding encoding);
 };

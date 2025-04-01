@@ -24,16 +24,16 @@ std::pair<int, SubtitleData> ReadExtraSub(const json& value, Encoding targetEnco
 }
 
 
-json Json::Read(const char* modPath, const char* jsonName)
+
+void Json::Read(const char* modPath, const char* jsonName)
 {
 	std::string path = std::string(modPath) + "\\Text\\" + jsonName;
 	PrintDebug("[SA2 Extra Subtitles] Reading file: %s", path.c_str());
 	std::ifstream jsonFile(path);
-	json j;
 
 	try
 	{
-		j = json::parse(jsonFile);
+		contents = json::parse(jsonFile);
 	}
 	catch (std::exception& ex)
 	{
@@ -41,17 +41,15 @@ json Json::Read(const char* modPath, const char* jsonName)
 		std::wstring jsonError = L"Error reading file:\n" + std::wstring(path.begin(), path.end()) + L"\n\nCaught exception:\n" + std::wstring(exText.begin(), exText.end()) + L"\n\nThe game will be closed.";
 		Message::Error(jsonError);
 	}
-	
-	return j;	
 }
 
-void Json::ReadSubtitlesGroup(const json& j, std::map<int, SubtitleData>& extraSubs, const char* group, Encoding targetEncoding)
+void Json::GetSubtitlesGroup(std::map<int, SubtitleData>& destination, const char* group, Encoding targetEncoding)
 {
-	for (auto& jsonObject : j["Subtitles"][group])
+	for (auto& jsonObject : contents["Subtitles"][group])
 	{
 		for (auto& value : jsonObject)
 		{
-			extraSubs.insert(ReadExtraSub(value, targetEncoding));
+			destination.insert(ReadExtraSub(value, targetEncoding));
 		}
 	}
 }

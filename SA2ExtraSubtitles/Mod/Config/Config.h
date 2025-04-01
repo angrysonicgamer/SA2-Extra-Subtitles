@@ -4,6 +4,7 @@ class Config
 {
 private:
 	static void Read(const char* modPath);
+
 public:
 	static bool MenuSubsEnabled;
 	static bool IdleSubsEnabled;
