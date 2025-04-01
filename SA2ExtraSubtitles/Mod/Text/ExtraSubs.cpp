@@ -3,6 +3,7 @@
 #include "Encoding.h"
 #include "Json.h"
 #include "Mod/Config/Config.h"
+#include "Mod/API/API.h"
 #include "UsercallFunctionHandler.h"
 
 
@@ -97,11 +98,12 @@ void ReadGroup(const char* group, Json* languages)
 
 void LoadExtraSubs(const char* modPath)
 {
+	std::string folder = std::string(modPath) + "\\Text\\";
 	Json languages[6];
-	languages[Language_Japanese].Read(modPath, "Japanese.json");
-	languages[Language_English].Read(modPath, "EnglishDub.json");
-	languages[Language_French].Read(modPath, "French.json");
-	languages[Language_Spanish].Read(modPath, "Spanish.json");
+	languages[Language_Japanese].Read(folder + "Japanese.json");
+	languages[Language_English].Read(folder + "EnglishDub.json");
+	languages[Language_French].Read(folder + "French.json");
+	languages[Language_Spanish].Read(folder + "Spanish.json");
 
 	if (Config::MenuSubsEnabled)
 	{
@@ -224,5 +226,55 @@ void ExtraSubtitles::OnFrame()
 	else
 	{
 		DisplaySinglePlayerSubtitle();
+	}
+}
+
+
+// DLL export
+
+void LoadCustomExtraSubs(const char* jsonPath, Languages language, int codepage)
+{
+	Json custom;
+	custom.Read(jsonPath);
+	ExtraSubs[language].clear();
+
+	if (Config::MenuSubsEnabled)
+	{
+		custom.GetSubtitlesGroup(ExtraSubs[language], "Menu", codepage);
+	}
+
+	if (Config::IdleSubsEnabled)
+	{
+		custom.GetSubtitlesGroup(ExtraSubs[language], "Idle", codepage);
+	}
+
+	if (Config::StageSpecificSubsEnabled)
+	{
+		custom.GetSubtitlesGroup(ExtraSubs[language], "Stage specific voices", codepage);
+	}
+
+	if (Config::RankSubsEnabled)
+	{
+		custom.GetSubtitlesGroup(ExtraSubs[language], "Rank voices", codepage);
+	}
+
+	if (Config::VictorySubsEnabled)
+	{
+		custom.GetSubtitlesGroup(ExtraSubs[language], "Victory lines", codepage);
+	}
+
+	if (Config::GameplaySubsEnabled)
+	{
+		custom.GetSubtitlesGroup(ExtraSubs[language], "Gameplay voices", codepage);
+	}
+
+	if (Config::BossSubsEnabled)
+	{
+		custom.GetSubtitlesGroup(ExtraSubs[language], "Bosses", codepage);
+	}
+
+	if (Config::TwoPlayerSubsEnabled)
+	{
+		custom.GetSubtitlesGroup(ExtraSubs[language], "2P Battle", codepage);
 	}
 }

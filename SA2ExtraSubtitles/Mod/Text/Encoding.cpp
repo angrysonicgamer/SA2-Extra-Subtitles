@@ -3,9 +3,9 @@
 #include "TextConv.hpp"
 
 
-const char* Encode(const std::string& utf8text, Encoding targetEncoding)
+const char* Encode(const std::string& utf8text, int codepage)
 {
-	return UTF8toCodepage(utf8text.c_str(), targetEncoding);
+	return UTF8toCodepage(utf8text.c_str(), codepage);
 }
 
 const char* Encode1252(const wchar_t* utf16text)

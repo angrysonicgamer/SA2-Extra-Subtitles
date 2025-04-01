@@ -34,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Mod\API\API.h" />
     <ClInclude Include="Mod\Config\Config.h" />
     <ClInclude Include="Mod\Messages\Message.h" />
     <ClInclude Include="Mod\Other Mods\Module.h" />
