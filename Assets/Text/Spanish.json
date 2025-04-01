@@ -620,7 +620,7 @@
                 { "VoiceID": 1366, "Duration": 300, "Mode": "OnFrame", "Text": "¡Si no paras, me enfadaré!\n¡Se lo diré a mi mamá!" },
                 { "VoiceID": 1367, "Duration": 180, "Mode": "OnFrame", "Text": "¡Gracias por salvarme! ¡Tenía miedo!" },
                 { "VoiceID": 1368, "Duration": 240, "Mode": "OnFrame", "Text": "¡Para! ¿Qué haces?\n¡Me estás haciendo enojar!" },
-                { "VoiceID": 1369, "Duration": 240, "Mode": "OnFrame", "Text": "Aaah, I was so scared... What hint?" },
+                { "VoiceID": 1369, "Duration": 240, "Mode": "OnFrame", "Text": "Aaah, tuve tanto miedo...\n¿Cuál era la pista?" },
                 { "VoiceID": 1370, "Duration": 240, "Mode": "OnFrame", "Text": "Gracias por sujetarme.\nPero fuiste un poco brusco." },
                 { "VoiceID": 1371, "Duration": 90, "Mode": "OnFrame", "Text": "¡Para!" },
                 { "VoiceID": 1373, "Duration": 90, "Mode": "OnFrame", "Text": "¡Ayúdenme!" },
