@@ -2,6 +2,7 @@
 #include "ExtraSubs.h"
 #include "Encoding.h"
 #include "Json.h"
+#include "Mod/Global/MyMod.h"
 #include "Mod/Config/Config.h"
 #include "Mod/API/API.h"
 #include "UsercallFunctionHandler.h"
@@ -96,9 +97,9 @@ void ReadGroup(const char* group, Json* languages)
 	// just add more languages here if needed
 }
 
-void LoadExtraSubs(const char* modPath)
+void LoadExtraSubs()
 {
-	std::string folder = std::string(modPath) + "\\Text\\";
+	std::string folder = MyMod::Path + "\\Text\\";
 	Json languages[6];
 	languages[Language_Japanese].Read(folder + "Japanese.json");
 	languages[Language_English].Read(folder + "EnglishDub.json");
@@ -147,9 +148,9 @@ void LoadExtraSubs(const char* modPath)
 }
 
 
-void ExtraSubtitles::Init(const char* modPath)
+void ExtraSubtitles::Init()
 {
-	LoadExtraSubs(modPath);
+	LoadExtraSubs();
 	PlayVoice_Hook.Hook(PlayVoice_ExtraSubs);
 }
 

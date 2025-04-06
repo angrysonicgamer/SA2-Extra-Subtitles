@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Mod\Config\Config.cpp" />
+    <ClCompile Include="Mod\Global\MyMod.cpp" />
     <ClCompile Include="Mod\Main.cpp" />
     <ClCompile Include="Mod\Messages\Message.cpp" />
     <ClCompile Include="Mod\Other Mods\Module.cpp" />
@@ -36,6 +37,7 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="Mod\API\API.h" />
     <ClInclude Include="Mod\Config\Config.h" />
+    <ClInclude Include="Mod\Global\MyMod.h" />
     <ClInclude Include="Mod\Messages\Message.h" />
     <ClInclude Include="Mod\Other Mods\Module.h" />
     <ClInclude Include="Mod\Other Mods\OtherMods.h" />

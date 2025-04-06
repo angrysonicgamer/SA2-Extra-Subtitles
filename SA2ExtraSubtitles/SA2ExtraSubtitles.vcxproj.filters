@@ -26,6 +26,9 @@
     <Filter Include="Mod\API">
       <UniqueIdentifier>{684d3b07-7da6-492e-b599-49dcd25b3f4b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Mod\Global">
+      <UniqueIdentifier>{99cd2fec-7e80-4474-9b49-7469e29fdee2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
@@ -53,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="Mod\Messages\Message.cpp">
       <Filter>Mod\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod\Global\MyMod.cpp">
+      <Filter>Mod\Global</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +90,9 @@
     </ClInclude>
     <ClInclude Include="Mod\API\API.h">
       <Filter>Mod\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Global\MyMod.h">
+      <Filter>Mod\Global</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

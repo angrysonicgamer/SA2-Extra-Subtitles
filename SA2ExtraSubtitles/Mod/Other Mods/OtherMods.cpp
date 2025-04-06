@@ -1,5 +1,6 @@
 ﻿#include "pch.h"
 #include "OtherMods.h"
+#include "Mod/Global/MyMod.h"
 #include "Mod/Text/Encoding.h"
 #include "Mod/Messages/Message.h"
 #include "IniFile.hpp"
@@ -30,11 +31,11 @@ void OtherMods::EnableMenuOverhaulTextFix()
 	}
 }
 
-void OtherMods::EnableRFExitMessagesFix(const HelperFunctions& helperFunctions)
+void OtherMods::EnableRFExitMessagesFix()
 {
 	if (!RenderFix.IsLoaded()) return;
 
-	auto rf = helperFunctions.Mods->find_by_dll(RenderFix.DLLHandle);
+	auto rf = MyMod::Helper.Mods->find_by_dll(RenderFix.DLLHandle);
 	IniFile rfConfig(std::string(rf->Folder) + "\\config.ini");
 	int rfLetterSpacing = rfConfig.getInt("font", "width", 2);
 

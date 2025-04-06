@@ -3,7 +3,7 @@
 class Config
 {
 private:
-	static void Read(const char* modPath);
+	static void Read();
 
 public:
 	static bool MenuSubsEnabled;
@@ -19,5 +19,5 @@ public:
 	static bool MenuOverhaulTextFixEnabled;
 	static bool RFExitMessagesFixEnabled;
 	
-	static void Init(const char* modPath, const HelperFunctions& helperFunctions);
+	static void Init();
 };

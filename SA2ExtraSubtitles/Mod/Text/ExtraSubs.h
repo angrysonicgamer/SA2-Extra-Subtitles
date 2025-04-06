@@ -28,6 +28,6 @@ struct SubtitleData
 class ExtraSubtitles
 {
 public:
-	static void Init(const char* modPath);
+	static void Init();
 	static void OnFrame();
 };

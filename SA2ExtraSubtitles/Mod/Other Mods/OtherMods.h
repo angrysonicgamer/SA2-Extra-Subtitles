@@ -12,7 +12,7 @@ public:
 
 	static void Init();
 	static void EnableMenuOverhaulTextFix();
-	static void EnableRFExitMessagesFix(const HelperFunctions& helperFunctions);
+	static void EnableRFExitMessagesFix();
 	static void CheckRetranslatedStoryComplete();
 };
 

@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Config.h"
+#include "Mod/Global/MyMod.h"
 #include "Mod/Other Mods/OtherMods.h"
 #include "IniFile.hpp"
 
@@ -18,9 +19,9 @@ bool Config::MenuOverhaulTextFixEnabled;
 bool Config::RFExitMessagesFixEnabled;
 
 
-void Config::Read(const char* modPath)
+void Config::Read()
 {
-	IniFile config(std::string(modPath) + "\\config.ini");
+	IniFile config(MyMod::Path + "\\config.ini");
 
 	MenuSubsEnabled = config.getBool("DisplaySubtitles", "Menu", true);
 	IdleSubsEnabled = config.getBool("DisplaySubtitles", "Idle", true);
@@ -36,14 +37,14 @@ void Config::Read(const char* modPath)
 	RFExitMessagesFixEnabled = config.getBool("OtherMods", "EnableRFExitMessagesFix", true);
 }
 
-void Config::Init(const char* modPath, const HelperFunctions& helperFunctions)
+void Config::Init()
 {
-	Read(modPath);
+	Read();
 
 	if (!FinalSceneSubsEnabled)
 	{
-		helperFunctions.UnreplaceFile("resource\\gd_PC\\event\\e0210_j.prs");
-		helperFunctions.UnreplaceFile("resource\\gd_PC\\event\\e0210_1.prs");
+		MyMod::Helper.UnreplaceFile("resource\\gd_PC\\event\\e0210_j.prs");
+		MyMod::Helper.UnreplaceFile("resource\\gd_PC\\event\\e0210_1.prs");
 	}
 	
 	if (MenuOverhaulTextFixEnabled)
@@ -53,6 +54,6 @@ void Config::Init(const char* modPath, const HelperFunctions& helperFunctions)
 
 	if (RFExitMessagesFixEnabled)
 	{
-		OtherMods::EnableRFExitMessagesFix(helperFunctions);
+		OtherMods::EnableRFExitMessagesFix();
 	}
 }
