@@ -33,7 +33,7 @@ Subtitles were generally tested to fit 4:3 aspect ratio with the following font 
 
 This mod does NOT feature retranslated English subtitles as they are a part of [Retranslated Story -COMPLETE-](https://gamebanana.com/mods/437858) mod. If you're playing with the said mod AND this mod, it will display a warning message.
 
-Contributions for other languages (French, Spanish, German, Italian) would be appreciated.
+Contributions for other languages (German, Italian) would be appreciated.
 
 ## Using API
 
