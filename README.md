@@ -20,6 +20,7 @@ Currently, the mod will NOT display subtitles for voices in soundbanks (e.g. lig
 Currently supported languages:
 * English (dub)
 * French (translated from English by Kesnos)
+* Spanish (translated from English by kawaiikaorichan)
 * Japanese (experimental)
 
 Other features in the mod config (for all languages in the game):
