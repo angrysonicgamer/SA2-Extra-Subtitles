@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Json.h"
+#include "Encoding.h"
 #include "Mod/Messages/Message.h"
 #include <fstream>
 #include <exception>
@@ -27,8 +28,10 @@ std::pair<int, SubtitleData> ReadExtraSub(const json& value, int codepage)
 
 void Json::Read(const std::string& jsonPath)
 {
+	// The path is UTF-8 encoded so it might cause issues if it contains non-ASCII characters because functions reading a const char* string would likely expect a single-byte encoding, so I'm doing UTF-8 to UTF-16 conversion to avoid this
+	std::wstring utf16JsonPath = EncodeUTF16(jsonPath);
 	PrintDebug("[SA2 Extra Subtitles] Reading file: %s", jsonPath.c_str());
-	std::ifstream jsonFile(jsonPath);
+	std::ifstream jsonFile(utf16JsonPath);
 
 	try
 	{
@@ -36,9 +39,7 @@ void Json::Read(const std::string& jsonPath)
 	}
 	catch (std::exception& ex)
 	{
-		std::string exText = std::string(ex.what());
-		std::wstring jsonError = L"Error reading file:\n" + std::wstring(jsonPath.begin(), jsonPath.end()) + L"\n\nCaught exception:\n" + std::wstring(exText.begin(), exText.end()) + L"\n\nThe game will be closed.";
-		Message::Error(jsonError);
+		Message::Error(L"Error reading file:\n" + utf16JsonPath + L"\n\nCaught exception:\n" + EncodeUTF16(ex.what()) + L"\n\nThe game will be closed.");
 	}
 }
 

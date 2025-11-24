@@ -17,3 +17,8 @@ const char* EncodeSJIS(const wchar_t* utf16text)
 {
 	return UTF16toMBS(utf16text, ShiftJIS);
 }
+
+const wchar_t* EncodeUTF16(const std::string& utf8text)
+{
+	return MBStoUTF16(utf8text.c_str(), UTF8);
+}
