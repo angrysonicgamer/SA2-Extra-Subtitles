@@ -1,4 +1,4 @@
-#include "pch.h"
+﻿#include "pch.h"
 #include "ExtraSubs.h"
 #include "Encoding.h"
 #include "Json.h"
@@ -9,17 +9,43 @@
 
 
 DataPointer(int, HudControl, 0x174AFE0);
-FunctionPointer(ObjectMaster*, DrawSubtitles, (DisplayTextMode mode, const char* text, int duration, int language), 0x6B6E20);
-UsercallFunc(signed int, PlayVoice_Hook, (int idk, int id), (idk, id), 0x443130, rEAX, rEDX, stack4);
+FunctionPointer(task*, DrawSubtitles, (EfMsgMode mode, const char* text, int duration, int language), 0x6B6E20);
+UsercallFunc(int, PlayVoice_Hook, (int pri, int id), (pri, id), 0x443130, rEAX, rEDX, stack4);
+UsercallFunc(char, PlaySE_Hook, (int se, int id, int pri, int volofs), (se, id, pri, volofs), 0x437260, rAL, rESI, stack4, stack4, stack4);
+UsercallFunc(char, PlaySE2_Hook, (int se, NJS_VECTOR* pos, int id, int pri, int volofs), (se, pos, id, pri, volofs), 0x4372E0, rAL, rEDI, rESI, stack4, stack4, stack4);
 
-static std::map<int, SubtitleData> ExtraSubs[6];
+
+class SubtitlesSet
+{
+private:
+	std::map<int, SubtitleData> subtitles[6];
+
+public:
+	void LoadGroup(const char* group, Json* languages)
+	{
+		languages[Language_Japanese].GetSubtitlesGroup(subtitles[Language_Japanese], group, ShiftJIS);
+		languages[Language_English].GetSubtitlesGroup(subtitles[Language_English], group, Windows1252);
+		languages[Language_French].GetSubtitlesGroup(subtitles[Language_French], group, Windows1252);
+		languages[Language_Spanish].GetSubtitlesGroup(subtitles[Language_Spanish], group, Windows1252);
+		//languages[Language_German].GetSubtitlesGroup(subtitles[Language_German], group, Windows1252);
+		//languages[Language_Italian].GetSubtitlesGroup(subtitles[Language_German], group, Windows1252);
+	}
+
+	std::map<int, SubtitleData>& operator[](int index)
+	{
+		return subtitles[index];
+	}
+};
+
+static SubtitlesSet MainSubs;
+static SubtitlesSet SoundEffectSubs;
 
 
 // For OnFrame setup
 
 int SubtitleDuration = 0;
 int SubtitleDisplayFrameCount = 0;
-int CurrentDisplayCondition = 0;
+int CurrentDisplayMode = 0;
 const char* TextBuffer = nullptr;
 
 
@@ -27,7 +53,7 @@ const char* TextBuffer = nullptr;
 
 void DisplaySubtitleNormally(int id)
 {
-	DrawSubtitles(Adjusting, ExtraSubs[TextLanguage][id].Text, ExtraSubs[TextLanguage][id].Duration, TextLanguage);
+	DrawSubtitles(EfMsg_Adjusting, MainSubs[TextLanguage][id].Text, MainSubs[TextLanguage][id].Duration, TextLanguage);
 }
 
 void SetUp2PModeParameters()
@@ -41,28 +67,28 @@ void SetUp2PModeParameters()
 
 void SetUpOnFrameBasedSubtitle(int id)
 {
-	TextBuffer = ExtraSubs[TextLanguage][id].Text;
-	SubtitleDuration = ExtraSubs[TextLanguage][id].Duration;
+	TextBuffer = MainSubs[TextLanguage][id].Text;
+	SubtitleDuration = MainSubs[TextLanguage][id].Duration;
 	SubtitleDisplayFrameCount = 1;
-	CurrentDisplayCondition = ExtraSubs[TextLanguage][id].Condition;
+	CurrentDisplayMode = MainSubs[TextLanguage][id].Mode;
 	SetUp2PModeParameters();
 }
 
 
-void DisplayExtraSub(int id)
+void DisplayMainSub(int id)
 {
-	if (!ExtraSubs[TextLanguage].count(id)) return;
+	if (!MainSubs[TextLanguage].count(id)) return;
 	
-	if (ExtraSubs[TextLanguage][id].Condition == Normal)
+	if (MainSubs[TextLanguage][id].Mode == Normal)
 	{
 		DisplaySubtitleNormally(id);
 	}
-	else if (ExtraSubs[TextLanguage][id].Condition == Victory)
+	else if (MainSubs[TextLanguage][id].Mode == Victory)
 	{
 		SetUp2PModeParameters();
 		DisplaySubtitleNormally(id);
 	}
-	else if (ExtraSubs[TextLanguage][id].Condition == EmptyIntro)
+	else if (MainSubs[TextLanguage][id].Mode == EmptyIntro)
 	{
 		if (GameState != GameStates_Inactive)
 		{
@@ -76,26 +102,59 @@ void DisplayExtraSub(int id)
 }
 
 
-// Function to hook
+// Soundbank subtitles
 
-signed int PlayVoice_ExtraSubs(int idk, int id)
+void DisplaySoundEffectSub(int se)
 {
-	auto returnValue = PlayVoice_Hook.Original(idk, id);
-	DisplayExtraSub(id);
+	DrawSubtitles(EfMsg_Adjusting, SoundEffectSubs[TextLanguage][se].Text, SoundEffectSubs[TextLanguage][se].Duration, TextLanguage);
+}
+
+void DisplayLightAttackSub(int se)
+{
+	if (!SoundEffectSubs[TextLanguage].count(se)) return;
+
+	if (SoundEffectSubs[TextLanguage][se].Mode == LightAttackSE)
+	{
+		DisplaySoundEffectSub(se);
+	}
+}
+
+void DisplayKartBoostSub(int se)
+{
+	if (!SoundEffectSubs[TextLanguage].count(se)) return;
+
+	if (CurrentLevel == LevelIDs_Route101280 || CurrentLevel == LevelIDs_KartRace)
+	{
+		DisplaySoundEffectSub(se);
+	}
+}
+
+
+// Functions to hook
+
+int PlayVoice_ExtraSubs(int pri, int id)
+{
+	auto returnValue = PlayVoice_Hook.Original(pri, id);
+	DisplayMainSub(id);
+	return returnValue;
+}
+
+char PlaySE_ExtraSubs(int se, int id, int pri, int volofs) // this is only for kart boost voices
+{
+	auto returnValue = PlaySE_Hook.Original(se, id, pri, volofs);
+	DisplayKartBoostSub(se);
+	return returnValue;
+}
+
+char PlaySE2_ExtraSubs(int se, NJS_VECTOR* pos, int id, int pri, int volofs) // this is only for light attack voices
+{
+	auto returnValue = PlaySE2_Hook.Original(se, pos, id, pri, volofs);
+	DisplayLightAttackSub(se);
 	return returnValue;
 }
 
 
 // Loading extra subs
-
-void ReadGroup(const char* group, Json* languages)
-{
-	languages[Language_Japanese].GetSubtitlesGroup(ExtraSubs[Language_Japanese], group, ShiftJIS);
-	languages[Language_English].GetSubtitlesGroup(ExtraSubs[Language_English], group, Windows1252);
-	languages[Language_French].GetSubtitlesGroup(ExtraSubs[Language_French], group, Windows1252);
-	languages[Language_Spanish].GetSubtitlesGroup(ExtraSubs[Language_Spanish], group, Windows1252);
-	// just add more languages here if needed
-}
 
 void LoadExtraSubs()
 {
@@ -105,46 +164,53 @@ void LoadExtraSubs()
 	languages[Language_English].Read(folder + "EnglishDub.json");
 	languages[Language_French].Read(folder + "French.json");
 	languages[Language_Spanish].Read(folder + "Spanish.json");
+	//languages[Language_German].Read(folder + "German.json");
+	//languages[Language_Italian].Read(folder + "Italian.json");
 
 	if (Config::MenuSubsEnabled)
 	{
-		ReadGroup("Menu", languages);
+		MainSubs.LoadGroup("Menu", languages);
 	}
 
 	if (Config::IdleSubsEnabled)
 	{
-		ReadGroup("Idle", languages);
+		MainSubs.LoadGroup("Idle", languages);
 	}
 
 	if (Config::StageSpecificSubsEnabled)
 	{
-		ReadGroup("Stage specific voices", languages);
+		MainSubs.LoadGroup("Stage specific voices", languages);
 	}
 
 	if (Config::RankSubsEnabled)
 	{
-		ReadGroup("Rank voices", languages);
+		MainSubs.LoadGroup("Rank voices", languages);
 	}
 
 	if (Config::VictorySubsEnabled)
 	{
-		ReadGroup("Victory lines", languages);
+		MainSubs.LoadGroup("Victory lines", languages);
 	}
 
 	if (Config::GameplaySubsEnabled)
 	{
-		ReadGroup("Gameplay voices", languages);
+		MainSubs.LoadGroup("Gameplay voices", languages);
 	}
 
 	if (Config::BossSubsEnabled)
 	{
-		ReadGroup("Bosses", languages);
+		MainSubs.LoadGroup("Bosses", languages);
 	}
 	
 	if (Config::TwoPlayerSubsEnabled)
 	{
-		ReadGroup("2P Battle", languages);
+		MainSubs.LoadGroup("2P Battle", languages);
 	}
+
+	if (Config::SoundEffectSubsEnabled)
+	{
+		SoundEffectSubs.LoadGroup("SE", languages);
+	}	
 }
 
 
@@ -152,6 +218,8 @@ void ExtraSubtitles::Init()
 {
 	LoadExtraSubs();
 	PlayVoice_Hook.Hook(PlayVoice_ExtraSubs);
+	PlaySE_Hook.Hook(PlaySE_ExtraSubs);
+	PlaySE2_Hook.Hook(PlaySE2_ExtraSubs);
 }
 
 
@@ -174,7 +242,7 @@ void ClearSubtitle()
 	SubtitleDuration = 0;
 }
 
-void DisplayBufferedText(DisplayTextMode mode)
+void DisplayBufferedText(EfMsgMode mode)
 {
 	DrawSubtitles(mode, TextBuffer, 1, TextLanguage);
 }
@@ -183,7 +251,7 @@ void DisplaySinglePlayerSubtitle()
 {
 	if (SubtitleDisplayFrameCount > 0 && SubtitleDisplayFrameCount <= SubtitleDuration)
 	{
-		DisplayBufferedText(Adjusting);
+		DisplayBufferedText(EfMsg_Adjusting);
 		SubtitleDisplayFrameCount++;
 	}
 
@@ -212,7 +280,7 @@ void Do2PThings()
 
 	if (SubtitleDisplayFrameCount > 1 && SubtitleDisplayFrameCount < SubtitleDuration)
 	{
-		DisplayTextMode mode = CurrentDisplayCondition == EmptyIntro ? DisplayNothing : Adjusting;
+		EfMsgMode mode = CurrentDisplayMode == EmptyIntro ? EfMsg_DisplayNothing : EfMsg_Adjusting;
 		DisplayBufferedText(mode);
 	}
 }
@@ -231,51 +299,57 @@ void ExtraSubtitles::OnFrame()
 }
 
 
+
 // DLL export
 
 void LoadCustomExtraSubs(const char* jsonPath, Languages language, int codepage)
 {
 	Json custom;
 	custom.Read(jsonPath);
-	ExtraSubs[language].clear();
+	MainSubs[language].clear();
 
 	if (Config::MenuSubsEnabled)
 	{
-		custom.GetSubtitlesGroup(ExtraSubs[language], "Menu", codepage);
+		custom.GetSubtitlesGroup(MainSubs[language], "Menu", codepage);
 	}
 
 	if (Config::IdleSubsEnabled)
 	{
-		custom.GetSubtitlesGroup(ExtraSubs[language], "Idle", codepage);
+		custom.GetSubtitlesGroup(MainSubs[language], "Idle", codepage);
 	}
 
 	if (Config::StageSpecificSubsEnabled)
 	{
-		custom.GetSubtitlesGroup(ExtraSubs[language], "Stage specific voices", codepage);
+		custom.GetSubtitlesGroup(MainSubs[language], "Stage specific voices", codepage);
 	}
 
 	if (Config::RankSubsEnabled)
 	{
-		custom.GetSubtitlesGroup(ExtraSubs[language], "Rank voices", codepage);
+		custom.GetSubtitlesGroup(MainSubs[language], "Rank voices", codepage);
 	}
 
 	if (Config::VictorySubsEnabled)
 	{
-		custom.GetSubtitlesGroup(ExtraSubs[language], "Victory lines", codepage);
+		custom.GetSubtitlesGroup(MainSubs[language], "Victory lines", codepage);
 	}
 
 	if (Config::GameplaySubsEnabled)
 	{
-		custom.GetSubtitlesGroup(ExtraSubs[language], "Gameplay voices", codepage);
+		custom.GetSubtitlesGroup(MainSubs[language], "Gameplay voices", codepage);
 	}
 
 	if (Config::BossSubsEnabled)
 	{
-		custom.GetSubtitlesGroup(ExtraSubs[language], "Bosses", codepage);
+		custom.GetSubtitlesGroup(MainSubs[language], "Bosses", codepage);
 	}
 
 	if (Config::TwoPlayerSubsEnabled)
 	{
-		custom.GetSubtitlesGroup(ExtraSubs[language], "2P Battle", codepage);
+		custom.GetSubtitlesGroup(MainSubs[language], "2P Battle", codepage);
+	}
+
+	if (Config::SoundEffectSubsEnabled)
+	{
+		custom.GetSubtitlesGroup(SoundEffectSubs[language], "SE", codepage);
 	}
 }

@@ -514,12 +514,6 @@
 				{ "VoiceID": 1666, "Duration": 60, "Mode": "Normal", "Text": "Power up!" },
 				{ "VoiceID": 1289, "Duration": 60, "Mode": "Normal", "Text": "Here we come!" }
 			],
-			"Light Dash (actually used from soundbanks, need to figure this out)": [
-				{ "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Ready!" },
-				{ "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "Go!" },
-				{ "VoiceID": 1536, "Duration": 120, "Mode": "Normal", "Text": "There's no time to play games!" },                
-                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "Vanish!" }                
-			],
 			"Captured/stunned": [
 				{ "VoiceID": 1296, "Duration": 60, "Mode": "Normal", "Text": "...drats!" },
 				{ "VoiceID": 1560, "Duration": 90, "Mode": "Normal", "Text": "You think you can hold me?" },				
@@ -579,15 +573,13 @@
                 { "VoiceID": 1726, "Duration": 90, "Mode": "Normal", "Text": "Yooosh." },
                 { "VoiceID": 1243, "Duration": 90, "Mode": "Normal", "Text": "So cute." }
             ],
-			"Kart racing (boost voices seem to be in soundbanks)": [
+			"Kart racing (except for boost voices)": [
 				{ "VoiceID": 1579, "Duration": 60, "Mode": "Normal", "Text": "Later!" },
 				{ "VoiceID": 1572, "Duration": 60, "Mode": "Normal", "Text": "Just a rookie." },
 				{ "VoiceID": 1581, "Duration": 60, "Mode": "Normal", "Text": "Oops." },
-				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "What?.." },
-				{ "VoiceID": 1577, "Duration": 60, "Mode": "Normal", "Text": "Let's go!" },				
+				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "What?.." },			
 				{ "VoiceID": 1308, "Duration": 60, "Mode": "Normal", "Text": "Hey!" },
 				{ "VoiceID": 1309, "Duration": 60, "Mode": "Normal", "Text": "Yeah!" },
-				{ "VoiceID": 1311, "Duration": 60, "Mode": "Normal", "Text": "Let's go!" },
 				{ "VoiceID": 1312, "Duration": 60, "Mode": "Normal", "Text": "Yeah!" },
                 { "VoiceID": 1313, "Duration": 60, "Mode": "Normal", "Text": "Go!" },
 				{ "VoiceID": 1314, "Duration": 60, "Mode": "Normal", "Text": "See you later!" },
@@ -596,7 +588,6 @@
                 { "VoiceID": 1317, "Duration": 90, "Mode": "Normal", "Text": "Wait a minute!" },
 				{ "VoiceID": 1683, "Duration": 60, "Mode": "Normal", "Text": "Yahoo!" },
 				{ "VoiceID": 1684, "Duration": 90, "Mode": "Normal", "Text": "Hohohohohoho!" },
-				{ "VoiceID": 1685, "Duration": 60, "Mode": "Normal", "Text": "Power boost!" },
                 { "VoiceID": 1686, "Duration": 60, "Mode": "Normal", "Text": "Farewell!" },
                 { "VoiceID": 1687, "Duration": 90, "Mode": "Normal", "Text": "You can't catch me!" },
 				{ "VoiceID": 1688, "Duration": 60, "Mode": "Normal", "Text": "Hey!" },
@@ -882,6 +873,22 @@
                 { "VoiceID": 2710, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
                 { "VoiceID": 2715, "Duration": 120, "Mode": "EmptyIntro", "Text": "" }
             ]
-        }
+        },
+		"SE": {
+			"Light dash": [
+				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightDashSE", "Text": "Ready?" },
+				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightDashSE", "Text": "Go!" },
+				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightDashSE", "Text": "There's no time to play games." },
+				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightDashSE", "Text": "Vanish!" }
+			],
+			"Kart boost": [
+				{ "VoiceID": 1, "Duration": 60, "Mode": "KartBoostSE", "Text": "Let's go!" },
+				{ "VoiceID": 9, "Duration": 60, "Mode": "KartBoostSE", "Text": "Power boost!" },
+				{ "VoiceID": 5, "Duration": 60, "Mode": "KartBoostSE", "Text": "Here we go!" },
+				{ "VoiceID": 3, "Duration": 60, "Mode": "KartBoostSE", "Text": "Here I come!" },
+				{ "VoiceID": 7, "Duration": 60, "Mode": "KartBoostSE", "Text": "Let's go!" },
+				{ "VoiceID": 11, "Duration": 60, "Mode": "KartBoostSE", "Text": "Go!" }
+			]
+		}
     }
 }

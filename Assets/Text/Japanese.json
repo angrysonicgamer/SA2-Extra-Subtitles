@@ -517,12 +517,6 @@
 				{ "VoiceID": 1666, "Duration": 90, "Mode": "Normal", "Text": "パワーアップじゃ！" },
 				{ "VoiceID": 1289, "Duration": 60, "Mode": "Normal", "Text": "行くわよ！" }
 			],
-			"Light Dash (actually used from soundbanks, need to figure this out)": [
-				{ "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Ｒｅａｄｙ！" },
-				{ "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "Ｇｏ！" },
-				{ "VoiceID": 1536, "Duration": 60, "Mode": "Normal", "Text": "邪魔ものめ！" },                
-                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "消えろ！" }                
-			],
 			"Captured/stunned": [
 				{ "VoiceID": 1563, "Duration": 60, "Mode": "Normal", "Text": "くそ…" },
 				{ "VoiceID": 1296, "Duration": 60, "Mode": "Normal", "Text": "くそ！" },
@@ -575,20 +569,17 @@
                 { "VoiceID": 1726, "Duration": 90, "Mode": "Normal", "Text": "よーし！" },
                 { "VoiceID": 1243, "Duration": 90, "Mode": "Normal", "Text": "んん、 可愛い！" }
             ],
-			"Kart racing (boost voices seem to be in soundbanks)": [
+			"Kart racing (except for boost voices)": [
 				{ "VoiceID": 1579, "Duration": 60, "Mode": "Normal", "Text": "Ｈｅｙ　ｇｕｙ！" },
 				{ "VoiceID": 1572, "Duration": 60, "Mode": "Normal", "Text": "無駄だ！" },
 				{ "VoiceID": 1581, "Duration": 60, "Mode": "Normal", "Text": "おっ、 おい！" },
 				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "なに…？" },
-				{ "VoiceID": 1577, "Duration": 60, "Mode": "Normal", "Text": "Ｌｅｔ｀ｓ　ｇｏ！" },
-				{ "VoiceID": 1311, "Duration": 60, "Mode": "Normal", "Text": "行け！" },
 				{ "VoiceID": 1312, "Duration": 60, "Mode": "Normal", "Text": "よし！" },
                 { "VoiceID": 1313, "Duration": 60, "Mode": "Normal", "Text": "到着！" },
 				{ "VoiceID": 1314, "Duration": 60, "Mode": "Normal", "Text": "あばよ！" },
                 { "VoiceID": 1315, "Duration": 60, "Mode": "Normal", "Text": "バイバーイ！" },				
                 { "VoiceID": 1316, "Duration": 60, "Mode": "Normal", "Text": "おっ、 おい" },
                 { "VoiceID": 1317, "Duration": 90, "Mode": "Normal", "Text": "ちょっと待ちなさいよ！" },
-				{ "VoiceID": 1685, "Duration": 60, "Mode": "Normal", "Text": "ブーストアップ！" },
                 { "VoiceID": 1686, "Duration": 90, "Mode": "Normal", "Text": "さらばじゃ！" },
                 { "VoiceID": 1687, "Duration": 60, "Mode": "Normal", "Text": "お先に！" },
 				{ "VoiceID": 1688, "Duration": 90, "Mode": "Normal", "Text": "な、 何じゃと？" },
@@ -875,6 +866,22 @@
                 { "VoiceID": 2710, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
                 { "VoiceID": 2715, "Duration": 120, "Mode": "EmptyIntro", "Text": "" }
             ]
-        }
+        },
+		"SE": {
+			"Light dash": [
+				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightDashSE", "Text": "Ｒｅａｄｙ？" },
+				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightDashSE", "Text": "Ｇｏ！" },
+				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightDashSE", "Text": "邪魔ものめ！" },
+				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightDashSE", "Text": "消えろ！" }
+			],
+			"Kart boost": [
+				{ "VoiceID": 1, "Duration": 60, "Mode": "KartBoostSE", "Text": "Ｌｅｔ＇ｓ　ｇｏ！" },
+				{ "VoiceID": 9, "Duration": 60, "Mode": "KartBoostSE", "Text": "ブーストアップ！" },
+				{ "VoiceID": 5, "Duration": 60, "Mode": "KartBoostSE", "Text": "行くぜ！" },
+				{ "VoiceID": 3, "Duration": 60, "Mode": "KartBoostSE", "Text": "行くぞ！" },
+				{ "VoiceID": 7, "Duration": 60, "Mode": "KartBoostSE", "Text": "行けぇ！" },
+				{ "VoiceID": 11, "Duration": 60, "Mode": "KartBoostSE", "Text": "ポチッとな！" }
+			]
+		}
     }
 }

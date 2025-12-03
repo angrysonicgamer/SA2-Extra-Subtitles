@@ -14,6 +14,7 @@ bool Config::GameplaySubsEnabled;
 bool Config::BossSubsEnabled;
 bool Config::TwoPlayerSubsEnabled;
 bool Config::FinalSceneSubsEnabled;
+bool Config::SoundEffectSubsEnabled;
 
 bool Config::MenuOverhaulTextFixEnabled;
 bool Config::RFExitMessagesFixEnabled;
@@ -32,6 +33,7 @@ void Config::Read()
 	BossSubsEnabled = config.getBool("DisplaySubtitles", "Boss", true);
 	TwoPlayerSubsEnabled = config.getBool("DisplaySubtitles", "2P", true);
 	FinalSceneSubsEnabled = config.getBool("DisplaySubtitles", "Cutscene", true);
+	SoundEffectSubsEnabled = config.getBool("DisplaySubtitles", "SE", true);
 
 	MenuOverhaulTextFixEnabled = config.getBool("OtherMods", "EnableMenuOverhaulTextFix", true);
 	RFExitMessagesFixEnabled = config.getBool("OtherMods", "EnableRFExitMessagesFix", true);

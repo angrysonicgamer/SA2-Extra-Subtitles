@@ -514,12 +514,6 @@
 				{ "VoiceID": 1666, "Duration": 60, "Mode": "Normal", "Text": "Hausse de puissance !" },
 				{ "VoiceID": 1289, "Duration": 60, "Mode": "Normal", "Text": "Allons-y !" }
 			],
-			"Light Dash (actually used from soundbanks, need to figure this out)": [
-				{ "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "Prêts !" },
-				{ "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "On y va !" },
-				{ "VoiceID": 1536, "Duration": 120, "Mode": "Normal", "Text": "Je n'ai pas le temps de jouer !" },                
-                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "Disparaissez !" }                
-			],
 			"Captured/stunned": [
 				{ "VoiceID": 1296, "Duration": 60, "Mode": "Normal", "Text": "... Mince !" },
 				{ "VoiceID": 1560, "Duration": 90, "Mode": "Normal", "Text": "Tu penses pouvoir me retenir ?" },				
@@ -584,10 +578,8 @@
 				{ "VoiceID": 1572, "Duration": 60, "Mode": "Normal", "Text": "Quel amateur." },
 				{ "VoiceID": 1581, "Duration": 60, "Mode": "Normal", "Text": "Oups." },
 				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "Quoi ? ..." },
-				{ "VoiceID": 1577, "Duration": 60, "Mode": "Normal", "Text": "Allons-y !" },				
 				{ "VoiceID": 1308, "Duration": 60, "Mode": "Normal", "Text": "Hé !" },
 				{ "VoiceID": 1309, "Duration": 60, "Mode": "Normal", "Text": "Ouais !" },
-				{ "VoiceID": 1311, "Duration": 60, "Mode": "Normal", "Text": "Allons-y !" },
 				{ "VoiceID": 1312, "Duration": 60, "Mode": "Normal", "Text": "Ouais !" },
                 { "VoiceID": 1313, "Duration": 60, "Mode": "Normal", "Text": "On y va !" },
 				{ "VoiceID": 1314, "Duration": 60, "Mode": "Normal", "Text": "À plus !" },
@@ -596,7 +588,6 @@
                 { "VoiceID": 1317, "Duration": 90, "Mode": "Normal", "Text": "Attends une minute !" },
 				{ "VoiceID": 1683, "Duration": 60, "Mode": "Normal", "Text": "Yahou !" },
 				{ "VoiceID": 1684, "Duration": 90, "Mode": "Normal", "Text": "Ho ho ho ho ho ho !" },
-				{ "VoiceID": 1685, "Duration": 60, "Mode": "Normal", "Text": "À fond les bananes !" },
                 { "VoiceID": 1686, "Duration": 60, "Mode": "Normal", "Text": "Adieux !" },
                 { "VoiceID": 1687, "Duration": 90, "Mode": "Normal", "Text": "Tu ne m'attraperas pas !" },
 				{ "VoiceID": 1688, "Duration": 60, "Mode": "Normal", "Text": "Hé !" },
@@ -882,6 +873,22 @@
                 { "VoiceID": 2710, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
                 { "VoiceID": 2715, "Duration": 120, "Mode": "EmptyIntro", "Text": "" }
             ]
-        }
+        },
+		"SE": {
+			"Light dash": [
+				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightDashSE", "Text": "Prêts !" },
+				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightDashSE", "Text": "On y va !" },
+				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightDashSE", "Text": "Je n'ai pas le temps de jouer !" },
+				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightDashSE", "Text": "Disparaissez !" }
+			],
+			"Kart boost": [
+				{ "VoiceID": 1, "Duration": 60, "Mode": "KartBoostSE", "Text": "Allons-y !" },
+				{ "VoiceID": 9, "Duration": 60, "Mode": "KartBoostSE", "Text": "Augmentation de puissance !" },
+				{ "VoiceID": 5, "Duration": 60, "Mode": "KartBoostSE", "Text": "C'est parti !" },
+				{ "VoiceID": 3, "Duration": 60, "Mode": "KartBoostSE", "Text": "Je viens !" },
+				{ "VoiceID": 7, "Duration": 60, "Mode": "KartBoostSE", "Text": "Allons-y !" },
+				{ "VoiceID": 11, "Duration": 60, "Mode": "KartBoostSE", "Text": "Allez !" }
+			]
+		}
     }
 }

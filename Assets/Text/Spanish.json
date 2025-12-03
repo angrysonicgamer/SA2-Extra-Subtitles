@@ -515,12 +515,6 @@
 				{ "VoiceID": 1666, "Duration": 60, "Mode": "Normal", "Text": "¡Más poder!" },
 				{ "VoiceID": 1289, "Duration": 60, "Mode": "Normal", "Text": "¡Aquí voy!" }
 			],
-			"Light Dash (actually used from soundbanks, need to figure this out)": [
-				{ "VoiceID": 1537, "Duration": 60, "Mode": "Normal", "Text": "¡Listos!" },
-				{ "VoiceID": 1539, "Duration": 60, "Mode": "Normal", "Text": "¡Fuera!" },
-				{ "VoiceID": 1536, "Duration": 120, "Mode": "Normal", "Text": "¡No hay tiempo para juegos!" },                
-                { "VoiceID": 1538, "Duration": 60, "Mode": "Normal", "Text": "¡Esfúmate!" }                
-			],
 			"Captured/stunned": [
 				{ "VoiceID": 1296, "Duration": 60, "Mode": "Normal", "Text": "¡...maldita sea!" },
 				{ "VoiceID": 1560, "Duration": 90, "Mode": "Normal", "Text": "¿Crees que puedes retenerme?" },				
@@ -584,11 +578,9 @@
 				{ "VoiceID": 1579, "Duration": 60, "Mode": "Normal", "Text": "¡Hasta luego!" },
 				{ "VoiceID": 1572, "Duration": 60, "Mode": "Normal", "Text": "Qué novato." },
 				{ "VoiceID": 1581, "Duration": 60, "Mode": "Normal", "Text": "Ups." },
-				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "¿Qué?" },
-				{ "VoiceID": 1577, "Duration": 60, "Mode": "Normal", "Text": "¡Vamos!" },				
+				{ "VoiceID": 1570, "Duration": 60, "Mode": "Normal", "Text": "¿Qué?" },			
 				{ "VoiceID": 1308, "Duration": 60, "Mode": "Normal", "Text": "¡Oye!" },
 				{ "VoiceID": 1309, "Duration": 60, "Mode": "Normal", "Text": "¡Sí!" },
-				{ "VoiceID": 1311, "Duration": 60, "Mode": "Normal", "Text": "¡Vamos!" },
 				{ "VoiceID": 1312, "Duration": 60, "Mode": "Normal", "Text": "¡Sí!" },
                 { "VoiceID": 1313, "Duration": 60, "Mode": "Normal", "Text": "¡Ve!" },
 				{ "VoiceID": 1314, "Duration": 60, "Mode": "Normal", "Text": "¡Nos vemos luego!" },
@@ -597,7 +589,6 @@
                 { "VoiceID": 1317, "Duration": 90, "Mode": "Normal", "Text": "¡Un momento!" },
 				{ "VoiceID": 1683, "Duration": 60, "Mode": "Normal", "Text": "¡Yahoo!" },
 				{ "VoiceID": 1684, "Duration": 90, "Mode": "Normal", "Text": "¡Jo, jo, jo, jo, jo, jo!" },
-				{ "VoiceID": 1685, "Duration": 60, "Mode": "Normal", "Text": "¡Más potencia!" },
                 { "VoiceID": 1686, "Duration": 60, "Mode": "Normal", "Text": "¡Hasta nunca!" },
                 { "VoiceID": 1687, "Duration": 90, "Mode": "Normal", "Text": "¡No puedes atraparme!" },
 				{ "VoiceID": 1688, "Duration": 60, "Mode": "Normal", "Text": "¡Oye!" },
@@ -883,6 +874,22 @@
                 { "VoiceID": 2710, "Duration": 120, "Mode": "EmptyIntro", "Text": "" },
                 { "VoiceID": 2715, "Duration": 120, "Mode": "EmptyIntro", "Text": "" }
             ]
-        }
+        },
+		"SE": {
+			"Light dash": [
+				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightDashSE", "Text": "¡Listos!" },
+				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightDashSE", "Text": "¡Fuera!" },
+				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightDashSE", "Text": "¡No hay tiempo para juegos!" },
+				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightDashSE", "Text": "¡Esfúmate!" }
+			],
+			"Kart boost": [
+				{ "VoiceID": 1, "Duration": 60, "Mode": "KartBoostSE", "Text": "¡Vamos!" },
+				{ "VoiceID": 9, "Duration": 60, "Mode": "KartBoostSE", "Text": "¡Más potencia!" },
+				{ "VoiceID": 5, "Duration": 60, "Mode": "KartBoostSE", "Text": "¡Allá vamos!" },
+				{ "VoiceID": 3, "Duration": 60, "Mode": "KartBoostSE", "Text": "¡Aquí voy!" },
+				{ "VoiceID": 7, "Duration": 60, "Mode": "KartBoostSE", "Text": "¡Vamos!" },
+				{ "VoiceID": 11, "Duration": 60, "Mode": "KartBoostSE", "Text": "¡Vamos!" }
+			]
+		}
     }
 }

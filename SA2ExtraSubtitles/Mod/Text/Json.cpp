@@ -6,12 +6,14 @@
 #include <exception>
 
 
-static std::map<std::string, DisplayConditions> DisplayModes
+static std::map<std::string, SubtitleModes> DisplayModes
 {
 	{ "Normal", Normal },
 	{ "OnFrame", OnFrameBased },
 	{ "EmptyIntro", EmptyIntro },
-	{ "Victory", Victory }
+	{ "Victory", Victory },
+	{ "LightAttackSE", LightAttackSE },
+	{ "KartBoostSE", KartBoostSE }
 };
 
 std::pair<int, SubtitleData> ReadExtraSub(const json& value, int codepage)
