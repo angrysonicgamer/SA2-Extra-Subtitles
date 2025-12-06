@@ -875,11 +875,11 @@
             ]
         },
 		"SE": {
-			"Light dash": [
-				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightDashSE", "Text": "Prêts !" },
-				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightDashSE", "Text": "On y va !" },
-				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightDashSE", "Text": "Je n'ai pas le temps de jouer !" },
-				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightDashSE", "Text": "Disparaissez !" }
+			"Light attack": [
+				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightAttackSE", "Text": "Prêts !" },
+				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightAttackSE", "Text": "On y va !" },
+				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightAttackSE", "Text": "Je n'ai pas le temps de jouer !" },
+				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightAttackSE", "Text": "Disparaissez !" }
 			],
 			"Kart boost": [
 				{ "VoiceID": 1, "Duration": 60, "Mode": "KartBoostSE", "Text": "Allons-y !" },

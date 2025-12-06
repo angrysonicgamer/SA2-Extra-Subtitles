@@ -868,11 +868,11 @@
             ]
         },
 		"SE": {
-			"Light dash": [
-				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightDashSE", "Text": "Ｒｅａｄｙ？" },
-				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightDashSE", "Text": "Ｇｏ！" },
-				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightDashSE", "Text": "邪魔ものめ！" },
-				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightDashSE", "Text": "消えろ！" }
+			"Light attack": [
+				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightAttackSE", "Text": "Ｒｅａｄｙ？" },
+				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightAttackSE", "Text": "Ｇｏ！" },
+				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightAttackSE", "Text": "邪魔ものめ！" },
+				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightAttackSE", "Text": "消えろ！" }
 			],
 			"Kart boost": [
 				{ "VoiceID": 1, "Duration": 60, "Mode": "KartBoostSE", "Text": "Ｌｅｔ＇ｓ　ｇｏ！" },

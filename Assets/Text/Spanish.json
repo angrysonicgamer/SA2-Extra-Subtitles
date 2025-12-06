@@ -876,11 +876,11 @@
             ]
         },
 		"SE": {
-			"Light dash": [
-				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightDashSE", "Text": "¡Listos!" },
-				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightDashSE", "Text": "¡Fuera!" },
-				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightDashSE", "Text": "¡No hay tiempo para juegos!" },
-				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightDashSE", "Text": "¡Esfúmate!" }
+			"Light attack": [
+				{ "VoiceID": 12295, "Duration": 60, "Mode": "LightAttackSE", "Text": "¡Listos!" },
+				{ "VoiceID": 12296, "Duration": 60, "Mode": "LightAttackSE", "Text": "¡Fuera!" },
+				{ "VoiceID": 12313, "Duration": 90, "Mode": "LightAttackSE", "Text": "¡No hay tiempo para juegos!" },
+				{ "VoiceID": 12314, "Duration": 60, "Mode": "LightAttackSE", "Text": "¡Esfúmate!" }
 			],
 			"Kart boost": [
 				{ "VoiceID": 1, "Duration": 60, "Mode": "KartBoostSE", "Text": "¡Vamos!" },
