@@ -12,10 +12,11 @@ Subtitles will be displayed for the following:
 * boss battle voices
 * 2P Battle voices (some gameplay lines and intros)
 * last episode ending cutscene voices (with no changes to the original text that is present in event text files)
+* some soundbank voices (light attack, kart boost)
 
 Any subtitle group can be disabled in the mod config. Note that some voices are used in not just one case (e.g. one of Shadow's common idle voices is also used as his 2P alternate costume intro voice).
 
-Currently, the mod will NOT display subtitles for voices in soundbanks (e.g. light dash or kart racing boost voices). It also doesn't display subtitles for FMV's (most likely, that would require hardsubbing the FMV's and have multiple versions of them for all languages).
+The mod doesn't display subtitles for FMV's (most likely, that would require hardsubbing the FMV's and have multiple versions of them for all languages).
 
 Currently supported languages:
 * English (dub)
