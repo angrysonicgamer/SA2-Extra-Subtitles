@@ -113,7 +113,7 @@ void DisplayLightAttackSub(int se)
 {
 	if (!SoundEffectSubs[TextLanguage].count(se)) return;
 
-	if (SoundEffectSubs[TextLanguage][se].Mode == LightAttackSE)
+	if (SoundEffectSubs[TextLanguage][se].Mode == LightAttackSE && CurrentCharacter == Characters_Sonic || CurrentCharacter == Characters_Shadow)
 	{
 		DisplaySoundEffectSub(se);
 	}
