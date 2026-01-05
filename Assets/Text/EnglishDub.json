@@ -685,7 +685,7 @@
                 { "VoiceID": 2079, "Duration": 210, "Mode": "Normal", "Text": "You're no match for me,\nyou weak little fox!" },
                 { "VoiceID": 2080, "Duration": 180, "Mode": "Normal", "Text": "Aaah! Don't think you've won yet!" },
                 { "VoiceID": 2081, "Duration": 180, "Mode": "Normal", "Text": "Whoa! Now you've done it, Tails!" },
-                { "VoiceID": 2082, "Duration": 210, "Mode": "Normal", "Text": "No... I can't lost to Tails..." },
+                { "VoiceID": 2082, "Duration": 210, "Mode": "Normal", "Text": "No... I can't lose to Tails..." },
                 { "VoiceID": 2083, "Duration": 180, "Mode": "Normal", "Text": "All right. No more games, Tails!" },
                 { "VoiceID": 2084, "Duration": 60, "Mode": "Normal", "Text": "Take this!" }
             ],
